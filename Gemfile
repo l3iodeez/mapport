@@ -31,6 +31,7 @@ gem 'spring',        group: :development
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'puma'
+gem 'devise'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -38,3 +39,4 @@ gem 'puma'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+ruby "2.1.2"
