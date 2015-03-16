@@ -1,0 +1,49 @@
+class AdminController < ApplicationController
+  before_action :check_admin
+    def user_params
+      params.require(:user).permit(:email, :password, :password_confirmation, :approved)
+    end
+  
+  def index
+    if params[:approved] == "false"
+       @users = User.where("approved = false")
+	else
+      @users = User.all
+    end
+  end
+    
+  def edit
+    @user = User.find_by_id(params[:id])
+  end
+
+  def update
+    @user = User.find_by_id(params[:id])
+    @user.update_attributes(params[:id])
+  end  
+
+  
+  def approve_user
+  	  @user = User.find(params[:id])
+  if  @user.email  != 'henry.d.dotson@gmail.com'
+	  
+	  @user.approved = !@user.approved
+	  if @user.save
+	    flash[:notice] = "#{@user.email} approved"
+	  else
+	    flash[:alert] = "#{@user.email} approval failure"
+	  end
+        redirect_to :back
+  else
+	flash[:alert] = "This is the admin."
+	redirect_to :back	
+  end
+  end
+ 
+  def check_admin
+      if  current_user.email  != 'henry.d.dotson@gmail.com' #Enter the email of the admin account here
+      redirect_to root_path, 
+        alert: "You are not the admin." # halts request cycle
+      end
+  end
+
+end

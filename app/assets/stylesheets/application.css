@@ -13,3 +13,106 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+  	font-family: Arial, sans-serif;
+	font-size: 0.75em;
+	padding-left: 10px;
+	color: #7d7d7d;/*grey*/	 
+ }
+ 
+ p, ol, ul, td {
+ 	font-family: Arial, sans-serif;
+	font-size: 0.75em;
+	padding-left: 10px;
+	color: #7d7d7d;/*grey*/
+ }
+ 
+ a {
+ 	 font-size: 0.85em;
+ 	 color: #32689b;/*blue*/
+ 	 &:visited {
+ 	 	 color: #7d7d7d;/*grey*/
+ 	 	}
+ 	 &:hover {
+ 	 	 color: #7d7d7d;/*grey*/
+ 	 	 background-color: #000;
+ 	 	}
+}
+ 
+.center {
+	position: fixed;
+	font-family: Arial, sans-serif;
+	margin: auto;
+	height: 90%;
+	width: 70%;
+	box-shadow: 2px 3px 4px 1px grey;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+
+.logo img {
+	position: relative;
+	padding-left: 10px;
+	padding-top: 10px;
+	z-index: 2;
+}
+
+.navfade img {
+	position: relative;
+	width: 50%;
+	padding-top: 10px;
+}
+
+.navbar {
+	position: relative;
+	float: right;
+	padding-right: 20px;
+	font-family: Arial, sans-serif;
+	font-size: 0.95em;
+	padding-left: 10px;
+	color: #7d7d7d;/*grey*/
+}
+
+.navbar a {
+	color: #32689b;/*blue*/
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	color: #2d9b68;/*green*/
+	background-color: #fff;
+}
+
+
+h1 {
+	font-family: Arial, sans-serif;
+	font-size: 1.2em;
+	padding-left: 10px;
+	color: #32689b;/*blue*/
+}
+
+h2 {
+	font-family: Arial, sans-serif;
+	font-size: 0.95em;
+	padding-left: 10px;
+	color: black;
+}
+h3 {
+	
+	padding-left: 10px;
+	
+}
+
+.field, .actions {
+	font-family: Arial, sans-serif;
+	font-size: 0.95em;
+	padding-left: 15px;
+	color: #7d7d7d;/*grey*/
+}
+
+input {
+	font-family: Arial, sans-serif;
+	font-size: 1.2em;
+}

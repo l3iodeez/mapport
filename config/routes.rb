@@ -1,6 +1,14 @@
 Rails.application.routes.draw do
+  resources :reports
+
+  resources :customers
+
+  get 'admin/index'
+
   devise_for :users
   resources :widgets
+  resources :admin
+  
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -8,7 +16,13 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
 
   root 'welcome#index'
-
+ 
+  resources :welcome, only: [:index, :show]
+  
+  get 'admin/:id/approve'=> 'admin#approve_user', as: 'approve_user'
+  get 'admin' => 'admin#index'
+  get '/reports/download/:id' => 'reports#download', as: 'reports_download'
+  
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
