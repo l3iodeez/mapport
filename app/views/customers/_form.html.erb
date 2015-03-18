@@ -13,18 +13,22 @@
 
   <div class="field">
     <%= f.label :company %><br>
-    <%= f.text_field :company %>
+    <%= f.text_field :company, :size => 40 %>
   </div>
   <div class="field">
     <%= f.label :street_address %><br>
-    <%= f.text_field :street_address %>
+    <%= f.text_field :street_address, :size => 40  %>
   </div>
   <div class="field">
-    <%= f.label :region %><br>
-    <%= f.text_field :region %>
+    <%= f.label 'City' %><br>
+    <%= f.text_field :locality %>
+  </div>
+    <div class="field">
+    <%= f.label 'State' %><br>
+    <%= f.text_field :region, :size => 2, :maxlength => 2 %>
   </div>
   <div class="field">
-    <%= f.label :postcode %><br>
+    <%= f.label 'Zipcode' %><br>
     <%= f.text_field :postcode %>
   </div>
   <div class="actions">

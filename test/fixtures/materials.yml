@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  materialtype: MyString
+  color: MyString
+  hanum: MyString
+  acm_category: 1
+  numsamp: 1
+  sqft: 1
+  batchnum: 1
+  comments: MyText
+
+two:
+  materialtype: MyString
+  color: MyString
+  hanum: MyString
+  acm_category: 1
+  numsamp: 1
+  sqft: 1
+  batchnum: 1
+  comments: MyText

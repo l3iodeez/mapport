@@ -1,0 +1,23 @@
+<%= grid(@materials_grid, show_filters: :always) do |g|
+
+  g.column  name:  'Space ID', model: 'Space', attribute: 'spaceid' do |task|
+   # Material.Space.Building.Customer.company
+  end
+
+  g.column  name:  'Space', model: 'Space', attribute: 'spacename' do |task|
+    #Material.Space.spacename
+  end
+
+  g.column name:  'Homogeneos Area', attribute: 'hanum'
+  g.column name:  'Color', attribute: 'color'
+  g.column name:  'Material Observed', attribute: 'materialtype'
+  g.column name:  'ACM?', attribute: 'acm_category'
+  g.column name:  'Samples Taken', attribute: 'numsamp'
+  g.column name:  'SqFt', attribute: 'sqft'
+  g.column name:  'Removed?', attribute: 'removed'
+  g.column name:  '% Damaged', attribute: 'amtdamage'
+  g.column name:  'Damage Type', attribute: 'typedamage'
+  g.column name:  'Comments', attribute: 'comments'
+
+
+end -%>

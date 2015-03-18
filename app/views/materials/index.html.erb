@@ -1,0 +1,39 @@
+<h1>Listing materials</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Materialtype</th>
+      <th>Color</th>
+      <th>Hanum</th>
+      <th>Acm category</th>
+      <th>Numsamp</th>
+      <th>Sqft</th>
+      <th>Batchnum</th>
+      <th>Comments</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @materials.each do |material| %>
+      <tr>
+        <td><%= material.materialtype %></td>
+        <td><%= material.color %></td>
+        <td><%= material.hanum %></td>
+        <td><%= material.acm_category %></td>
+        <td><%= material.numsamp %></td>
+        <td><%= material.sqft %></td>
+        <td><%= material.batchnum %></td>
+        <td><%= material.comments %></td>
+        <td><%= link_to 'Show', material %></td>
+        <td><%= link_to 'Edit', edit_material_path(material) %></td>
+        <td><%= link_to 'Destroy', material, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Material', new_material_path %>

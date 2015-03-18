@@ -1,0 +1,41 @@
+<%= form_for(@space) do |f| %>
+  <% if @space.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@space.errors.count, "error") %> prohibited this space from being saved:</h2>
+
+      <ul>
+      <% @space.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :spacename %><br>
+    <%= f.text_field :spacename %>
+  </div>
+  <div class="field">
+    <%= f.label :spaceid %><br>
+    <%= f.text_field :spaceid %>
+  </div>
+  <div class="field">
+    <%= f.label :roomnum %><br>
+    <%= f.text_field :roomnum %>
+  </div>
+  <div class="field">
+    <%= f.label :floor %><br>
+    <%= f.number_field :floor %>
+  </div>
+  <div class="field">
+    <%= f.label :roomsqft %><br>
+    <%= f.number_field :roomsqft %>
+  </div>
+  <div class="field">
+    <%= f.label :building_id %><br>
+    <%= f.text_field :building_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

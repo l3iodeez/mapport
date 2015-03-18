@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Materialtype:</strong>
+  <%= @material.materialtype %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @material.color %>
+</p>
+
+<p>
+  <strong>Hanum:</strong>
+  <%= @material.hanum %>
+</p>
+
+<p>
+  <strong>Acm category:</strong>
+  <%= @material.acm_category %>
+</p>
+
+<p>
+  <strong>Numsamp:</strong>
+  <%= @material.numsamp %>
+</p>
+
+<p>
+  <strong>Sqft:</strong>
+  <%= @material.sqft %>
+</p>
+
+<p>
+  <strong>Batchnum:</strong>
+  <%= @material.batchnum %>
+</p>
+
+<p>
+  <strong>Comments:</strong>
+  <%= @material.comments %>
+</p>
+
+<%= link_to 'Edit', edit_material_path(@material) %> |
+<%= link_to 'Back', materials_path %>

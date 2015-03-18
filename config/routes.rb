@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  resources :buildings
+
+  resources :spaces
+
+  resources :materials
+
   resources :reports
 
   resources :customers
@@ -6,7 +12,7 @@ Rails.application.routes.draw do
   get 'admin/index'
 
   devise_for :users
-  resources :widgets
+  
   resources :admin
   
 
