@@ -32,6 +32,7 @@ gem 'spring',        group: :development
 
 gem 'puma'
 gem 'devise'
+gem 'carrierwave'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

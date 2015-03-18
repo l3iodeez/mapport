@@ -24,7 +24,7 @@ class AdminController < ApplicationController
   
   def approve_user
   	  @user = User.find(params[:id])
-  if  @user.email  != 'henry.d.dotson@gmail.com'
+  unless  @user.is_admin  
 	  
 	  @user.approved = !@user.approved
 	  if @user.save
@@ -38,7 +38,7 @@ class AdminController < ApplicationController
 	  end
         redirect_to :back
   else
-	flash[:alert] = "This is the admin."
+	flash[:alert] = "This is an admin."
 	redirect_to :back	
   end
   end

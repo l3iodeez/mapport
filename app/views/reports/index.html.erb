@@ -18,10 +18,13 @@
         <td><%= report.reportname %></td>
         <td><%= report.description %></td>
         <td><%= report.filename %></td>
-        <td><%= report.customer %></td>
+        <td><%= report.customer.company %></td>
         <td><%= report.report_date %></td>
+        <% if current_user.is_admin %>
         <td><%= link_to 'Show', report %></td>
         <td><%= link_to 'Edit', edit_report_path(report) %></td>
+        <td><%= link_to 'Destroy', report, method: :delete, data: { confirm: 'Are you sure? PDFs willnot be deleted.' } %></td>
+        <% end%>
         <td><%= link_to 'Download', reports_download_path(report.id) %></td>
       </tr>
     <% end %>
@@ -29,5 +32,6 @@
 </table>
 
 <br>
-
-<%= link_to 'New Report', new_report_path %>
+<% if current_user.is_admin %>
+<h3><%= link_to 'New Report', new_report_path %></h3>
+<% end%>

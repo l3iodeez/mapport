@@ -23,11 +23,18 @@
  
  p, ol, ul, td {
  	font-family: Arial, sans-serif;
-	font-size: 0.75em;
+	font-size: 1em;
 	padding-left: 10px;
 	color: #7d7d7d;/*grey*/
  }
  
+th {
+ 	font-family: Arial, sans-serif;
+	font-size: 1.25em;
+	padding-left: 10px;
+	color: #7d7d7d;/*grey*/
+	text-align: left;
+ }
  a {
  	 font-size: 0.85em;
  	 color: #32689b;/*blue*/

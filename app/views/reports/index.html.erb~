@@ -30,4 +30,4 @@
 
 <br>
 
-<%= link_to 'New Report', new_report_path %>
+<h3><%= link_to 'New Report', new_report_path %></h3>

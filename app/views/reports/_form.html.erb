@@ -1,4 +1,6 @@
-<%= form_for(@report) do |f| %>
+
+
+<%= form_for @report, :html => {:multipart => true} do |f| %>
   <% if @report.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@report.errors.count, "error") %> prohibited this report from being saved:</h2>
@@ -12,25 +14,32 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :reportname %><br>
+    <%= f.label "Report Title"%><br>
     <%= f.text_field :reportname %>
   </div>
   <div class="field">
     <%= f.label :description %><br>
     <%= f.text_area :description %>
   </div>
-  <div class="field">
-    <%= f.label :filename %><br>
-    <%= f.text_field :filename %>
+  <div class="field">   
+  <%= f.label "Select a file to upload. Matching filenames will be overwritten."%><br>
+    <%= f.file_field :pdf %>
   </div>
+<% if current_user.is_admin %>
   <div class="field">
-    <%= f.label :customer_id %><br>
-    <%= f.text_field :customer_id %>
+    <%= f.label "Customer" %><br>
+      <%= f.collection_select :customer_id, Customer.order(:company), :id, :company, include_blank: false %>
   </div>
+    <% else %>
+    <%= f.label "Customer" %>
+    <%= f.text_area :customer, :readonly => true, value => current_user.customer  %>
+  <% end %>
+
   <div class="field">
     <%= f.label :report_date %><br>
     <%= f.date_select :report_date %>
   </div>
+
   <div class="actions">
     <%= f.submit %>
   </div>

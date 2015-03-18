@@ -7,12 +7,14 @@ class ApplicationController < ActionController::Base
   
     def check_admin
     	    @user = current_user
-      unless @user.is_admin  #Enter the email of the admin account here
-      redirect_to root_path, 
-        alert: "You are not an admin." # halts request cycle
-	else
-	flash.now[:alert] = "You are recognized as an admin." # halts request cycle
-      end
-  end
+          unless @user.is_admin  #check if current user is an administrator
+          redirect_to root_path, 
+          alert: "You are not an admin." # boot them to the main page if not admin
+    	    else
+    	    flash.now[:alert] = "You are recognized as an admin." # allow user to load admin only pages
+          end
+    end
+
+
   
 end
