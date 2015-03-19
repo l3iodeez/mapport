@@ -1,12 +1,12 @@
 <%= grid(@materials_grid, show_filters: :always) do |g|
 
-  g.column  name:  'Space ID', model: 'Space', attribute: 'spaceid' do |task|
-   # Material.Space.Building.Customer.company
+  g.column  model: 'Customer', table_alias: 'Material', attribute: 'company' do |task|
+  #  Material.customer.company 
   end
 
-  g.column  name:  'Space', model: 'Space', attribute: 'spacename' do |task|
-    #Material.Space.spacename
-  end
+  g.column  model: 'Space',table_alias: 'Materials', attribute: 'spacename' do |task|
+   # Materials.space.spacename if material.space
+  end 
 
   g.column name:  'Homogeneos Area', attribute: 'hanum'
   g.column name:  'Color', attribute: 'color'

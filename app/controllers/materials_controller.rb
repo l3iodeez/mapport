@@ -45,6 +45,6 @@ class MaterialsController < ApplicationController
     def material_params
       params.require(:material).permit(:materialtype, :color, :hanum, :acm_category, 
                                        :numsamp, :sqft, :batchnum, :comments, :material_category, 
-                                       :removed, :amtdamage, :typedamage, :file_reference, :acm_category, :building_id)
+                                       :removed, :amtdamage, :typedamage, :file_reference, :acm_category, :building_id, :customer_id)
     end
 end
