@@ -1,17 +1,25 @@
-<%= grid(@materials_grid, show_filters: :always) do |g|
+<%= grid(@materials_grid, show_filters: :always, upper_pagination_panel: true) do |g|
 
-  g.column  model: 'Customer', table_alias: 'Material', attribute: 'company' do |task|
-  #  Material.customer.company 
-  end
-
-  g.column  model: 'Space',table_alias: 'Materials', attribute: 'spacename' do |task|
-   # Materials.space.spacename if material.space
+  g.column name: 'Building', attribute: 'buildingname', model: 'Building'  do |material|
+    material.building.buildingname if material.space
   end 
 
-  g.column name:  'Homogeneos Area', attribute: 'hanum'
+  g.column name: 'Space', attribute: 'spacename', model: 'Space'  do |material|
+    material.space.spaceid if material.space
+  end 
+
+  g.column name: 'Space', attribute: 'spacename', model: 'Space'  do |material|
+    material.space.spacename if material.space
+  end 
+
+  g.column name:  'Homogeneous Area', attribute: 'hanum'
   g.column name:  'Color', attribute: 'color'
   g.column name:  'Material Observed', attribute: 'materialtype'
-  g.column name:  'ACM?', attribute: 'acm_category'
+
+  g.column name: 'ACM?', attribute: 'acm_category', model: 'Material'  do |material|
+  material.acm_category
+  #g.column name:  'ACM?', attribute: 'acm'
+	end
   g.column name:  'Samples Taken', attribute: 'numsamp'
   g.column name:  'SqFt', attribute: 'sqft'
   g.column name:  'Removed?', attribute: 'removed'
