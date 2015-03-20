@@ -104,13 +104,15 @@
   }
 
   .pagination{
+    height: 36px;
     margin: 0px;
     float: left;
   }
 
 
   tr.wg-filter-row  input[type=text] {
-    width: 50px;
+    
+    height: 20px;
   }
 
   .pagination_status {
@@ -137,4 +139,15 @@ input.wice-grid-save-query-field{
   display: inline-block;
   margin-right: 10px;
 }
-
+.row-fluid [class*="span"] {
+  display: block;
+  width: 100%;
+  min-height: 28px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  margin-left: 0%;
+  overflow: scroll;
+}

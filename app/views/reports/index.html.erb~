@@ -1,4 +1,7 @@
-<h1>Listing reports</h1>
+<div class="well">
+  <h4><%= 'Viewing inspection data for ' + @customer.company %> </h4>
+
+</div>
 
 <table>
   <thead>

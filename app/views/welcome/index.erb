@@ -5,8 +5,11 @@
 </h2>
 
 <div class="well">
-  <h2>View inspection data</h2>
-
+<% unless current_user.is_admin %>
+  <h4><%= 'Viewing inspection data for ' + @customer.company %> </h4>
+<% else%>
+<h4><%= 'Viewing inspection data for all customers'%> </h4>
+<% end %>
 </div>
 
 <div class="row-fluid">

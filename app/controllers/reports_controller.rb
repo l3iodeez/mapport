@@ -7,6 +7,7 @@ before_filter :check_admin, only: [:create, :edit, :update, :destroy, :download]
 
   def index
     @user = current_user
+    @customer = current_user.customer
        if @user.is_admin
       	  @reports = Report.all
        else

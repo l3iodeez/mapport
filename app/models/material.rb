@@ -13,14 +13,14 @@ end
 
 MAT_DICT = {1=> 'Thermal System Insulation', 2 => 'Surfacing', 3 => 'Miscellaneous', 4 => 'Not applicable'}
 
-def mat
+def mat_type_display
 MAT_DICT[self.material_category]
 end
 
 DAM_DICT = {1=> 'Localized', 2 => 'Distributed'}
 
-def dam
-DAM_DICT[self.type_damage]
+def dam_type_display
+DAM_DICT[self.typedamage]
 end
 
 end

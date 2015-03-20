@@ -51,11 +51,11 @@ th {
 	position: fixed;
 	font-family: Arial, sans-serif;
 	margin: auto;
-	height: 90%;
+	
 	width: 90%;
 	box-shadow: 2px 3px 4px 1px grey;
 	border-radius: 5px;
-	overflow: hidden;
+	
 }
 
 
@@ -111,6 +111,12 @@ h3 {
 	padding-left: 10px;
 	
 }
+h4 {
+	font-size: 1em;
+	padding-left: 10px;
+	color: #32689b;/*blue*/
+
+}
 
 .field, .actions {
 	font-family: Arial, sans-serif;
@@ -122,5 +128,12 @@ h3 {
 input {
 	font-family: Arial, sans-serif;
 	font-size: 1.2em;
+}
+.table td {
+  padding: 8px;
+  line-height: 18px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
 }
 
