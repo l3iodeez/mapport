@@ -52,7 +52,7 @@ th {
 	font-family: Arial, sans-serif;
 	margin: auto;
 	height: 90%;
-	width: 70%;
+	width: 90%;
 	box-shadow: 2px 3px 4px 1px grey;
 	border-radius: 5px;
 	overflow: hidden;
@@ -123,3 +123,4 @@ input {
 	font-family: Arial, sans-serif;
 	font-size: 1.2em;
 }
+

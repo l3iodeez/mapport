@@ -1,28 +1,30 @@
-<%= grid(@materials_grid, show_filters: :always, upper_pagination_panel: true) do |g|
+<%= grid(@materials_grid, show_filters: :always) do |g|
 
-  g.column name: 'Building', attribute: 'buildingname', model: 'Building'  do |material|
-    material.building.buildingname if material.space
+  g.column name: 'Building', attribute: 'buildingname', model: 'Building', custom_filter: :auto, auto_reload: true  do |material|
+    material.building.buildingname if material.building
   end 
 
-  g.column name: 'Space', attribute: 'spacename', model: 'Space'  do |material|
-    material.space.spaceid if material.space
+  g.column name: 'Space ID', attribute: 'spaceid', model: 'Space', auto_reload: true  do |material|
+    material.space.spaceid if material.space_id
   end 
 
-  g.column name: 'Space', attribute: 'spacename', model: 'Space'  do |material|
-    material.space.spacename if material.space
+  g.column name: 'Space', attribute: 'spacename', model: 'Space', auto_reload: true  do |material|
+    material.space.spacename if material.space_id
   end 
 
-  g.column name:  'Homogeneous Area', attribute: 'hanum'
+  g.column name:  'Homogeneous Area', attribute: 'hanum', auto_reload: true
   g.column name:  'Color', attribute: 'color'
   g.column name:  'Material Observed', attribute: 'materialtype'
-
-  g.column name: 'ACM?', attribute: 'acm_category', model: 'Material'  do |material|
-  material.acm_category
-  #g.column name:  'ACM?', attribute: 'acm'
-	end
+  g.column name: 'ACM?', attribute: 'acm_category', model: 'Material',
+           custom_filter: {'Sampled, ACM' => 1,'Sampled, Non-ACM' => 2,'Assumed ACM' => 3,'Non-suspect material' => 4,'No access' => 5}, 
+           auto_reload: true do |material| 
+   				material.acm_display
+  end
   g.column name:  'Samples Taken', attribute: 'numsamp'
   g.column name:  'SqFt', attribute: 'sqft'
-  g.column name:  'Removed?', attribute: 'removed'
+  g.column name:  'Removed?', attribute: 'removed', model: 'Material' do |material|
+  	material.removed? ? 'Yes' : 'No'
+  end
   g.column name:  '% Damaged', attribute: 'amtdamage'
   g.column name:  'Damage Type', attribute: 'typedamage'
   g.column name:  'Comments', attribute: 'comments'
