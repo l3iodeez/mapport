@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150318212054) do
+ActiveRecord::Schema.define(version: 20150321183635) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 20150318212054) do
     t.string   "locality"
     t.string   "region"
     t.string   "postcode"
-    t.integer  "customer_id"
+    t.integer  "customer_id",    null: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -44,7 +44,7 @@ ActiveRecord::Schema.define(version: 20150318212054) do
   add_index "customers", ["company"], name: "index_customers_on_company", unique: true, using: :btree
 
   create_table "materials", force: true do |t|
-    t.integer  "space_id"
+    t.integer  "space_id",                                             null: false
     t.string   "materialtype"
     t.string   "color",             limit: 10
     t.string   "hanum",             limit: 15
@@ -57,18 +57,18 @@ ActiveRecord::Schema.define(version: 20150318212054) do
     t.datetime "updated_at"
     t.integer  "material_category"
     t.boolean  "removed"
-    t.float    "amtdamage"
+    t.decimal  "amtdamage",                    precision: 3, scale: 2
     t.integer  "typedamage"
     t.string   "file_reference"
-    t.integer  "building_id"
-    t.integer  "customer_id"
+    t.integer  "building_id",                                          null: false
+    t.integer  "customer_id",                                          null: false
   end
 
   create_table "reports", force: true do |t|
     t.string   "reportname"
     t.text     "description"
     t.string   "filename"
-    t.integer  "customer_id"
+    t.integer  "customer_id", null: false
     t.date     "report_date"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -85,10 +85,10 @@ ActiveRecord::Schema.define(version: 20150318212054) do
     t.string   "roomnum"
     t.integer  "floor"
     t.integer  "roomsqft"
-    t.integer  "building_id"
+    t.integer  "building_id", null: false
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "customer_id"
+    t.integer  "customer_id", null: false
   end
 
   add_index "spaces", ["building_id"], name: "index_spaces_on_building_id", using: :btree
@@ -120,13 +120,5 @@ ActiveRecord::Schema.define(version: 20150318212054) do
   add_index "users", ["customer_id"], name: "index_users_on_customer_id", using: :btree
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
-
-  create_table "widgets", force: true do |t|
-    t.string   "name"
-    t.text     "description"
-    t.integer  "stock"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
 
 end

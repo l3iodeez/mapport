@@ -2,6 +2,7 @@ class Material < ActiveRecord::Base
 belongs_to :space
 belongs_to :building
 belongs_to :customer
+scope :customer, -> (customer) { where customer: customer}
 
 
 

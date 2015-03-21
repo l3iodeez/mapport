@@ -1,6 +1,10 @@
 <div class="well">
-  <h4><%= 'Viewing available reports for ' + @customer.company %> </h4>
-
+  
+<% if current_user.is_admin %>
+<h4>Viewing reports for all customers </h4>
+<% else %>
+      <h4><%= 'Viewing available reports for ' + @customer.to_s %> </h4>
+      <% end %>
 </div>
 <table>
   <thead>
