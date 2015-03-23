@@ -1,0 +1,32 @@
+<%= grid(@reports_grid, show_filters: :always) do |g|
+
+
+g.column name:  'Report', attribute: 'reportname', auto_reload: false
+g.column name:  'Description', attribute: 'description', auto_reload: false
+g.column name:  'Date', attribute: 'report_date', model: 'Report', auto_reload: false  do |report|
+report.report_date
+end
+
+if current_user.is_admin
+    g.column name: 'Customer', attribute: 'company', model: 'Customer', auto_reload: false  do |report|
+    report.customer.company if  report.customer
+  end 
+   g.column do |report|
+    link_to('Show', report)
+   end
+   g.column do |report|
+    link_to('Edit', edit_report_path(report))
+   end
+   g.column do |report|
+    link_to('Destroy', report, method: :delete, data: { confirm: 'Are you sure?' })
+   end
+
+end
+  g.column do |report|
+    link_to('Download', reports_download_path(report.id))
+   end
+ g.blank_slate  do
+    content_tag :div, "No records found", class: 'well'
+  end
+
+end -%>
