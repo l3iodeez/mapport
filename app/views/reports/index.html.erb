@@ -1,12 +1,15 @@
 <div class="well">
+
   
 <% if current_user.is_admin %>
 <h4>Viewing reports for all customers </h4>
 <% else %>
       <h4><%= 'Viewing available reports for ' + @customer.company.to_s %> </h4>
+
       <% end %>
 </div>
 <%= render partial:  'grid' %>
+
 
 <br>
 <% if current_user.is_admin %>

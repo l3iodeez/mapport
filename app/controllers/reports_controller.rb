@@ -8,6 +8,10 @@ before_filter :check_admin, only: [:create, :edit, :update, :destroy, :download]
   def index
     @user = current_user
     @customer = current_user.customer
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 350f1cd7fd86062e263e564a0c6d22fcabf89614
 
 
   
@@ -32,6 +36,18 @@ before_filter :check_admin, only: [:create, :edit, :update, :destroy, :download]
    end
      
        
+<<<<<<< HEAD
+=======
+=======
+       if @user.is_admin
+      	  @reports = Report.all
+       else
+  	   @reports = @user.customer.reports    
+       respond_with(@reports)
+       end
+  end     
+>>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
+>>>>>>> 350f1cd7fd86062e263e564a0c6d22fcabf89614
 
   def show
     respond_with(@report)

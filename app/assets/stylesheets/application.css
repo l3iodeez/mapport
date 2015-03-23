@@ -24,6 +24,7 @@
 	padding-left: 10px;
 	color: #7d7d7d;/*grey*/	 
 
+
 	background-color: grey;
  }
 
@@ -44,9 +45,11 @@ th {
  }
 
 
+
   a {
   	font-size: 0.85em;
  	 color: #32689b;/*blue*/
+
  	 &:visited {
  	 	 color: #7d7d7d;/*grey*/
  	 	}
@@ -56,6 +59,7 @@ th {
  	 	}
 }
 
+
 .center {
 	background-color: white;
 	position: fixed;
@@ -64,6 +68,14 @@ th {
 	height: 95%;
 	width: 95%;
 
+.center {
+	background-color: white;
+	position: fixed;
+	font-family: Arial, sans-serif;
+	margin: auto;
+
+	height: 95%;
+	width: 95%;
 	box-shadow: 2px 3px 4px 1px grey;
 	border-radius: 5px;
 	
@@ -132,7 +144,9 @@ h4 {
 }
 
 
+
 /*////////////////////////FORMS////////////////////////*/
+
 
 .field, .actions {
 	font-family: Arial, sans-serif;
@@ -146,16 +160,13 @@ input {
 	font-size: 1.2em;
 }
 
-
-/*////////////////////////TABLES////////////////////////*/
-
 .table td {
+  padding: 8px;
   line-height: 18px;
   text-align: left;
   vertical-align: top;
   border-top: 1px solid #ddd;
 }
-
 
 .pagination {
     list-style:none;
@@ -183,4 +194,3 @@ li {
 	font-size: 1.5em;
 	text-decoration: none;
 }
-

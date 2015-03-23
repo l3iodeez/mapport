@@ -2,7 +2,14 @@ class Material < ActiveRecord::Base
 belongs_to :space
 belongs_to :building
 belongs_to :customer
+<<<<<<< HEAD
 scope :customer, -> (customer) { where customer: customer}
+=======
+<<<<<<< HEAD
+scope :customer, -> (customer) { where customer: customer}
+=======
+>>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
+>>>>>>> 350f1cd7fd86062e263e564a0c6d22fcabf89614
 
 
 
