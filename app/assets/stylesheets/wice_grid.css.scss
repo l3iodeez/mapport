@@ -1,4 +1,5 @@
 @mixin icon-dimensions {
+<<<<<<< HEAD
   width: 10px;
   height: 10px;
 }
@@ -10,6 +11,20 @@
       margin-right: 10px;
       display: inline;
       }
+=======
+  width: 16px;
+  height: 16px;
+}
+
+.wg-detached-filter, .wice-grid{
+
+  .text-filter-container {
+    input{
+      width:auto;
+      margin-right: 10px;
+      display: inline;
+    }
+>>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
   }
 
   a.date-label {text-decoration: none;}
@@ -25,6 +40,7 @@
     cursor: pointer;
   }
 
+<<<<<<< HEAD
   .custom-dropdown-container{
 
     .collapse-multi-select-icon{
@@ -32,43 +48,82 @@
       position: fixed;
       width: 18px;
       height: 18px;
+=======
+  .custom-dropdown-container {
+
+    .expand-multi-select-icon, .collapse-multi-select-icon{
+      width: 10px;
+      height: 10px;
+      display: inline-block;
+      margin-left: 5px;
+      vertical-align: top;
+    }
+
+    .collapse-multi-select-icon{
+      background: transparent image-url("icons/grid/collapse.gif") no-repeat;
+>>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
     }
 
     .expand-multi-select-icon{
       background: transparent image-url("icons/grid/expand.gif") no-repeat;
+<<<<<<< HEAD
       position: fixed;
       width: 18px;
       height: 18px;
     }
+=======
+    }
+
+>>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
   }
 }
 
 .wice-grid{
 
+<<<<<<< HEAD
   .desc,  .asc{
     padding-right: 5px;
     text-decoration:none;
   }
 
   /*.desc {
+=======
+
+  .desc,  .asc{
+    padding-right: 18px;
+    text-decoration:none;
+  }
+
+  .desc {
+>>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
     background: transparent image-url("icons/grid/arrow_down.gif") right no-repeat
   }
   .asc  {
     background: transparent image-url("icons/grid/arrow_up.gif")   right no-repeat
+<<<<<<< HEAD
   }*/
+=======
+  }
+>>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
 
   .submit.clickable{
     background: transparent image-url("icons/grid/table_refresh.png") no-repeat;
     @include icon-dimensions;
+<<<<<<< HEAD
     height: 20px;
     width: 20px;
+=======
+>>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
   }
 
   .reset.clickable{
     background: transparent image-url("icons/grid/table.png") no-repeat;
     @include icon-dimensions;
+<<<<<<< HEAD
     height: 20px;
     width: 20px;
+=======
+>>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
   }
 
 
@@ -82,8 +137,11 @@
   .export-to-csv-button.clickable{
     background: transparent image-url("icons/grid/page_white_excel.png") no-repeat;
     @include icon-dimensions;
+<<<<<<< HEAD
     height: 20px;
     width: 20px;
+=======
+>>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
   }
 
   .clickable.select-all{
@@ -104,20 +162,37 @@
     width: auto;
   }
 
+<<<<<<< HEAD
   tr.wg-filter-row  input[type=text] {
     height: 20px;
     width: auto;
+=======
+  .pagination{
+    height: 36px;
+    margin: 0px;
+    float: left;
+  }
+
+
+  tr.wg-filter-row  input[type=text] {
+    
+    height: 20px;
+>>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
   }
 
   .pagination_status {
     font-weight: bold;
     float: right;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
   }
 
 }
 
 .wice-grid-query-panel{
+<<<<<<< HEAD
   li {
     list-style-type: none;
   }
@@ -125,6 +200,11 @@
   ul {
     margin-left: 0;
   }
+=======
+  li {list-style-type: none; }
+
+  ul {margin-left: 0 }
+>>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
 
   a.wice-grid-delete-query .delete-icon{
     background: transparent image-url("icons/grid/delete.png") no-repeat;
@@ -138,6 +218,7 @@ input.wice-grid-save-query-field{
   display: inline-block;
   margin-right: 10px;
 }
+<<<<<<< HEAD
 
 .row-fluid [class*="span"] {
   position: fixed;
@@ -145,12 +226,19 @@ input.wice-grid-save-query-field{
   overflow: hidden;
   width: 90%;
   height: 100%;
+=======
+.row-fluid [class*="span"] {
+  display: block;
+  width: 100%;
+  min-height: 28px;
+>>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   float: left;
   margin-left: 0%;
+<<<<<<< HEAD
 }
 
 
@@ -163,3 +251,7 @@ input.wice-grid-save-query-field{
   .wice-grid-title-row {
   font-size: 0.8em;
 }
+=======
+  overflow: scroll;
+}
+>>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde

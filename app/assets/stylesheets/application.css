@@ -14,16 +14,24 @@
  *= require_self
  */
 
+<<<<<<< HEAD
  /*////////////////////////LAYOUT, GENERAL////////////////////////*/
 
+=======
+>>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
  body {
   	font-family: Arial, sans-serif;
 	font-size: 0.75em;
 	padding-left: 10px;
 	color: #7d7d7d;/*grey*/	 
+<<<<<<< HEAD
 	background-color: grey;
  }
 
+=======
+ }
+ 
+>>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
  p, ol, ul, td {
  	font-family: Arial, sans-serif;
 	font-size: 1em;
@@ -38,8 +46,12 @@ th {
 	color: #7d7d7d;/*grey*/
 	text-align: left;
  }
+<<<<<<< HEAD
 
   a {
+=======
+ a {
+>>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
  	 font-size: 0.85em;
  	 color: #32689b;/*blue*/
  	 &:visited {
@@ -50,6 +62,7 @@ th {
  	 	 background-color: #000;
  	 	}
 }
+<<<<<<< HEAD
 
 .center {
 	background-color: white;
@@ -58,12 +71,24 @@ th {
 	margin: auto;
 	height: 95%;
 	width: 95%;
+=======
+ 
+.center {
+	position: fixed;
+	font-family: Arial, sans-serif;
+	margin: auto;
+	
+	width: 90%;
+>>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
 	box-shadow: 2px 3px 4px 1px grey;
 	border-radius: 5px;
 	
 }
 
+<<<<<<< HEAD
 /*////////////////////////HEADER & HEADINGS////////////////////////*/
+=======
+>>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
 
 .logo img {
 	position: relative;
@@ -124,7 +149,10 @@ h4 {
 
 }
 
+<<<<<<< HEAD
 /*////////////////////////FORMS////////////////////////*/
+=======
+>>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
 .field, .actions {
 	font-family: Arial, sans-serif;
 	font-size: 0.95em;
@@ -136,16 +164,22 @@ input {
 	font-family: Arial, sans-serif;
 	font-size: 1.2em;
 }
+<<<<<<< HEAD
 
 /*////////////////////////TABLES////////////////////////*/
 
 .table td {
+=======
+.table td {
+  padding: 8px;
+>>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
   line-height: 18px;
   text-align: left;
   vertical-align: top;
   border-top: 1px solid #ddd;
 }
 
+<<<<<<< HEAD
 .pagination {
     list-style:none;
     position:inherit;
@@ -172,3 +206,5 @@ li {
 	font-size: 1.5em;
 	text-decoration: none;
 }
+=======
+>>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
