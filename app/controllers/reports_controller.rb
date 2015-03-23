@@ -80,7 +80,7 @@ before_filter :check_admin, only: [:create, :edit, :update, :destroy, :download]
   
       def download
       if ENV['MY_ENV'] = 'production'
-    data = open("https://s3.amazonaws.com/nyeaportal/pdf_reports/#{report.customer_id}") 
+    data = open("https://s3.amazonaws.com/nyeaportal/pdf_reports/#{@report.customer_id}") 
   send_data data.read, filename: @report.filename, type: "application/pdf", disposition: 'inline', stream: 'true', buffer_size: '4096' 
   else
     send_file File.join("public", "pdf_reports", @report.customer_id.to_s, @report.filename), :type=> "application/pdf", :x_sendfile=>true
