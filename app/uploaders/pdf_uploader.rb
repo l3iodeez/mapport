@@ -15,8 +15,11 @@ class PdfUploader < CarrierWave::Uploader::Base
   # include CarrierWave::MiniMagick
 
   # Choose what kind of storage to use for this uploader:
-  
+  if ENV['RACK_ENV'] = 'production'
   storage :file
+else
+storage :local
+end
   
 
   # Override the directory where uploaded files will be stored.
@@ -58,5 +61,13 @@ class PdfUploader < CarrierWave::Uploader::Base
   # def filename
   #   "something.jpg" if original_filename
   # end
+
+    def move_to_cache
+    true
+  end
+
+  def move_to_store
+    true
+  end
 
 end
