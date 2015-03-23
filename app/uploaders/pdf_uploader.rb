@@ -9,12 +9,14 @@ class PdfUploader < CarrierWave::Uploader::Base
 
   end
 
+
+
   # Include RMagick or MiniMagick support:
   # include CarrierWave::RMagick
   # include CarrierWave::MiniMagick
 
   # Choose what kind of storage to use for this uploader:
-  if ENV['RACK_ENV'] = 'production'
+  if ENV['MY_ENV'] = 'production'
     storage :aws
   else
     storage :file
@@ -24,7 +26,7 @@ class PdfUploader < CarrierWave::Uploader::Base
   # Override the directory where uploaded files will be stored.
   # This is a sensible default for uploaders that are meant to be mounted:
   def store_dir
-     if ENV['RACK_ENV'] = 'production'
+     if ENV['MY_ENV'] = 'production'
      "pdf_reports/#{model.customer_id}"
      else
     "/pdf_reports/#{model.customer_id}"

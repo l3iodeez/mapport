@@ -23,8 +23,12 @@ if current_user.is_admin
 
 end
     g.column do |report|
+
+ 
+   link_to('Download', reports_download_path(report.id))
+  
     
-    link_to('Download', reports_download_path(report.id))
+    
       
     end
  g.blank_slate  do

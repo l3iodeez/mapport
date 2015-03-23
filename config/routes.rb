@@ -27,6 +27,7 @@ Rails.application.routes.draw do
   
   get 'admin/:id/approve'=> 'admin#approve_user', as: 'approve_user'
   get 'admin' => 'admin#index'
+
   get '/reports/download/:id' => 'reports#download', as: 'reports_download'
   
   # Example of regular route:

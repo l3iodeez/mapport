@@ -79,11 +79,14 @@ before_filter :check_admin, only: [:create, :edit, :update, :destroy, :download]
   end
   
       def download
-        if ENV['RACK_ENV'] = 'production'
-        send_file File.join("nyeaportal", "pdf_reports", @report.customer_id.to_s, @report.filename), :type=> "application/pdf", :x_sendfile=>true
-        else
-        send_file File.join("public", "pdf_reports", @report.customer_id.to_s, @report.filename), :type=> "application/pdf", :x_sendfile=>true
-        end
+      if ENV['MY_ENV'] = 'production'
+    data = open("https://s3.amazonaws.com/nyeaportal/pdf_reports/#{report.customer_id}") 
+  send_data data.read, filename: @report.filename, type: "application/pdf", disposition: 'inline', stream: 'true', buffer_size: '4096' 
+  else
+    send_file File.join("public", "pdf_reports", @report.customer_id.to_s, @report.filename), :type=> "application/pdf", :x_sendfile=>true
+  end
+      
+      
       end
 
         def check_ownership
