@@ -29,15 +29,7 @@ development:
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user that initialized the database.
-<<<<<<< HEAD
   # username: ruby-getting-started
-=======
-<<<<<<< HEAD
-  # username: ruby-getting-started
-=======
-  #username: ruby-getting-started
->>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
->>>>>>> 350f1cd7fd86062e263e564a0c6d22fcabf89614
 
   # The password associated with the postgres role (username).
   #password:

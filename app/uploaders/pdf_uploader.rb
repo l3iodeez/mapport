@@ -16,7 +16,7 @@ class PdfUploader < CarrierWave::Uploader::Base
 
   # Choose what kind of storage to use for this uploader:
   if ENV['RACK_ENV'] = 'production'
-  storage :file
+  storage :fog
 else
 storage :local
 end

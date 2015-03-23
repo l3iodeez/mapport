@@ -11,15 +11,8 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 20150323002611) do
-=======
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 20150321183635) do
-=======
+
 ActiveRecord::Schema.define(version: 20150318212054) do
->>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
->>>>>>> 350f1cd7fd86062e263e564a0c6d22fcabf89614
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -31,15 +24,7 @@ ActiveRecord::Schema.define(version: 20150318212054) do
     t.string   "locality"
     t.string   "region"
     t.string   "postcode"
-<<<<<<< HEAD
-    t.integer  "customer_id",    null: false
-=======
-<<<<<<< HEAD
-    t.integer  "customer_id",    null: false
-=======
     t.integer  "customer_id"
->>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
->>>>>>> 350f1cd7fd86062e263e564a0c6d22fcabf89614
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -60,15 +45,7 @@ ActiveRecord::Schema.define(version: 20150318212054) do
   add_index "customers", ["company"], name: "index_customers_on_company", unique: true, using: :btree
 
   create_table "materials", force: true do |t|
-<<<<<<< HEAD
-    t.integer  "space_id",                                             null: false
-=======
-<<<<<<< HEAD
-    t.integer  "space_id",                                             null: false
-=======
     t.integer  "space_id"
->>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
->>>>>>> 350f1cd7fd86062e263e564a0c6d22fcabf89614
     t.string   "materialtype"
     t.string   "color",             limit: 10
     t.string   "hanum",             limit: 15
@@ -81,42 +58,18 @@ ActiveRecord::Schema.define(version: 20150318212054) do
     t.datetime "updated_at"
     t.integer  "material_category"
     t.boolean  "removed"
-<<<<<<< HEAD
-    t.decimal  "amtdamage",                    precision: 3, scale: 2
-    t.integer  "typedamage"
-    t.string   "file_reference"
-    t.integer  "building_id",                                          null: false
-    t.integer  "customer_id",                                          null: false
-=======
-<<<<<<< HEAD
-    t.decimal  "amtdamage",                    precision: 3, scale: 2
-    t.integer  "typedamage"
-    t.string   "file_reference"
-    t.integer  "building_id",                                          null: false
-    t.integer  "customer_id",                                          null: false
-=======
     t.float    "amtdamage"
     t.integer  "typedamage"
     t.string   "file_reference"
     t.integer  "building_id"
     t.integer  "customer_id"
->>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
->>>>>>> 350f1cd7fd86062e263e564a0c6d22fcabf89614
   end
 
   create_table "reports", force: true do |t|
     t.string   "reportname"
     t.text     "description"
     t.string   "filename"
-<<<<<<< HEAD
     t.integer  "customer_id", null: false
-=======
-<<<<<<< HEAD
-    t.integer  "customer_id", null: false
-=======
-    t.integer  "customer_id"
->>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
->>>>>>> 350f1cd7fd86062e263e564a0c6d22fcabf89614
     t.date     "report_date"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -135,24 +88,11 @@ ActiveRecord::Schema.define(version: 20150318212054) do
     t.string   "roomnum"
     t.integer  "floor"
     t.integer  "roomsqft"
-<<<<<<< HEAD
     t.integer  "building_id", null: false
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "customer_id", null: false
-=======
-<<<<<<< HEAD
-    t.integer  "building_id", null: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.integer  "customer_id", null: false
-=======
-    t.integer  "building_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.integer  "customer_id"
->>>>>>> 0bc37c08b4d63b506a4b9a28224069c4d6ab1dde
->>>>>>> 350f1cd7fd86062e263e564a0c6d22fcabf89614
+
   end
 
   add_index "spaces", ["building_id"], name: "index_spaces_on_building_id", using: :btree
