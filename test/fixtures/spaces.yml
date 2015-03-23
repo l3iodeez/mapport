@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  spacename: MyString
+  spaceid: MyString
+  roomnum: MyString
+  floor: 1
+  roomsqft: 1
+  building_id: 
+
+two:
+  spacename: MyString
+  spaceid: MyString
+  roomnum: MyString
+  floor: 1
+  roomsqft: 1
+  building_id: 

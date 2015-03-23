@@ -1,0 +1,25 @@
+
+<h2> 
+
+<td><%= link_to 'View Reports', reports_path %></td>
+
+</h2>
+
+<div class="well">
+<% unless current_user.is_admin %>
+  <h4><%= 'Viewing inspection data for ' + @customer.company %> </h4>
+<% else%>
+<h4><%= 'Viewing inspection data for all customers'%> </h4>
+<% end %>
+</div>
+
+<div class="row-fluid">
+  <div class="span12">
+
+<!--THIS IS THE TABLE-->
+<%= render partial:  'grid' %>
+
+ </div>
+</div>
+
+

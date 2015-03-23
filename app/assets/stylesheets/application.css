@@ -1,0 +1,174 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ /*////////////////////////LAYOUT, GENERAL////////////////////////*/
+
+ body {
+  	font-family: Arial, sans-serif;
+	font-size: 0.75em;
+	padding-left: 10px;
+	color: #7d7d7d;/*grey*/	 
+	background-color: grey;
+ }
+
+ p, ol, ul, td {
+ 	font-family: Arial, sans-serif;
+	font-size: 1em;
+	padding-left: 10px;
+	color: #7d7d7d;/*grey*/
+ }
+ 
+th {
+ 	font-family: Arial, sans-serif;
+	font-size: 1.25em;
+	padding-left: 10px;
+	color: #7d7d7d;/*grey*/
+	text-align: left;
+ }
+
+  a {
+ 	 font-size: 0.85em;
+ 	 color: #32689b;/*blue*/
+ 	 &:visited {
+ 	 	 color: #7d7d7d;/*grey*/
+ 	 	}
+ 	 &:hover {
+ 	 	 color: #7d7d7d;/*grey*/
+ 	 	 background-color: #000;
+ 	 	}
+}
+
+.center {
+	background-color: white;
+	position: fixed;
+	font-family: Arial, sans-serif;
+	margin: auto;
+	height: 95%;
+	width: 95%;
+	box-shadow: 2px 3px 4px 1px grey;
+	border-radius: 5px;
+	
+}
+
+/*////////////////////////HEADER & HEADINGS////////////////////////*/
+
+.logo img {
+	position: relative;
+	padding-left: 10px;
+	padding-top: 10px;
+	z-index: 2;
+}
+
+.navfade img {
+	position: relative;
+	width: 50%;
+	padding-top: 10px;
+}
+
+.navbar {
+	position: relative;
+	float: right;
+	padding-right: 20px;
+	font-family: Arial, sans-serif;
+	font-size: 0.95em;
+	padding-left: 10px;
+	color: #7d7d7d;/*grey*/
+}
+
+.navbar a {
+	color: #32689b;/*blue*/
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	color: #2d9b68;/*green*/
+	background-color: #fff;
+}
+
+
+h1 {
+	font-family: Arial, sans-serif;
+	font-size: 1.2em;
+	padding-left: 10px;
+	color: #32689b;/*blue*/
+}
+
+h2 {
+	font-family: Arial, sans-serif;
+	font-size: 0.95em;
+	padding-left: 10px;
+	color: black;
+}
+h3 {
+	
+	padding-left: 10px;
+	
+}
+h4 {
+	font-size: 1em;
+	padding-left: 10px;
+	color: #32689b;/*blue*/
+
+}
+
+/*////////////////////////FORMS////////////////////////*/
+.field, .actions {
+	font-family: Arial, sans-serif;
+	font-size: 0.95em;
+	padding-left: 15px;
+	color: #7d7d7d;/*grey*/
+}
+
+input {
+	font-family: Arial, sans-serif;
+	font-size: 1.2em;
+}
+
+/*////////////////////////TABLES////////////////////////*/
+
+.table td {
+  line-height: 18px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+.pagination {
+    list-style:none;
+    position:inherit;
+    left:50%;
+    width: 500px;
+    margin: 0px;
+    float: left;
+}
+
+li {
+	float: left;
+	vertical-align: left;
+	font-size: 1.2em;  
+	padding-bottom: 10px;
+	padding-top: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #f00;
+}
+
+.active a {
+	color: #2d9b68;/*green*/
+	font-weight: bold;
+	font-size: 1.5em;
+	text-decoration: none;
+}
