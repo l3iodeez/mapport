@@ -36,7 +36,7 @@ gem 'devise'
 gem 'carrierwave'
 gem 'wice_grid'
 gem 'humanize_boolean'
-gem 'fog-aws'
+gem 'fog'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

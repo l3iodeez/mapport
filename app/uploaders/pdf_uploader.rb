@@ -1,5 +1,3 @@
-# encoding: utf-8
-
 class PdfUploader < CarrierWave::Uploader::Base
 
   before :cache, :save_original_filename
@@ -16,17 +14,17 @@ class PdfUploader < CarrierWave::Uploader::Base
 
   # Choose what kind of storage to use for this uploader:
   if ENV['RACK_ENV'] = 'production'
-  storage :fog
-else
-storage :local
-end
+    storage :fog
+  else
+    storage :file
+  end
   
 
   # Override the directory where uploaded files will be stored.
   # This is a sensible default for uploaders that are meant to be mounted:
   def store_dir
-    
-     "pdf_reports/#{model.customer_id}"
+     
+     "/pdf_reports/#{model.customer_id}"
 
   end
 
