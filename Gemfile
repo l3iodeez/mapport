@@ -33,10 +33,12 @@ gem 'spring',        group: :development
 
 gem 'puma'
 gem 'devise'
+gem 'carrierwave-aws'
 gem 'carrierwave'
+
 gem 'wice_grid'
 gem 'humanize_boolean'
-gem 'fog'
+
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

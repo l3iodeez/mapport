@@ -4,7 +4,7 @@ class PdfUploader < CarrierWave::Uploader::Base
 
 
   def save_original_filename(file)
-    model.filename = file.original_filename if file.respond_to?(:original_filename)
+    model.filename = file.original_filename.underscore if file.respond_to?(:original_filename)
 
   end
 
@@ -14,7 +14,7 @@ class PdfUploader < CarrierWave::Uploader::Base
 
   # Choose what kind of storage to use for this uploader:
   if ENV['RACK_ENV'] = 'production'
-    storage :fog
+    storage :aws
   else
     storage :file
   end
