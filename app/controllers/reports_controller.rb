@@ -79,9 +79,11 @@ before_filter :check_admin, only: [:create, :edit, :update, :destroy, :download]
   end
   
       def download
-      
-      
-      send_file File.join("public", "pdf_reports", @report.customer_id.to_s, @report.filename), :type=> "application/pdf", :x_sendfile=>true
+        if ENV['RACK_ENV'] = 'production'
+        send_file File.join("nyeaportal", "pdf_reports", @report.customer_id.to_s, @report.filename), :type=> "application/pdf", :x_sendfile=>true
+        else
+        send_file File.join("public", "pdf_reports", @report.customer_id.to_s, @report.filename), :type=> "application/pdf", :x_sendfile=>true
+        end
       end
 
         def check_ownership

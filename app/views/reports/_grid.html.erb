@@ -22,9 +22,11 @@ if current_user.is_admin
    end
 
 end
-  g.column do |report|
+    g.column do |report|
+    
     link_to('Download', reports_download_path(report.id))
-   end
+      
+    end
  g.blank_slate  do
     content_tag :div, "No records found", class: 'well'
   end

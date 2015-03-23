@@ -1,6 +1,7 @@
 class PdfUploader < CarrierWave::Uploader::Base
 
   before :cache, :save_original_filename
+  fog_authenticated_url_expiration 600
 
 
   def save_original_filename(file)
@@ -23,11 +24,15 @@ class PdfUploader < CarrierWave::Uploader::Base
   # Override the directory where uploaded files will be stored.
   # This is a sensible default for uploaders that are meant to be mounted:
   def store_dir
-     
-     "/pdf_reports/#{model.customer_id}"
+     if ENV['RACK_ENV'] = 'production'
+     "pdf_reports/#{model.customer_id}"
+     else
+    "/pdf_reports/#{model.customer_id}"
+     end
 
   end
 
+ 
   # Provide a default URL as a default if there hasn't been a file uploaded:
   # def default_url
   #   # For Rails 3.1+ asset pipeline compatibility:
