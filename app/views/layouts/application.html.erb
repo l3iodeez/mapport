@@ -15,6 +15,7 @@
 <body>
   <div class='center'>
 
+<<<<<<< HEAD
   <div class='navbar'>
 
   <p class="navbar-text pull-right">
@@ -47,11 +48,45 @@
     NYE Customer Data Portal
   </h1>
 
+=======
+        <div class='navbar'>
+
+                <p class="navbar-text pull-right">
+              <% if user_signed_in? %>
+                Logged in as <strong><%= current_user.email %></strong>.
+                <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %> |
+                <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
+              <% else %>
+                <%= link_to "Sign up", new_user_registration_path, :class => 'navbar-link'  %> |
+                <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
+              <% end %>
+
+        </div>
+        
+        <header>
+
+          <div class='logo'>
+            <%= link_to(image_tag('logo.png', :alt => 'logo'), root_path) %>
+          </div>
+
+       
+
+          <div class='navfade'>
+            <%= image_tag('navfade.png', :alt => 'navfade') %>
+          </div>
+
+        </header>
+
+        <h1>
+          NYE Customer Data Portal
+        </h1>
+>>>>>>> Styling of wice_grid.css & application.css
 
 
 
 
 
+<<<<<<< HEAD
 <% if notice %>
   <p class="alert alert-success"><%= notice %></p>
 <% end %>
@@ -62,10 +97,27 @@
 
 
 <%= yield %>
+=======
+
+      <% if notice %>
+        <p class="alert alert-success"><%= notice %></p>
+      <% end %>
+      <% if alert %>
+        <p class="alert alert-danger"><%= alert %></p>
+      <% end %>
+
+
+
+      <%= yield %>
+>>>>>>> Styling of wice_grid.css & application.css
 
 
   
 </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> Styling of wice_grid.css & application.css
 </body>
 
 </html>

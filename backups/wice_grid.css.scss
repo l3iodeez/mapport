@@ -1,16 +1,16 @@
 @mixin icon-dimensions {
-  width: 10px;
-  height: 10px;
+  width: 16px;
+  height: 16px;
 }
 
 .wg-detached-filter, .wice-grid{
+
   .text-filter-container {
     input{
-      width: auto;
+      width:auto;
       margin-right: 10px;
       display: inline;
-      }
-
+    }
   }
 
   a.date-label {text-decoration: none;}
@@ -26,54 +26,50 @@
     cursor: pointer;
   }
 
-  .custom-dropdown-container{
+  .custom-dropdown-container {
+
+    .expand-multi-select-icon, .collapse-multi-select-icon{
+      width: 10px;
+      height: 10px;
+      display: inline-block;
+      margin-left: 5px;
+      vertical-align: top;
+    }
 
     .collapse-multi-select-icon{
       background: transparent image-url("icons/grid/collapse.gif") no-repeat;
-      position: fixed;
-      width: 18px;
-      height: 18px;
     }
 
     .expand-multi-select-icon{
       background: transparent image-url("icons/grid/expand.gif") no-repeat;
-      position: fixed;
-      width: 18px;
-      height: 18px;
     }
+
   }
 }
 
 .wice-grid{
 
+
   .desc,  .asc{
-    padding-right: 5px;
+    padding-right: 18px;
     text-decoration:none;
   }
 
-  /*.desc {
-
+  .desc {
     background: transparent image-url("icons/grid/arrow_down.gif") right no-repeat
   }
   .asc  {
     background: transparent image-url("icons/grid/arrow_up.gif")   right no-repeat
-
-  }*/
-
+  }
 
   .submit.clickable{
     background: transparent image-url("icons/grid/table_refresh.png") no-repeat;
     @include icon-dimensions;
-    height: 20px;
-    width: 20px;
-
   }
 
   .reset.clickable{
     background: transparent image-url("icons/grid/table.png") no-repeat;
     @include icon-dimensions;
-    height: 20px;
-    width: 20px;
   }
 
 
@@ -87,8 +83,6 @@
   .export-to-csv-button.clickable{
     background: transparent image-url("icons/grid/page_white_excel.png") no-repeat;
     @include icon-dimensions;
-    height: 20px;
-    width: 20px;
   }
 
   .clickable.select-all{
@@ -109,9 +103,16 @@
     width: auto;
   }
 
- tr.wg-filter-row  input[type=text] {
+  .pagination{
+    height: 36px;
+    margin: 0px;
+    float: left;
+  }
+
+
+  tr.wg-filter-row  input[type=text] {
+    
     height: 20px;
-    width: auto;
   }
 
   .pagination_status {
@@ -122,13 +123,9 @@
 }
 
 .wice-grid-query-panel{
-  li {
-    list-style-type: none;
-  }
+  li {list-style-type: none; }
 
-  ul {
-    margin-left: 0;
-  }
+  ul {margin-left: 0 }
 
   a.wice-grid-delete-query .delete-icon{
     background: transparent image-url("icons/grid/delete.png") no-repeat;
@@ -142,30 +139,15 @@ input.wice-grid-save-query-field{
   display: inline-block;
   margin-right: 10px;
 }
-<
-
 .row-fluid [class*="span"] {
-  position: fixed;
   display: block;
-  overflow: hidden;
-  width: 90%;
-  height: 100%;
+  width: 100%;
+  min-height: 28px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-
   float: left;
   margin-left: 0%;
-}
-
-
-/*//////////CUSTOM///////////*/
-.smallgrid input {
-    height: 20px;
-    max-width: 30px;
-  }
-
-  .wice-grid-title-row {
-  font-size: 0.8em;
+  overflow: scroll;
 }
