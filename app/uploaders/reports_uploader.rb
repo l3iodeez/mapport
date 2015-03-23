@@ -28,7 +28,7 @@ class ReportsUploader < CarrierWave::Uploader::Base
   # This is a sensible default for uploaders that are meant to be mounted:
   def store_dir
      if ENV['MY_ENV'] = 'production'
-     "pdf_reports/#{model.customer_id}"
+     "pdf_reports/#{model.customer_id}/#{model.filename}"
      else
     "/pdf_reports/#{model.customer_id}"
      end
