@@ -8,13 +8,30 @@ before_filter :check_admin, only: [:create, :edit, :update, :destroy, :download]
   def index
     @user = current_user
     @customer = current_user.customer
-       if @user.is_admin
-      	  @reports = Report.all
-       else
-  	   @reports = @user.customer.reports    
-       respond_with(@reports)
-       end
-  end     
+
+
+  
+
+    if !current_user.is_admin
+
+     cust_reports = current_user.customer.reports
+       
+     @reports_grid = initialize_grid(cust_reports,
+      :include => [:customer, :building],
+      :conditions => {:customer => @customer},
+      :per_page => 10
+      )
+    else
+
+    @reports_grid = initialize_grid(Report,
+      :include => [:customer, :building],
+      :per_page => 10
+      )
+    end
+
+   end
+     
+       
 
   def show
     respond_with(@report)
