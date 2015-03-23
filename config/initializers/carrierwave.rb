@@ -4,7 +4,7 @@
 
   config.storage    = :aws
   config.aws_bucket = ENV.fetch('AWS_BUCKET_NAME')
-  config.aws_acl    = :public_read
+  #config.aws_acl    = :public_read
   config.asset_host = 'http://nyeaportal.herokuapp.com'
   config.aws_authenticated_url_expiration = 600
 

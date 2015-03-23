@@ -1,4 +1,4 @@
-class PdfUploader < CarrierWave::Uploader::Base
+class ReportsUploader < CarrierWave::Uploader::Base
 
   before :cache, :save_original_filename
   fog_authenticated_url_expiration 600
@@ -9,6 +9,7 @@ class PdfUploader < CarrierWave::Uploader::Base
 
   end
 
+  
 
 
   # Include RMagick or MiniMagick support:

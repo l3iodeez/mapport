@@ -80,7 +80,20 @@ before_filter :check_admin, only: [:create, :edit, :update, :destroy, :download]
   
       def download
       if ENV['MY_ENV'] = 'production'
-    redirect_to @report.file.url
+      AWS.config({
+    access_key_id: ENV.fetch('AWS_ACCESS_KEY_ID'),
+    secret_access_key: ENV.fetch('AWS_SECRET_ACCESS_KEY')
+  })
+
+  send_data( 
+    AWS::S3.new.buckets[ENV.fetch('AWS_BUCKET_NAME')].objects["#{@report.filename}"].read, {
+      filename: "#{@report.filename}.pdf", 
+      type: "application/pdf", 
+      disposition: 'attachment', 
+      stream: 'true', 
+      buffer_size: '4096'
+    }
+  )
   
   else
     send_file File.join("public", "pdf_reports", @report.customer_id.to_s, @report.filename), :type=> "application/pdf", :x_sendfile=>true
