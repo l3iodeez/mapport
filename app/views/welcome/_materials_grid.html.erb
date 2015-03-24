@@ -24,8 +24,7 @@
  # g.column name:  'Samples Taken', attribute: 'numsamp'
   g.column name:  'SqFt', attribute: 'sqft', html: {class: 'smallgrid'}
   g.column name:  'Removed?', attribute: 'removed', model: 'Material', custom_filter: {'Yes' => 'true','No' => 'false'}, auto_reload: false   do |material|
-  		   
-  		   material.removed.humanize
+     material.removed.humanize
   end
   g.column name:  '% Dmg', attribute: 'amtdamage', auto_reload: false, html: {class: 'smallgrid'}
 

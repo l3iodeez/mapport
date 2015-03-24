@@ -63,7 +63,7 @@ def destroy
 end
   
 def download
-  if ENV['MY_ENV'] != 'development'
+  if ENV['MY_ENV'] != 'production'
     data = open(@report.pdf.to_s) 
     send_data data.read, filename: @report.filename, type: "application/pdf", disposition: 'inline', stream: 'true', buffer_size: '4096' 
   else
@@ -79,7 +79,7 @@ def check_ownership
 end
      
 
-  private
+private
 
     def set_report
       @report = Report.find(params[:id])
@@ -90,6 +90,4 @@ end
     def report_params
       params.require(:report).permit(:reportname, :description, :filename, :customer_id, :report_date, :pdf)
     end
-
-   
 end

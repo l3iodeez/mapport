@@ -1,0 +1,49 @@
+
+.ui-datepicker .ui-datepicker-header {
+	position: relative;
+	padding: .4em 0;
+ }
+ 
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {border-bottom-right-radius: 6px;}
+ 
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {border-bottom-left-radius: 6px;}
+
+ 
+
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {border-top-right-radius: 6px;}
+ 
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {border-top-left-radius: 6px;}
+
+.ui-widget-header {
+	border: 5px solid #2D9B68;
+	background: #32689B  url("/assets/jquery-ui/humanity/ui-bg_glass_25_cb842e_1x400-5341a9cda1c2404457f737d714dcc901.png") 50% 50% repeat-x;
+	color: #ffffff;
+	font-weight: bold;
+ }
+ 
+
+.ui-helper-clearfix {min-height: 0;
+	   display: block;}
+ 
+
+.ui-widget-content {
+	border: 5px solid #e0cfc2;
+	background: #f4f0ec url("/assets/jquery-ui/humanity/ui-bg_inset-soft_100_f4f0ec_1x100-1a26387a0452c76b31404c56f97a0b57.png") 50% bottom repeat-x;
+	color: #1e1b1d;
+ }
+ 
+
+.ui-widget {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 1.1em;
+ }
+.ui-datepicker-prev{
+	color: #fff;
+	padding-left: 2px;
+}
+.ui-datepicker-next{
+	color: #fff;
+	padding-right: 5px;
+	float: right;
+}

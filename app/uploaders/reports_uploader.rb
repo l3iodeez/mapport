@@ -17,7 +17,7 @@ class ReportsUploader < CarrierWave::Uploader::Base
   # include CarrierWave::MiniMagick
 
   # Choose what kind of storage to use for this uploader:
-  if ENV['MY_ENV'] = 'production'
+  if ENV['MY_ENV'] != 'development'
     storage :aws
   else
     storage :file
@@ -27,7 +27,7 @@ class ReportsUploader < CarrierWave::Uploader::Base
   # Override the directory where uploaded files will be stored.
   # This is a sensible default for uploaders that are meant to be mounted:
   def store_dir
-     if ENV['MY_ENV'] = 'production'
+     if ENV['MY_ENV'] != 'development'
      "pdf_reports/#{model.customer_id}/"
      else
     "/pdf_reports/#{model.customer_id}"
