@@ -5,13 +5,9 @@ before_filter :check_admin, only: [:create, :edit, :update, :destroy, :download]
   respond_to :html
 
 
-  def index
+def index
     @user = current_user
     @customer = current_user.customer
-
-
-  
-
     if !current_user.is_admin
 
      cust_reports = current_user.customer.reports
@@ -22,36 +18,29 @@ before_filter :check_admin, only: [:create, :edit, :update, :destroy, :download]
       :per_page => 10
       )
     else
-
     @reports_grid = initialize_grid(Report,
       :include => [:customer, :building],
       :per_page => 10
       )
     end
-
-   end
+end
      
        
 
-  def show
+def show
     respond_with(@report)
-  end
+end
 
-  def new
+def new
     @report = Report.new
-    
     respond_with(@report)
-    
-  end
+end
 
-  def edit
-    
-  end
+def edit
+end
 
-  def create
-
+def create
     @report = Report.new(report_params)
-    
     respond_to do |format|
       if @report.save
         format.html { redirect_to @report, notice: 'Report was successfully created.' }
@@ -61,45 +50,33 @@ before_filter :check_admin, only: [:create, :edit, :update, :destroy, :download]
         format.json { render json: @report.errors, status: :unprocessable_entity }
       end
     end
-    
-    
-  end
+end
 
-  def update
-    
+def update
     @report.update(report_params)
-   
     respond_with(@report)
-    
-  end
+end
 
-  def destroy
+def destroy
     @report.destroy
     respond_with(@report)
-  end
+end
   
-      def download
-      if ENV['MY_ENV'] = 'production'
-
-  data = open(@report.pdf.to_s) 
-  send_data data.read, filename: @report.filename, type: "application/pdf", disposition: 'inline', stream: 'true', buffer_size: '4096' 
-
+def download
+  if ENV['MY_ENV'] != 'development'
+    data = open(@report.pdf.to_s) 
+    send_data data.read, filename: @report.filename, type: "application/pdf", disposition: 'inline', stream: 'true', buffer_size: '4096' 
   else
     send_file File.join("public", "pdf_reports", @report.customer_id.to_s, @report.filename), :type=> "application/pdf", :x_sendfile=>true
   end
-      
-      
-      end
+end
 
-        def check_ownership
-          
-          if current_user.customer_id != @report.customer_id && !current_user.is_admin #check if current user is a user tied to report's owner
-         
-          redirect_to reports_path,
+def check_ownership
+      if current_user.customer_id != @report.customer_id && !current_user.is_admin #check if current user is a user tied to report's owner
+         redirect_to reports_path,
           alert: "You are not authorized to load this report." # boot them to the main page if not admin
-          end
-        end
-  
+      end
+end
      
 
   private
