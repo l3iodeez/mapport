@@ -167,11 +167,8 @@ if defined?(Wice::Defaults)
   }
 
   # Icon to popup the calendar.
- # if ENV['MY_ENV'] = 'development'
- # Wice::Defaults::CALENDAR_ICON = "/assets/images/icons/calendar_view_month.png"
- # else 
-  Wice::Defaults::CALENDAR_ICON = "https://raw.github.com/leikind/wice_grid/rails3/vendor/assets/images/icons/grid/calendar_view_month.png"
-#  end
+
+ Wice::Defaults::CALENDAR_ICON = '/icons/calendar_view_month.png'#  end
   # popup calendar will be shown relative to the popup trigger element or to the mouse pointer
   Wice::Defaults::POPUP_PLACEMENT_STRATEGY = :trigger # :pointer
 
