@@ -43,18 +43,26 @@
   }
 }
 
+.sorted{
+      .desc {
+        background: transparent image-url("icons/grid/arrow_down.gif") right no-repeat;
+        padding-right: 15px;
+        padding-top: 2px;
+        @include icon-dimensions;
+      
+      }
+      
+      .asc  {
+        background: transparent image-url("icons/grid/arrow_up.gif")   right no-repeat;
+       padding-right: 15px;
+      padding-top: 2px;
+      @include icon-dimensions;
+      }
+}
+
+
 .wice-grid{
 
-    .desc,  .asc{
-      padding-right: 5px;
-      text-decoration:none;
-          .desc {
-        background: transparent image-url("icons/grid/arrow_down.gif") right no-repeat
-      }
-      .asc  {
-        background: transparent image-url("icons/grid/arrow_up.gif")   right no-repeat
-      }
-    }
 
 
   .submit.clickable{
