@@ -17,7 +17,7 @@ class WelcomeController < ApplicationController
       :include => [:space, :customer, :building],
       :conditions => {:customer => @customer},
       :name => 'materials',
-      :per_page => 10,
+      :per_page => 20,
       :enable_export_to_csv => true,
       :csv_file_name => 'Survey Data'
 
@@ -30,7 +30,7 @@ class WelcomeController < ApplicationController
 
     @materials_grid = initialize_grid(Material,
       :include => [:space, :customer, :building],
-      :per_page => 10,
+      :per_page => 20,
       :name => 'materials',
       :enable_export_to_csv => true,
       :csv_file_name => 'Survey Data'
