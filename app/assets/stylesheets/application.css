@@ -184,3 +184,6 @@ li {
 	text-decoration: none;
 }
 
+.normtable{
+	overflow: scroll;
+}
