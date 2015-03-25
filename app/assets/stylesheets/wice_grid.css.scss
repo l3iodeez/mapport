@@ -1,6 +1,6 @@
 @mixin icon-dimensions {
-  width: 10px;
-  height: 10px;
+  width: 16px;
+  height: 16px;
 }
 
 .wg-detached-filter, .wice-grid{
@@ -31,49 +31,43 @@
     .collapse-multi-select-icon{
       background: transparent image-url("icons/grid/collapse.gif") no-repeat;
       position: fixed;
-      width: 18px;
-      height: 18px;
+      @include icon-dimensions;
     }
 
     .expand-multi-select-icon{
       background: transparent image-url("icons/grid/expand.gif") no-repeat;
       position: fixed;
-      width: 18px;
-      height: 18px;
+      @include icon-dimensions;
+      
     }
   }
 }
 
 .wice-grid{
 
-  .desc,  .asc{
-    padding-right: 5px;
-    text-decoration:none;
-  }
-
-  /*.desc {
-
-    background: transparent image-url("icons/grid/arrow_down.gif") right no-repeat
-  }
-  .asc  {
-    background: transparent image-url("icons/grid/arrow_up.gif")   right no-repeat
-
-  }*/
+    .desc,  .asc{
+      padding-right: 5px;
+      text-decoration:none;
+          .desc {
+        background: transparent image-url("icons/grid/arrow_down.gif") right no-repeat
+      }
+      .asc  {
+        background: transparent image-url("icons/grid/arrow_up.gif")   right no-repeat
+      }
+    }
 
 
   .submit.clickable{
     background: transparent image-url("icons/grid/table_refresh.png") no-repeat;
     @include icon-dimensions;
-    height: 20px;
-    width: 20px;
+   
 
   }
 
   .reset.clickable{
     background: transparent image-url("icons/grid/table.png") no-repeat;
     @include icon-dimensions;
-    height: 20px;
-    width: 20px;
+    
   }
 
 
