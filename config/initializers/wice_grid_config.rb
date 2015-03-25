@@ -168,7 +168,7 @@ if defined?(Wice::Defaults)
 
   # Icon to popup the calendar.
 
- Wice::Defaults::CALENDAR_ICON = '/icons/calendar_view_month.png'#  end
+ Wice::Defaults::CALENDAR_ICON = '/calendar_view_month.png'#  
   # popup calendar will be shown relative to the popup trigger element or to the mouse pointer
   Wice::Defaults::POPUP_PLACEMENT_STRATEGY = :trigger # :pointer
 
