@@ -3,5 +3,4 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 
-$( ".hasDatepicker" ).datepicker( "option", "changeYear", true )  ;
-$( ".hasDatepicker" ).datepicker( "option", "yearRange", "1995:2015" );
+   $( ".selector" ).datepicker( "option", "yearRange", "1980:+0" );
