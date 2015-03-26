@@ -174,7 +174,7 @@ li {
 	padding-top: 40px;
 	padding-left: 10px;
 	padding-right: 10px;
-	color: #f00;
+	color: #000;
 }
 
 .active a {
@@ -184,6 +184,3 @@ li {
 	text-decoration: none;
 }
 
-.normtable{
-	overflow: scroll;
-}
