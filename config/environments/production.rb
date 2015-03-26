@@ -1,12 +1,12 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
   
-  config.action_mailer.default_url_options = {host:'https://fathomless-escarpment-5396.herokuapp.com',port:80}
+  config.action_mailer.default_url_options = {host:'http://nyeaportal.herokuapp.com',port:80}
   
-  Rails.application.routes.default_url_options[:host] = 'https://fathomless-escarpment-5396.herokuapp.com'
+  Rails.application.routes.default_url_options[:host] = 'http://nyeaportal.herokuapp.com'
   
   # Code is not reloaded between requests.
-  config.cache_classes = true
+  config.cache_classes = false
 
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
