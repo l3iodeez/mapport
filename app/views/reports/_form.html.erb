@@ -26,14 +26,17 @@
     <%= f.file_field :pdf %>
   </div>
 <% if current_user.is_admin %>
+<%if !@report.new_record?%>
   <div class="field">
     <%= f.label "Customer" %>
     <%= f.text_field :company_id, :readonly => true, :value => @customer.company %>
   </div>
+  <% end %>
   <div class="field">
     <%= f.label "Building" %><br>
       <%= f.collection_select :building_id, Building.order(:buildingname), :id, :buildingname, include_blank: false %>
   </div>
+
     <% else %>
     <%= f.label "Customer" %>
     <%= f.text_area :customer, :readonly => true, :value => current_user.customer  %>
