@@ -30,13 +30,13 @@
 
     .collapse-multi-select-icon{
       background: transparent image-url("icons/grid/collapse.gif") no-repeat;
-      position: fixed;
+      position: absolute;
       @include icon-dimensions;
     }
 
     .expand-multi-select-icon{
       background: transparent image-url("icons/grid/expand.gif") no-repeat;
-      position: fixed;
+      position: absolute;
       @include icon-dimensions;
       
     }
@@ -65,7 +65,7 @@
 
 
 
-  .submit.clickable{
+  /*.submit.clickable{
     background: transparent image-url("icons/grid/table_refresh.png") no-repeat;
     @include icon-dimensions;
    
@@ -76,7 +76,7 @@
     background: transparent image-url("icons/grid/table.png") no-repeat;
     @include icon-dimensions;
     
-  }
+  }*/
 
 
   .wg-show-filter.clickable,
@@ -168,7 +168,7 @@ input.wice-grid-save-query-field{
 /*//////////CUSTOM///////////*/
 .smallgrid input {
     
-    max-width: 50px;
+    max-width: auto;
   }
 
   .wice-grid-title-row {
