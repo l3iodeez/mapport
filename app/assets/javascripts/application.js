@@ -12,9 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require jquery-ui
+
 //= require wice_grid
 //= require jquery-ui/datepicker
+//= require jquery-ui/menu
 //= require_tree .
 
-$( ".selector" ).datepicker( "option", "yearRange", "1980:+0" );

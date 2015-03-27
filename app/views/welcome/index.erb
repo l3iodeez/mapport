@@ -1,29 +1,50 @@
 <h2>Welcome to the New York Environmental Data portal</h1>
 
 <% if !current_user.is_admin %>
-<%= puts @customer.company %>
+<h3>Currently administering reports and AHERA data for
+<%= @currcustomer.company %></h3>
 <% else %>
 <h3>
 'Admin mode enabled'</h3>
 <% end %>
 
+<div id="top-menu-container">
 
- 
-<ul style="width:100px;" id="menu">
-	<li>Item 1</li>
-	<li>Item 2</li>
-	<li>Item 3
-		<ul>
-			<li>Item 3-1</li>
-			<li>Item 3-2</li>
-			<li>Item 3-3</li>
-			<li>Item 3-4</li>
-			<li>Item 3-5</li>
-		</ul>
-	</li>
-	<li>Item 4</li>
-	<li>Item 5</li>
+ <% if current_user.is_admin %>
+<ul style="width:500px;" id="menu">
+	<li><%= link_to 'View/Download AHERA Data', ahera_index_path %></li>
+	<li><%= link_to 'View/Download Reports', reports_path %></li>
+		<% if false%>
+			 <% @customers.each do |customer| %>
+			     
+				<li><%= customer.company %>
+					<ul><% customer.buildings.each do |buidling| %>
+					<li style="width:300px;"><%= buidling.buildingname %></li>
+					<% end %>
+					</ul>
+				</li>
+				<% end %>
+	<% end %>
+
 </ul>
+
+<% else  %>
+<ul style="width: 500px;" id="menu">
+		<% if false%>
+			<% @curruser.customer.buildings.each do |buidling| %>
+			<li><%= buidling.buildingname %></li>
+			<% end %>
+		<% end %>
+		<li><%= link_to 'View/Download AHERA Data', ahera_index_path %></li>
+	<li><%= link_to 'View/Download Reports', reports_path %></li>
+
+</ul>
+
+<% end %>
+</div>
+
+
+
 
 <script>
 $( "#menu" ).menu();

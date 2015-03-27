@@ -112,8 +112,10 @@
   }
 
  tr.wg-filter-row  input[type=text] {
-    height: 20px;
+    height: 14px;
     width: auto;
+    font-size: 1em;
+
   }
 
   .pagination_status {
@@ -143,6 +145,7 @@ input.wice-grid-save-query-field{
   width: auto;
   display: inline-block;
   margin-right: 10px;
+
 }
 
 
@@ -164,10 +167,11 @@ input.wice-grid-save-query-field{
 
 /*//////////CUSTOM///////////*/
 .smallgrid input {
-    height: 20px;
-    max-width: 30px;
+    
+    max-width: 50px;
   }
 
   .wice-grid-title-row {
-  font-size: 0.8em;
+  font-size: .9em;
 }
+

@@ -1,8 +1,11 @@
 class WelcomeController < ApplicationController
 def index
 	
-	@user = current_user
-	@customer = @user.customer
+	@curruser = current_user
+	@currcustomer = current_user.customer
+	@customers = Customer.all
+	@buildings = Building.all
+
 	
 end
   
