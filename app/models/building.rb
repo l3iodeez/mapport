@@ -4,4 +4,6 @@ class Building < ActiveRecord::Base
   has_many :materials
   has_many :reports
 
+  validates_presence_of :customer_id
+
 end

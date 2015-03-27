@@ -37,6 +37,10 @@ def new
 end
 
 def edit
+  @building =  @report.building
+ @customer = @report.customer
+  
+
 end
 
 def create
@@ -53,6 +57,12 @@ def create
 end
 
 def update
+   
+    
+
+    @report.update(report_params)
+    @report = Report.find(params[:id])
+    @report.customer_id = @report.building.customer_id
     @report.update(report_params)
     respond_with(@report)
 end
@@ -88,6 +98,6 @@ private
  
 
     def report_params
-      params.require(:report).permit(:reportname, :description, :filename, :customer_id, :report_date, :pdf)
+      params.require(:report).permit(:reportname, :description, :filename, :customer_id, :report_date, :pdf, :building_id)
     end
 end

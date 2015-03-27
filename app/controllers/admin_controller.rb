@@ -1,7 +1,7 @@
 class AdminController < ApplicationController
   before_action :check_admin
     def user_params
-      params.require(:user).permit(:email, :password, :password_confirmation, :approved)
+      params.require(:user).permit(:email, :password, :password_confirmation, :approved, :customer_id, :is_admin)
     end
   
   def index
@@ -10,6 +10,15 @@ class AdminController < ApplicationController
 	else
       @users = User.all
     end
+  end
+
+    def show
+    respond_with(@user)
+  end
+
+  def new
+    @user = User.new
+    respond_with(@user)
   end
     
   def edit
@@ -43,6 +52,7 @@ class AdminController < ApplicationController
   end
   end
  
+
 
 
 end

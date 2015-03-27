@@ -27,17 +27,21 @@
   </div>
 <% if current_user.is_admin %>
   <div class="field">
-    <%= f.label "Customer" %><br>
-      <%= f.collection_select :customer_id, Customer.order(:company), :id, :company, include_blank: false %>
+    <%= f.label "Customer" %>
+    <%= f.text_field :company_id, :readonly => true, :value => @customer.company %>
+  </div>
+  <div class="field">
+    <%= f.label "Building" %><br>
+      <%= f.collection_select :building_id, Building.order(:buildingname), :id, :buildingname, include_blank: false %>
   </div>
     <% else %>
     <%= f.label "Customer" %>
-    <%= f.text_area :customer, :readonly => true, value => current_user.customer  %>
+    <%= f.text_area :customer, :readonly => true, :value => current_user.customer  %>
   <% end %>
 
   <div class="field">
     <%= f.label :report_date %><br>
-    <%= f.date_select :report_date %>
+    <%= f.date_field  :report_date, :class => "hasDatepicker",:id =>'datepicker' %>
   </div>
 
   <div class="actions">

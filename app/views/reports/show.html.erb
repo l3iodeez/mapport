@@ -14,7 +14,10 @@
   <strong>Filename:</strong>
   <%= @report.filename %>
 </p>
-
+<p>
+  <strong>Building:</strong>
+  <%= @report.building.buildingname %>
+</p>
 <p>
   <strong>Customer:</strong>
   <%= @report.customer.company %>
@@ -23,6 +26,10 @@
 <p>
   <strong>Report date:</strong>
   <%= @report.report_date %>
+</p>
+<p>
+  <strong>Download URL:</strong>
+  <%= @report.pdf %>
 </p>
 <h3>
 <% if current_user.is_admin %>

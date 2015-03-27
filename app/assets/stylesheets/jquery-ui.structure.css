@@ -336,7 +336,7 @@
 }
 .ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,
 .ui-datepicker-rtl .ui-datepicker-group {
-	float: right;
+	float: none;
 }
 .ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,
 .ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
@@ -364,6 +364,7 @@
 	min-height: 0; /* support: IE7 */
 	/* support: IE10, see #8844 */
 	list-style-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+	width: 300px;
 }
 .ui-menu .ui-menu-divider {
 	margin: 5px 0;
@@ -372,6 +373,8 @@
 	line-height: 0;
 	border-width: 1px 0 0 0;
 	padding-left: 3px;
+
+
 }
 .ui-menu .ui-state-focus,
 .ui-menu .ui-state-active {

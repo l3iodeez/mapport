@@ -4,6 +4,8 @@ belongs_to :building
 belongs_to :customer
 scope :customer, -> (customer) { where customer: customer}
 
+validates_presence_of :space_id, :building_id, :customer_id
+
 
 
 ACM_DICT = {1=> 'Sampled, ACM', 2 => 'Sampled, Non-ACM', 3 => 'Assumed ACM', 4 => 'Non-suspect material', 5 =>'No access'}

@@ -16,11 +16,9 @@
 ----------------------------------*/
 .ui-widget {
 	font-family: Lucida Grande,Lucida Sans,Arial,sans-serif;
-	font-size: 1.1em;
+	font-size: 1.4em;
 }
-.ui-widget .ui-widget {
-	font-size: 1em;
-}
+
 .ui-widget input,
 .ui-widget select,
 .ui-widget textarea,
@@ -43,9 +41,7 @@
 	font-weight: bold;
 }
 
-.ui-menu .ui-menu-item{
-	width: 150px;
-}
+
 .ui-widget-header a {
 	color: #222222;
 }
