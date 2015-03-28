@@ -3,7 +3,7 @@
 
 g.column name:  'Report', attribute: 'reportname', auto_reload: false
 g.column name:  'Description', attribute: 'description', auto_reload: false
-g.column name:  'Date', attribute: 'report_date', model: 'Report', auto_reload: false  do |report|
+g.column name:  'Date', attribute: 'report_date', model: 'Report', auto_reload: false, helper_style: :html5  do |report|
 report.report_date.to_formatted_s(:long)
 end
 

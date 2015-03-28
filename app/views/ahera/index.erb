@@ -1,21 +1,20 @@
-
-<h2> 
-
-<td><%= link_to 'View Reports', reports_path %></td>
-
-</h2>
-
-<div class="well">
+<div class="ahera-header">
+<h4>
 <% unless current_user.is_admin %>
-  <h4><%= 'Viewing inspection data for ' + @customer.company %> </h4>
+<%= 'Viewing inspection data for ' + @customer.company %> 
 <% else%>
-<h4><%= 'Viewing inspection data for all customers'%> </h4>
-<% end %>
-</div>
+<%= 'Viewing inspection data for all customers'%> 
+<% end %> | 
+<%= link_to 'View Reports', reports_path %>
+
+
     <div class="external-buttons-container">
       <button class="btn btn-primary wg-external-submit-button" data-grid-name="materials">Apply Filter</button>
       <button class="btn wg-external-reset-button" data-grid-name="materials">Reset Filter</button>
     </div>
+    </div>
+    </h4>
+
 
 <!--THIS IS THE TABLE-->
 <%= render partial:  'materials_grid' %>

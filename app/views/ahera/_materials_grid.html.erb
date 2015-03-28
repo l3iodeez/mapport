@@ -26,8 +26,9 @@
   g.column name:  'Removed?', attribute: 'removed', model: 'Material', custom_filter: {'Yes' => 'true','No' => 'false'}, auto_reload: false   do |material|
      material.removed.humanize
   end
-  g.column name:  '% Dmg', attribute: 'amtdamage', auto_reload: false, html: {class: 'smallgrid'}
-
+  g.column name:  '% Dmg', attribute: 'amtdamage', model: 'Material', auto_reload: false, html: {class: 'smallgrid'} do |material|
+    number_to_percentage(material.amtdamage, precision: 0)
+   end
 
   g.column name:  'Damage Type', attribute: 'typedamage', model: 'Material', 
    custom_filter: {'Localized' => 1, 'Distributed' => 2} , auto_reload: false do |material|

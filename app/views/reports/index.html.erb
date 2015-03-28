@@ -1,13 +1,12 @@
-<div class="well">
+<h4>
+<% unless current_user.is_admin %>
+<%= 'Viewing reports for ' + @customer.company %> 
+<% else%>
+<%= 'Viewing reports for all customers'%> 
+<% end %> | 
+<%= link_to 'View AHERA data', ahera_index_path %>
+</h4>
 
-  <h4> <%= link_to 'View AHERA Data', ahera_index_path %></h4>
-<% if current_user.is_admin %>
-<h4>Viewing reports for all customers </h4>
-<% else %>
-      <h4><%= 'Viewing available reports for ' + @customer.company.to_s %> </h4>
-
-      <% end %>
-</div>
 <%= render partial:  'grid' %>
 
 

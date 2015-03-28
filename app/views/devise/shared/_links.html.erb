@@ -1,4 +1,7 @@
-<h3><%- if controller_name != 'sessions' %>
+
+<h3>
+<% if false %>
+<%- if controller_name != 'sessions' %>
   <%= link_to "Log in", new_session_path(resource_name) %><br />
 <% end -%>
 
@@ -22,4 +25,6 @@
   <%- resource_class.omniauth_providers.each do |provider| %>
     <%= link_to "Sign in with #{provider.to_s.titleize}", omniauth_authorize_path(resource_name, provider) %><br />
   <% end -%>
-<% end -%></h3>
+<% end -%>
+<% end -%>
+</h3>

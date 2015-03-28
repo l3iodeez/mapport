@@ -33,7 +33,7 @@
  	font-family: Arial, sans-serif;
 	font-size: 1em;
 	padding-left: 10px;
-	color: #000;/*grey*/
+	color: #7d7d7d;/*grey*/
  }
  
 th {
@@ -46,7 +46,7 @@ th {
 
 
   a {
-  	font-size: 0.85em;
+  	font-size: 1em;
  	 color: #32689b;/*blue*/
  	 &:visited {
  	 	 color: #7d7d7d;/*grey*/
@@ -62,8 +62,8 @@ th {
 	position: absolute;
 	font-family: Arial, sans-serif;
 	margin: 10px;
-	height: auto;
-	width: auto;
+	min-height: 95%;
+	min-width: 95%;
 	
 
 	box-shadow: 2px 3px 4px 1px; /*grey*/
@@ -132,6 +132,7 @@ h4 {
 	font-size: 1em;
 	padding-left: 10px;
 	color: #32689b;/*blue*/
+	
 
 }
 
@@ -145,10 +146,6 @@ h4 {
 	color: #7d7d7d;/*grey*/
 }
 
-input {
-	font-family: Arial, sans-serif;
-	font-size: 1.2em;
-}
 
 
 /*////////////////////////TABLES////////////////////////*/
@@ -158,6 +155,7 @@ input {
   text-align: left;
   vertical-align: top;
   border-top: 1px solid #ddd;
+  color: #000;
 }
 
 

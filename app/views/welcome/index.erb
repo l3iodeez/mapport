@@ -14,17 +14,18 @@
 <ul style="width:500px;" id="menu">
 	<li><%= link_to 'View/Download AHERA Data', ahera_index_path %></li>
 	<li><%= link_to 'View/Download Reports', reports_path %></li>
-		<% if false%>
-			 <% @customers.each do |customer| %>
-			     
-				<li><%= customer.company %>
-					<ul><% customer.buildings.each do |buidling| %>
-					<li style="width:300px;"><%= buidling.buildingname %></li>
-					<% end %>
-					</ul>
-				</li>
-				<% end %>
-	<% end %>
+	<li><%= link_to 'Admin Panel', admin_index_path %></li>
+																			<% if false%>
+																				 <% @customers.each do |customer| %>
+																				     
+																					<li><%= customer.company %>
+																						<ul><% customer.buildings.each do |buidling| %>
+																						<li style="width:300px;"><%= buidling.buildingname %></li>
+																						<% end %>
+																						</ul>
+																					</li>
+																					<% end %>
+																		<% end %>
 
 </ul>
 

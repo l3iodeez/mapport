@@ -380,6 +380,9 @@
 .ui-menu .ui-state-active {
 	margin: -1px;
 }
+.ui-menu .ui-state-focus, .ui-menu .ui-state-active, .ui-menu .ui-menu-item{
+	margin-left: 5px;
+}
 
 /* icon support */
 .ui-menu-icons {
