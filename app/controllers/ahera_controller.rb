@@ -17,8 +17,8 @@ def index
       :name => 'materials',
       :per_page => 20,
       :enable_export_to_csv => true,
-      :csv_file_name => 'Survey Data'
-
+      :csv_file_name => 'Survey Data',
+      :custom_order => {'materials.amtdamage' => 'COALESCE(?, 0)'}
       )
   else
         @buildings = Building.all
@@ -31,7 +31,8 @@ def index
       :per_page => 20,
       :name => 'materials',
       :enable_export_to_csv => true,
-      :csv_file_name => 'Survey Data'
+      :csv_file_name => 'Survey Data',
+      :custom_order => {'materials.amtdamage' => 'COALESCE(?, 0)'}
       )
     end
 export_grid_if_requested
