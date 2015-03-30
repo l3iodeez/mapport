@@ -1,0 +1,34 @@
+<%= form_for(@user, :url => {:controller =>'admin', :action =>'update'}) do |f| %>
+  <% if @user.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+
+      <ul>
+      <% @user.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :email %><br>
+    <%= f.text_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :encrypted_password %><br>
+    <%= f.text_field :encrypted_password %>
+  </div>
+  <div class="field">
+  <%= f.label "Customer" %><br>
+      <%= f.collection_select :customer_id, Customer.order(:company), :id, :company, include_blank: false %>
+  </div>
+  <div class="field">
+    <%= f.label :is_admin %><br>
+    <%= f.text_field :is_admin %>
+  </div>
+    <div class="actions">
+    <%= f.submit %>
+  </div>
+  
+<% end %>

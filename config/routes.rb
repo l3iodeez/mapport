@@ -11,9 +11,10 @@ Rails.application.routes.draw do
 
   get 'admin/index'
 
-  devise_for :users
+  devise_for :users, :path_prefix => 'my'
   
   resources :admin
+  resources :users
 
 
     resources :ahera, only: [:index, :show]
@@ -28,10 +29,13 @@ Rails.application.routes.draw do
   resources :welcome, only: [:index, :show]
   
   get 'admin/:id/approve'=> 'admin#approve_user', as: 'approve_user'
-  get 'admin' => 'admin#index'
+  #get 'admin' => 'admin#index'
 
   get '/reports/download/:id' => 'reports#download', as: 'reports_download'
-  
+  get '/admin/:id' => 'users#show', as: 'users_show'
+  get '/admin/new' => 'users#new', as: 'users_new'
+  post '/admin/new' => 'admin#new', as: 'users_new_create'
+   
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

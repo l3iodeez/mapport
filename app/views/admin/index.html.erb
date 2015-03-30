@@ -19,7 +19,14 @@
      <%= link_to "De-approve", approve_user_path(user.id)  %>
      <% end %>
       </td>
+         
+        
+       <td><%= link_to 'Show', users_show_path(user) %></td>
+        <td><%= link_to 'Edit', edit_admin_path(user) %></td>
+        <td><%= link_to 'Destroy', users_show_path(user), method: :delete, data: { confirm: 'Are you sure?' } %></td>
       <td>
     </tr>
   <% end %>
-</table></h3>
+</table>
+<%= link_to 'New User', users_new_path %>
+</h3>

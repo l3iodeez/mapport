@@ -1,6 +1,8 @@
 class AheraController < ApplicationController
 def index
 
+  params[:amtdamage] = params[:amtdamage]
+
     @customer = current_user.customer
      @ownedbuildings = Hash.new()
 
