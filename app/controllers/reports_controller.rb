@@ -1,5 +1,5 @@
 class ReportsController < ApplicationController
-  before_action  :set_report, only: [:show, :edit, :update, :destroy, :download, :check_ownership]
+  before_action  :set_report, only: [:show, :edit, :update, :destroy, :download, :check_ownership], :check_changed_pass
 before_filter :check_ownership, only: [:show, :edit, :update, :destroy, :download]
 before_filter :check_admin, only: [:create, :edit, :update, :destroy, :download]
   respond_to :html

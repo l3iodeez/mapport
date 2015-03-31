@@ -7,9 +7,16 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable,
          :confirmable
-
+after_commit :update_pass_change
+after_create :dump_pass_globalvar
+def update_pass_change
+  self.pass_changed = true
+  self.save
+end
         
-
+def dump_pass_globalvar
+  $calc_pass = nil
+end
    
          
   #after_create :send_admin_mail      

@@ -1,6 +1,8 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
-
+ config.action_mailer.default_url_options = {host:'http://nyeaportal-test.herokuapp.com',port:80}
+  
+  Rails.application.routes.default_url_options[:host] = 'http://nyeaportal-test.herokuapp.com'
   # The test environment is used exclusively to run your application's
   # test suite. You never need to work with it otherwise. Remember that
   # your test database is "scratch space" for the test suite and is wiped

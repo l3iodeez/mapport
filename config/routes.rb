@@ -14,7 +14,7 @@ Rails.application.routes.draw do
   devise_for :users, :path_prefix => 'my'
   
   resources :admin
-  resources :users
+  
 
 
     resources :ahera, only: [:index, :show]
@@ -32,9 +32,16 @@ Rails.application.routes.draw do
   #get 'admin' => 'admin#index'
 
   get '/reports/download/:id' => 'reports#download', as: 'reports_download'
-  get '/admin/:id' => 'users#show', as: 'users_show'
-  get '/admin/new' => 'users#new', as: 'users_new'
-  post '/admin/new' => 'admin#new', as: 'users_new_create'
+  
+
+  get '/admin' => 'admin#index', as: 'users'
+  post  '/admin/new' => 'admin#create'
+  get '/admin/new' => 'admin#new', as: 'new_user'
+  get '/admin/:id/edit' => 'admin#edit', as: 'edit_user'
+  get '/admin/:id' => 'admin#show', as: 'user'
+  patch '/admin/:id' => 'admin#update'
+  put '/admin/:id' => 'admin#update'
+  delete '/admin/:id' => 'admin#destroy'
    
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

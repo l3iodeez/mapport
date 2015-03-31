@@ -1,4 +1,4 @@
-<%= form_for(@user, :url => {:controller =>'admin', :action =>'new'}) do |f| %>
+<%= form_for(@user, :url => {:controller =>'admin', :action =>'create'}) do |f| %>
   <% if @user.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
@@ -10,14 +10,22 @@
       </ul>
     </div>
   <% end %>
-
+<% $calc_pass = Devise.friendly_token.first(8) %>
   <div class="field">
     <%= f.label :email %><br>
     <%= f.text_field :email %>
   </div>
   <div class="field">
-    <%= f.label :encrypted_password %><br>
-    <%= f.text_field :encrypted_password %>
+    <%= f.label :password %>
+    <% if @validatable %>
+    <em>(<%= @minimum_password_length %> characters minimum)</em>
+    <% end %><br />
+    <%= f.text_field :password, autocomplete: "off", readonly: 'true', value:$calc_pass %>
+  </div>
+
+  <div class="field">
+    <%= f.label :password_confirmation %><br />
+    <%= f.text_field :password_confirmation, autocomplete: "off", readonly: 'true', value:$calc_pass %>
   </div>
   <div class="field">
   <%= f.label "Customer" %><br>

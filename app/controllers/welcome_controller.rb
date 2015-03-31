@@ -1,4 +1,6 @@
 class WelcomeController < ApplicationController
+	before_action :check_changed_pass
+	
 def index
 	
 	@curruser = current_user

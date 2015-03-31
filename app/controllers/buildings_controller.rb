@@ -1,6 +1,6 @@
 class BuildingsController < ApplicationController
   before_action :set_building, only: [:show, :edit, :update, :destroy]
-  before_action :check_admin
+  before_action :check_admin, :check_changed_pass
 
   respond_to :html
 
