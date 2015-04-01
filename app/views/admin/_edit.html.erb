@@ -16,8 +16,16 @@
     <%= f.text_field :email %>
   </div>
   <div class="field">
-    <%= f.label :encrypted_password %><br>
-    <%= f.text_field :encrypted_password %>
+    <%= f.label :password %>
+    <% if @validatable %>
+    <em>(<%= @minimum_password_length %> characters minimum)</em>
+    <% end %><br />
+    <%= f.text_field :password, autocomplete: "off", readonly: 'true', value: $calc_pass %> 
+  </div>
+
+  <div class="field">
+    <%= f.label :password_confirmation %><br />
+    <%= f.text_field :password_confirmation, autocomplete: "off", readonly: 'true', value: $calc_pass %>
   </div>
   <div class="field">
   <%= f.label "Customer" %><br>

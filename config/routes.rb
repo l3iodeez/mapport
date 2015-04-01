@@ -1,39 +1,19 @@
 Rails.application.routes.draw do
+
+
   resources :buildings
-
   resources :spaces
-
   resources :materials
-
   resources :reports
-
   resources :customers
-
-  get 'admin/index'
-
   devise_for :users, :path_prefix => 'portal'
-  
   resources :admin
-  
-
-
-    resources :ahera, only: [:index, :show]
-
-  # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
-
-  # You can have the root of your site routed with "root"
-
+  resources :ahera, only: [:index, :show]
   root 'welcome#index'
- 
   resources :welcome, only: [:index, :show]
-  
+  get 'admin/index'
   get 'admin/:id/approve'=> 'admin#approve_user', as: 'approve_user'
-  #get 'admin' => 'admin#index'
-
   get '/reports/download/:id' => 'reports#download', as: 'reports_download'
-  
-
   get '/admin' => 'admin#index', as: 'users'
   post  '/admin/new' => 'admin#create'
   get '/admin/new' => 'admin#new', as: 'new_user'
@@ -42,7 +22,12 @@ Rails.application.routes.draw do
   patch '/admin/:id' => 'admin#update'
   put '/admin/:id' => 'admin#update'
   delete '/admin/:id' => 'admin#destroy'
-   
+  # The priority is based upon order of creation: first created -> highest priority.
+  # See how all your routes lay out with "rake routes".
+
+  # You can have the root of your site routed with "root"
+  # root 'welcome#index'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

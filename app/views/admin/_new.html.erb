@@ -20,20 +20,20 @@
     <% if @validatable %>
     <em>(<%= @minimum_password_length %> characters minimum)</em>
     <% end %><br />
-    <%= f.text_field :password, autocomplete: "off", readonly: 'true', value:$calc_pass %>
+    <%= f.text_field :password, autocomplete: "off", readonly: 'true', value: $calc_pass %> 
   </div>
 
   <div class="field">
     <%= f.label :password_confirmation %><br />
-    <%= f.text_field :password_confirmation, autocomplete: "off", readonly: 'true', value:$calc_pass %>
+    <%= f.text_field :password_confirmation, autocomplete: "off", readonly: 'true', value: $calc_pass %>
   </div>
   <div class="field">
   <%= f.label "Customer" %><br>
       <%= f.collection_select :customer_id, Customer.order(:company), :id, :company, include_blank: false %>
   </div>
   <div class="field">
-    <%= f.label :is_admin %><br>
-    <%= f.text_field :is_admin %>
+    <%= f.label "User is an admin"%><br>
+    <%= f.check_box :is_admin %>
   </div>
     <div class="actions">
     <%= f.submit %>

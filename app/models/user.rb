@@ -7,13 +7,21 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable,
          :confirmable
-after_commit :update_pass_change
-after_create :dump_pass_globalvar
 
-def update_pass_change
-  self.pass_changed = true
-  self.save
+after_create :dump_pass_globalvar
+before_save :update_pass_change
+
+
+def update_pass_change # records that  the user has changed their password
+  
+  while $user.pass_changed != $user.created_at
+  $user.pass_changed = Time.now
+  $user.save
+  end
+ # redirect_to 'root_path', alert: 'Password changed'
+  
 end
+
         
 def dump_pass_globalvar
   $calc_pass = nil

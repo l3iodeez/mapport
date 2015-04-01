@@ -1,8 +1,10 @@
 class AdminController < RestrictedController
     respond_to :html
 
+
+
     def user_params
-      params.require(:user).permit(:email, :password, :password_confirmation, :approved, :customer_id, :is_admin)
+      params.require(:user).permit(:email, :password, :password_confirmation, :approved, :customer_id, :is_admin, :pass_changed)
     end
   
   def index
@@ -39,9 +41,15 @@ class AdminController < RestrictedController
   redirect_to admin_index_path
   end  
 def destroy
+
   @user = User.find_by_id(params[:id])
+  if @user.email != current_user.email
     @user.destroy
-    redirect_to admin_index_path
+    redirect_to admin_index_path, alert: '' + @user.email + ' has been sucessfully removed'
+    else
+     redirect_to admin_index_path, alert: 'You cannot delete yourself. ' + @user.email + ' To delete this account, log in as another admin and try again.'
+  end
+  
   end
   
   def approve_user

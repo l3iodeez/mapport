@@ -1,8 +1,9 @@
 class ReportsController < InternalController
   before_action  :set_report, only: [:show, :edit, :update, :destroy, :download, :check_ownership]
 before_filter :check_ownership, only: [:show, :edit, :update, :destroy, :download]
-before_filter :check_admin, only: [:create, :edit, :update, :destroy, :download]
+before_filter :check_admin, only: [:create, :edit, :update, :destroy]
   respond_to :html
+
 
 
 def index
@@ -14,7 +15,7 @@ def index
        
      @reports_grid = initialize_grid(cust_reports,
       :include => [:customer, :building],
-      :conditions => {:customer => @customer},
+      #:conditions => {:customer => @customer},
       :per_page => 10
       )
     else

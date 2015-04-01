@@ -8,15 +8,15 @@ def index
      @ownedbuildings = Hash.new()
 
     if !current_user.is_admin
-     cust_mats = current_user.customer.materials
+     @cust_mats = current_user.customer.materials
   
       current_user.customer.buildings.each do |building|
       @ownedbuildings[building.buildingname] = building.buildingname
       end
 
-     @materials_grid = initialize_grid(cust_mats,
+     @materials_grid = initialize_grid(@cust_mats,
       :include => [:space, :customer, :building],
-      :conditions => {:customer => @customer},
+     #:conditions => {:customer => @customer},
       :name => 'materials',
       :per_page => 20,
       :enable_export_to_csv => true,
