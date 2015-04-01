@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'cowsay'
 # Bundle ede Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.8'
+gem 'rails', '4.2.0'
 # Use postgresql as the database for Active Record
 gem 'pg'
 gem 'rails_12factor', group: :production
@@ -46,4 +46,4 @@ gem 'humanize_boolean'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-ruby '2.1.2'
+ruby '2.2.0'

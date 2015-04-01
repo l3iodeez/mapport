@@ -11,7 +11,7 @@ Rails.application.routes.draw do
 
   get 'admin/index'
 
-  devise_for :users, :path_prefix => 'my'
+  devise_for :users, :path_prefix => 'portal'
   
   resources :admin
   

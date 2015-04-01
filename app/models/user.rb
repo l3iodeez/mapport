@@ -9,6 +9,7 @@ class User < ActiveRecord::Base
          :confirmable
 after_commit :update_pass_change
 after_create :dump_pass_globalvar
+
 def update_pass_change
   self.pass_changed = true
   self.save
