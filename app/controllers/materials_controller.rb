@@ -1,6 +1,6 @@
-class MaterialsController < ApplicationController
+class MaterialsController < RestrictedController
   before_action :set_material, only: [:show, :edit, :update, :destroy]
-  before_action :check_admin, :check_changed_pass
+  
 
   respond_to :html
 

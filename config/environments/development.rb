@@ -37,15 +37,16 @@ Rails.application.configure do
   # config.action_view.raise_on_missing_translations = true
 
   config.action_mailer.default_url_options = { :host => 'localhost:5000' }
-   
-  config.action_mailer.smtp_settings = {
-	address: 'smtp.office365.com',
-	port: 587,
-	domain: ENV['365_DOMAIN'],
-	authentication: 'plain',
-	enable_starttls_auto: true,
-	user_name: ENV['365_USERNAME'],
-	password: ENV['365_PASSWORD']
-	}
+     config.action_mailer.smtp_settings = {
+  address: 'smtp.gmail.com',
+  port: 587,
+  domain: ENV['GMAIL_DOMAIN'],
+  authentication: 'plain',
+  enable_starttls_auto: true,
+  user_name: ENV['GMAIL_USERNAME'],
+  password: ENV['GMAIL_PASSWORD']
+  }
+    
+
 	  
 end

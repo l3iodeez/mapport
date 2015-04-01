@@ -1,6 +1,5 @@
-class AdminController < ApplicationController
-  before_action :check_admin, :check_changed_pass
-  respond_to :html
+class AdminController < RestrictedController
+    respond_to :html
 
     def user_params
       params.require(:user).permit(:email, :password, :password_confirmation, :approved, :customer_id, :is_admin)

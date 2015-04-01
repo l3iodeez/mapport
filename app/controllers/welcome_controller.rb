@@ -1,4 +1,4 @@
-class WelcomeController < ApplicationController
+class WelcomeController < InternalController
 	before_action :check_changed_pass
 	
 def index

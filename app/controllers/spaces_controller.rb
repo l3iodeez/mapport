@@ -1,4 +1,4 @@
-class SpacesController < ApplicationController
+class InternalController < ApplicationController
   before_action :set_space, only: [:show, :edit, :update, :destroy], :check_changed_pass
   before_action :check_admin
 

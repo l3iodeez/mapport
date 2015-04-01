@@ -1,4 +1,4 @@
-class BuildingsController < ApplicationController
+class BuildingsController < RestrictedController
   before_action :set_building, only: [:show, :edit, :update, :destroy]
   before_action :check_admin, :check_changed_pass
 

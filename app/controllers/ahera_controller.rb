@@ -1,5 +1,5 @@
-class AheraController < ApplicationController
-  before_action :check_changed_pass
+class AheraController < InternalController
+
 def index
 
   params[:amtdamage] = params[:amtdamage]
