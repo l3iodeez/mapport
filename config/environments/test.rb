@@ -30,7 +30,7 @@ Rails.application.configure do
   # The :test delivery method accumulates sent emails in the
   # ActionMailer::Base.deliveries array.
   #config.action_mailer.delivery_method = :test
-
+  config.action_mailer.default_url_options = { :host => "nyeaportal-test.herokuapp.com" }
   config.action_mailer.smtp_settings = {
   address: 'smtp.office365.com',
   port: 587,
