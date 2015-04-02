@@ -1,7 +1,7 @@
 class Devise::RegistrationsController < DeviseController
  # prepend_before_filter :require_no_authentication, only: [ :cancel]
   prepend_before_filter :authenticate_scope!, only: [:edit, :update, :destroy]
- # after_database_authentication :check_changed_pass
+ 
 
 
 

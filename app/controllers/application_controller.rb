@@ -3,9 +3,21 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   add_flash_types :error, :failure
   protect_from_forgery with: :exception
-  before_action :authenticate_user!, :set_g_user
+  before_filter :set_g_user
+  before_action :authenticate_user!
  
 
+
+
+def update_pass_change # records that  the user has changed their password
+  
+  unless current_user.pass_changed != current_user.created_at
+  current_user.pass_changed = Time.now
+ # current_user.save
+  end
+ # redirect_to 'root_path', alert: 'Password changed'
+  
+end
 
 
     def check_changed_pass
@@ -30,7 +42,7 @@ class ApplicationController < ActionController::Base
     end
 
 def set_g_user
-  $user = current_user
+  current_user = User.find_by_email(params[:email])
 end
   
 end
