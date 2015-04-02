@@ -39,4 +39,13 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+      config.action_mailer.smtp_settings = {
+  address: 'smtp.office365.com',
+  port: 587,
+  domain: ENV['365_DOMAIN'],
+  authentication: 'plain',
+  enable_starttls_auto: true,
+  user_name: ENV['365_USERNAME'],
+  password: ENV['365_PASSWORD']
+  }.
 end
