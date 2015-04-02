@@ -25,13 +25,13 @@
   <%= f.label "Select a file to upload. Matching filenames will be overwritten."%><br>
     <%= f.file_field :pdf %>
   </div>
-<% if current_user.is_admin %>
-<%if !@report.new_record?%>
-  <div class="field">
-    <%= f.label "Customer" %>
-    <%= f.text_field :company_id, :readonly => true, :value => @customer.company %>
-  </div>
-  <% end %>
+  <% if current_user.is_admin %>
+      
+        <div class="field">
+          <%= f.label "Customer" %><br>
+          <%= f.collection_select :customer_id, Customer.order(:company), :id, :company, include_blank: false  %>
+        </div>
+  
   <div class="field">
     <%= f.label "Building" %><br>
       <%= f.collection_select :building_id, Building.order(:buildingname), :id, :buildingname, include_blank: false %>
