@@ -87,15 +87,5 @@ Rails.application.configure do
   password: ENV['GMAIL_PASSWORD']
   }
   
-  if false
-      config.action_mailer.smtp_settings = {
-    address: 'smtp.office365.com',
-    port: 587,
-    domain: ENV['365_DOMAIN'],
-    authentication: 'plain',
-    enable_starttls_auto: true,
-    user_name: ENV['365_USERNAME'],
-    password: ENV['365_PASSWORD']
-    }.
-  end
+
 end
