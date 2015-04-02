@@ -6,9 +6,6 @@ class ApplicationController < ActionController::Base
   before_filter :set_g_user
   before_action :authenticate_user!
  
-
-
-
 def update_pass_change # records that  the user has changed their password
   
   unless current_user.pass_changed != current_user.created_at

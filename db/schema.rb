@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150402145508) do
+ActiveRecord::Schema.define(version: 20150402181422) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -116,6 +116,7 @@ ActiveRecord::Schema.define(version: 20150402145508) do
     t.integer  "customer_id"
     t.boolean  "is_admin",                                         default: false
     t.datetime "pass_changed",                                     default: '2015-04-02 15:01:34'
+    t.string   "temp_pass"
   end
 
   add_index "users", ["approved"], name: "index_users_on_approved", using: :btree

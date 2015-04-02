@@ -10,7 +10,8 @@
       </ul>
     </div>
   <% end %>
-<% $calc_pass = Devise.friendly_token.first(8) %>
+<% @user.temp_pass = Devise.friendly_token.first(8) %>
+<% @user.save%>
   <div class="field">
     <%= f.label :email %><br>
     <%= f.text_field :email %>
@@ -20,12 +21,16 @@
     <% if @validatable %>
     <em>(<%= @minimum_password_length %> characters minimum)</em>
     <% end %><br />
-    <%= f.text_field :password, autocomplete: "off", readonly: 'true', value: $calc_pass %> 
+    <%= f.text_field :password, autocomplete: "off", readonly: 'true', value: @user.temp_pass %> 
+  </div>
+  <div class="field" id='invis'>
+    <%= f.label :temp_pass %>
+    <%= f.text_field :temp_pass, autocomplete: "off", readonly: 'true', value: @user.temp_pass %> 
   </div>
 
   <div class="field">
     <%= f.label :password_confirmation %><br />
-    <%= f.text_field :password_confirmation, autocomplete: "off", readonly: 'true', value: $calc_pass %>
+    <%= f.text_field :password_confirmation, autocomplete: "off", readonly: 'true', value: @user.temp_pass %>
   </div>
   <div class="field">
   <%= f.label "Customer" %><br>

@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+      
   belongs_to :customer
   #has_many :reports, through: :customer
   

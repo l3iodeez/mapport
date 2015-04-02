@@ -1,7 +1,11 @@
-<p>Welcome <%= @email %>!</p>
+<p>Welcome <%= @resource.email %>! <%= @resource.is_admin %></p>
 
-<p>Your temporary password is:<%= $calc_pass%> </p>
+<p>An account has been established for you on the New York Environmental Data Portal.</p>
+
+<p>Your temporary password is: <%= @resource.temp_pass %> </p>
 
 <p>You can confirm your account email through the link below. When you login you will be prompted to change your password.</p>
 
 <p><%= link_to 'Confirm my account', confirmation_url(@resource, confirmation_token: @token) %></p>
+
+<p>If you encounter any problems please contact support@nyenvironmental.com</p>

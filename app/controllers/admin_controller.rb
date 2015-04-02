@@ -4,7 +4,7 @@ class AdminController < RestrictedController
 
 
     def user_params
-      params.require(:user).permit(:email, :password, :password_confirmation, :approved, :customer_id, :is_admin, :pass_changed)
+      params.require(:user).permit(:email, :password, :password_confirmation, :approved, :customer_id, :is_admin, :pass_changed, :temp_pass)
     end
   
   def index
