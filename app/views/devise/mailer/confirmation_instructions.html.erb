@@ -1,6 +1,9 @@
-<p>Welcome <%= @resource.email %>! <%= @resource.is_admin %></p>
+<p>Welcome <%= @resource.email %>! </p>
 
 <p>An account has been established for you on the New York Environmental Data Portal.</p>
+
+<% if @resource.is_admin %>
+<% end %>
 
 <p>Your temporary password is: <%= @resource.temp_pass %> </p>
 
