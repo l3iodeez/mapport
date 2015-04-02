@@ -82,7 +82,7 @@ Rails.application.configure do
   address: 'smtp.office365.com',
   port: 587,
   domain: ENV['365_DOMAIN'],
-  authentication: 'plain',
+  authentication: 'login',
   enable_starttls_auto: true,
   user_name: ENV['365_USERNAME'],
   password: ENV['365_PASSWORD']
