@@ -30,15 +30,15 @@ Rails.application.configure do
   # The :test delivery method accumulates sent emails in the
   # ActionMailer::Base.deliveries array.
   #config.action_mailer.delivery_method = :test
-  
+
   config.action_mailer.smtp_settings = {
-  address: 'smtp.gmail.com',
+  address: 'smtp.office365.com',
   port: 587,
-  domain: ENV['GMAIL_DOMAIN'],
+  domain: ENV['365_DOMAIN'],
   authentication: 'plain',
   enable_starttls_auto: true,
-  user_name: ENV['GMAIL_USERNAME'],
-  password: ENV['GMAIL_PASSWORD']
+  user_name: ENV['365_USERNAME'],
+  password: ENV['365_PASSWORD']
   }
 
   # Randomize the order test cases are executed.
