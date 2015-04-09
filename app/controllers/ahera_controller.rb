@@ -1,8 +1,16 @@
 class AheraController < InternalController
+  before_filter :fix_percentage
+
+
+  def fix_percentage
+   if false
+    params[:eq] = params[:eq].downcase
+end
+  end
 
 def index
 
-  params[:amtdamage] = params[:amtdamage]
+  
 
     @customer = current_user.customer
      @ownedbuildings = Hash.new()
@@ -41,6 +49,7 @@ def index
 export_grid_if_requested
    end
 
+ 
 
    
 end

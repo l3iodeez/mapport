@@ -6,15 +6,7 @@ class ApplicationController < ActionController::Base
   before_filter :set_g_user
   before_action :authenticate_user!
  
-def update_pass_change # records that  the user has changed their password
-  
-  unless current_user.pass_changed != current_user.created_at
-  current_user.pass_changed = Time.now
- # current_user.save
-  end
- # redirect_to 'root_path', alert: 'Password changed'
-  
-end
+
 
 
     def check_changed_pass
@@ -24,6 +16,7 @@ end
       if @user.pass_changed == @user.created_at #make sure user has changed their password before accessing internal pages
 	      redirect_to edit_user_registration_path,
 	      alert: "You must change your password before logging in for the first time"
+
 	    end
    	end
 

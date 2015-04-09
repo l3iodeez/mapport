@@ -9,14 +9,10 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable,
          :confirmable
 
-after_create :dump_pass_globalvar
+
+   before_save :update_password_changed
 
 
-        
-def dump_pass_globalvar
-  $calc_pass = nil
-end
-   
          
   #after_create :send_admin_mail      
   
@@ -36,5 +32,11 @@ end
   def send_admin_mail
   #  AdminMailer.new_user_waiting_for_approval(self).deliver
   end
-  
+
+  private
+   def update_password_changed
+    self.pass_changed = Time.now if changed.include? 'encrypted_password'
+    
+
+  end
 end
