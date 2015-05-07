@@ -38,6 +38,10 @@ gem 'carrierwave'
 
 gem 'wice_grid'
 gem 'humanize_boolean'
+gem 'geocoder'
+gem 'gmaps4rails'
+gem 'underscore-rails'
+
 
 
 # Use Capistrano for deployment

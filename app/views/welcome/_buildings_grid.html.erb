@@ -1,0 +1,17 @@
+<%= grid(@buildings_grid, show_filters: :never) do |g|
+
+
+
+
+  g.column name:  'Facility Name', attribute: 'buildingname', auto_reload: false
+  g.column name:  'Address', attribute: 'street_address', auto_reload: false 
+  g.column name:  'City', attribute: 'locality', auto_reload: false 
+  g.column name:  'State', attribute: 'region', html: {class: 'smallgrid'}, auto_reload: false 
+  g.column name:  'Zip', attribute: 'postcode', html: {class: 'smallgrid'}, auto_reload: false 
+  g.column name:  'Owner', attribute: 'company', model: 'Customer', auto_reload: false do |building|
+      building.customer.company if building.customer_id
+  end  
+ 
+
+
+end -%>

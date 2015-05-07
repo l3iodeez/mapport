@@ -1,24 +1,28 @@
 
-<% if !current_user.is_admin %>
-<h3>Currently viewing reports and AHERA data for
-<%= @currcustomer.company %></h3>
-<% else %>
-<h3>Currently administering reports and AHERA data for all customers</h3>
-<% end %>
-<div id="top-menu-container">
- <% if current_user.is_admin %>
-<ul style="width:500px;" id="menu">
-	<li><%= link_to 'View/Download AHERA Data', ahera_index_path %></li>
-	<li><%= link_to 'View/Download Reports', reports_path %></li>
-	<li><%= link_to 'Admin Panel', admin_index_path %></li>
-</ul>
-<% else  %>
-<ul style="width: 300px;" id="menu">
-		<li><%= link_to 'View/Download AHERA Data', ahera_index_path %></li>
-	<li><%= link_to 'View/Download Reports', reports_path %></li>
-</ul>
-<% end %>
+
+<div id='bodybag'>
+<div id='map-container' class='element-box'>
+  <div id="building-map" style='height: 400px;'></div>
 </div>
-<script>
-$( "#menu" ).menu();
-</script>
+<div id='building-grid-container' class='element-box'>
+  <div style='height: 400px;'><%= render partial:  'buildings_grid' %></div>
+</div>
+</div>
+<script type="text/javascript">
+handler = Gmaps.build('Google');
+handler.buildMap({ provider: {}, internal: {id: 'building-map'}}, function(){
+  markers = handler.addMarkers([
+    {
+      "lat": 40.8412091,
+      "lng": -73.6956874,
+      "picture": {
+        
+        "width":  36,
+        "height": 36
+      },
+      "infowindow": "NYE Office!"
+    }
+  ]);
+  handler.bounds.extendWith(markers);
+  handler.fitMapToBounds();
+});</script>

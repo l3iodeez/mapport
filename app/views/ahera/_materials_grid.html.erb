@@ -14,7 +14,7 @@
   end 
 
   g.column name:  'Homogeneous Area', attribute: 'hanum', auto_reload: false
-  g.column name:  'Color', html: {class: 'smallgrid'}, attribute: 'color', auto_reload: false 
+  g.column name:  'Color', attribute: 'color', auto_reload: false,  html: {class: 'smallgrid'}
   g.column name:  'Material Observed', attribute: 'materialtype', auto_reload: false 
   g.column name: 'ACM?', attribute: 'acm_category', model: 'Material',
            custom_filter: {'Sampled, ACM' => 1,'Sampled, Non-ACM' => 2,'Assumed ACM' => 3,'Non-suspect material' => 4,'No access' => 5}, 

@@ -16,7 +16,7 @@
 ----------------------------------*/
 .ui-widget {
 	font-family: Lucida Grande,Lucida Sans,Arial,sans-serif;
-	font-size: 1.4em;
+	font-size: .8em;
 }
 
 .ui-widget input,
@@ -51,6 +51,7 @@
 .ui-state-default,
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
+
 	border: 1px solid #aed0ea;
 	background: #d7ebf9 url("ui-bg_glass_80_d7ebf9_1x400.png") 50% 50% repeat-x;
 	font-weight: bold;
@@ -59,6 +60,7 @@
 .ui-state-default a,
 .ui-state-default a:link,
 .ui-state-default a:visited {
+
 	color: #2779aa;
 	text-decoration: none;
 }
@@ -68,7 +70,8 @@
 .ui-state-focus,
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
-	border: 0px solid #74b2e2;
+	margin-right: -6px;
+	
 	text-decoration: underline;
 	font-weight: bold;
 	color: #0070a3;

@@ -16,5 +16,9 @@
 //= require wice_grid
 //= require jquery-ui/datepicker
 //= require jquery-ui/menu
+
+//= require underscore
+//= require gmaps/google
+
 //= require_tree .
 
