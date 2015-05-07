@@ -7,6 +7,7 @@ class BuildingsController < RestrictedController
   def index
     @buildings = Building.all
     respond_with(@buildings)
+    
   end
 
   def show
@@ -43,6 +44,6 @@ class BuildingsController < RestrictedController
     end
 
     def building_params
-      params.require(:building).permit(:buildingname, :buildingid, :street_address, :locality, :region, :postcode, :customer_id)
+      params.require(:building).permit(:buildingname, :buildingid, :street_address, :locality, :region, :postcode, :customer_id, :longitude, :latitude)
     end
 end

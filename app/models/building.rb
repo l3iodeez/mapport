@@ -6,4 +6,7 @@ class Building < ActiveRecord::Base
 
   validates_presence_of :customer_id
 
+  geocoded_by :address + " " + :locality + ", " + :region + " " + :postcode    # can also be an IP address
+  after_validation :geocode, if: ->(obj){ obj.address.present? and obj.address_changed? }
+
 end
