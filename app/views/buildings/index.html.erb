@@ -25,9 +25,10 @@
         <td><%= building.locality %></td>
         <td><%= building.region %></td>
         <td><%= building.postcode %></td>
+        <td><%= building.customer.company %></td>
         <td><%= building.longitude %></td>
         <td><%= building.latitude %></td>
-        <td><%= building.customer.company %></td>
+        
         <td><%= link_to 'Show', building %></td>
         <td><%= link_to 'Edit', edit_building_path(building) %></td>
         <td><%= link_to 'Destroy', building, method: :delete, data: { confirm: 'Are you sure?' } %></td>

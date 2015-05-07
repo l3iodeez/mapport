@@ -34,6 +34,14 @@
   <strong>Customer:</strong>
   <%= @building.customer %>
 </p>
+<p>
+  <strong>Longitude:</strong>
+  <%= @building.longitude %>
+</p>
+<p>
+  <strong>Latitude:</strong>
+  <%= @building.latitude %>
+</p>
 
 <%= link_to 'Edit', edit_building_path(@building) %> |
 <%= link_to 'Back', buildings_path %>

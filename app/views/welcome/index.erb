@@ -8,21 +8,11 @@
   <div style='height: 400px;'><%= render partial:  'buildings_grid' %></div>
 </div>
 </div>
+
 <script type="text/javascript">
 handler = Gmaps.build('Google');
 handler.buildMap({ provider: {}, internal: {id: 'building-map'}}, function(){
-  markers = handler.addMarkers([
-    {
-      "lat": 40.8412091,
-      "lng": -73.6956874,
-      "picture": {
-        
-        "width":  36,
-        "height": 36
-      },
-      "infowindow": "NYE Office!"
-    }
-  ]);
+ markers = handler.addMarkers(<%=raw @hash.to_json %>);
   handler.bounds.extendWith(markers);
   handler.fitMapToBounds();
 });</script>
