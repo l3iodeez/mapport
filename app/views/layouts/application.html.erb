@@ -67,24 +67,28 @@
       <% end %>
 
  <% debug @user %>
- <div id="top-menu-container">
+ 
+ <% if current_user %> 
+<div id="top-menu-container">
  <% if current_user.is_admin %>
-<ul  id="menu">
-  <li><%= link_to 'Home', welcome_index_path %></li>
-  <li><%= link_to 'Asbestos', ahera_index_path %></li>
-  <li><%= link_to 'Reports', reports_path %></li>
-  <li><%= link_to 'Admin', admin_index_path %></li>
+  <ul  id="menu">
+    <li><%= link_to 'Home', welcome_index_path %></li>
+    <li><%= link_to 'Asbestos', ahera_index_path %></li>
+    <li><%= link_to 'Reports', reports_path %></li>
+    <li><%= link_to 'Admin', admin_index_path %></li>
 
 
-</ul>
-<% else  %>
-<ul  id="menu">
-  <li><%= link_to 'Home', welcome_index_path %></li>
-  <li><%= link_to 'Asbestos', ahera_index_path %></li>
-  <li><%= link_to 'Reports', reports_path %></li>
-</ul>
+  </ul>
+  <% else  %>
+  <ul  id="menu">
+    <li><%= link_to 'Home', welcome_index_path %></li>
+    <li><%= link_to 'Asbestos', ahera_index_path %></li>
+    <li><%= link_to 'Reports', reports_path %></li>
+  </ul>
+  <% end %>
+  </div>
 <% end %>
-</div>
+
 <script>
 $( "#menu" ).menu();
 </script>
