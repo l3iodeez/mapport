@@ -60,6 +60,8 @@ GEM
       execjs
     coffee-script-source (1.9.1.1)
     cowsay (0.2.0)
+    delayed_job (4.0.6)
+      activesupport (>= 3.0, < 5.0)
     devise (3.4.1)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -184,6 +186,7 @@ DEPENDENCIES
   carrierwave-aws
   coffee-rails (~> 4.0.0)
   cowsay
+  delayed_job
   devise
   geocoder
   gmaps4rails
