@@ -28,7 +28,7 @@
   end
   
   g.column name:  '% Dmg', attribute: 'amtdamage', model: 'Material', auto_reload: false, html: {class: 'smallgrid'} do |material|
-    number_to_percentage(material.amtdamage.to_f*100, precision: 0)
+    number_to_percentage(material.amt_damage_display, precision: 0)
 end 
   g.column name:  'Damage Type', attribute: 'typedamage', model: 'Material', 
    custom_filter: {'Localized' => 1, 'Distributed' => 2} , auto_reload: false do |material|
