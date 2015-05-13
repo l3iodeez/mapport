@@ -11,7 +11,7 @@ class ConditionsGeneratorColumnPercentage < Wice::Columns::ConditionsGeneratorCo
         if first_digit_or_dot_index
           op = val[0...first_digit_or_dot_index]
           op = '=' if op == ''
-          num = (Float(val[first_digit_or_dot_index..-1])) rescue nil
+          num = (Float(val[first_digit_or_dot_index..-1]))/100 rescue nil
 
           op = nil unless ['<','>','<=','>=','='].include?(op)
         end

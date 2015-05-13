@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150508133044) do
+ActiveRecord::Schema.define(version: 20150513134936) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -60,6 +60,19 @@ ActiveRecord::Schema.define(version: 20150508133044) do
   end
 
   add_index "delayed_jobs", ["priority", "run_at"], name: "delayed_jobs_priority", using: :btree
+
+  create_table "floorplans", force: :cascade do |t|
+    t.integer  "building_id"
+    t.integer  "level"
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+  end
+
+  add_index "floorplans", ["building_id"], name: "index_floorplans_on_building_id", using: :btree
 
   create_table "materials", force: :cascade do |t|
     t.integer  "space_id",                                              null: false
@@ -143,4 +156,5 @@ ActiveRecord::Schema.define(version: 20150508133044) do
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
 
+  add_foreign_key "floorplans", "buildings"
 end

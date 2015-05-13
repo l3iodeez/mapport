@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  building_id: 
+  level: 1
+  image: 
+
+two:
+  building_id: 
+  level: 1
+  image: 

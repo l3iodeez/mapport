@@ -1,0 +1,28 @@
+<%= form_for(@floorplan, multipart: true) do |f| %>
+  <% if @floorplan.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@floorplan.errors.count, "error") %> prohibited this floorplan from being saved:</h2>
+
+      <ul>
+      <% @floorplan.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div class="field">   
+  <%= f.label :image %><br>
+    <%= f.file_field :image %>
+  </div>
+    <div class="field">
+    <%= f.label :level %><br>
+    <%= f.text_field :level %>
+  </div>
+ <div class="field">
+  <%= f.label "Building" %><br>
+      <%= f.collection_select :building_id, Building.order(:buildingname), :id, :buildingname, include_blank: false %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

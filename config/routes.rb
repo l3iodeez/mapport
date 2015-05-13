@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   resources :materials
   resources :reports
   resources :customers
+  resources :floorplans
   devise_for :users, :path_prefix => 'portal'
   resources :admin
   resources :ahera, only: [:index, :show]

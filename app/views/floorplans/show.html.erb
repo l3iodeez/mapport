@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+<p>
+  <strong>Building:</strong>
+  <%= @floorplan.building.buildingname %>
+</p>
+<p>
+  <strong>Level:</strong>
+  <%= @floorplan.level %>
+</p>
+<p>
+  <strong>Filename:</strong>
+  <%= inline_svg @floorplan.image.url %>
+ 
+</p>
+
+<%= link_to 'Edit', edit_floorplan_path(@floorplan) %> |
+<%= link_to 'Back', floorplans_path %>
