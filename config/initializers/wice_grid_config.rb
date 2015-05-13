@@ -80,10 +80,10 @@ if defined?(Wice::Defaults)
   #
   # It is also possible to define you own processors:
   #
-  #     Wice::Defaults::ADDITIONAL_COLUMN_PROCESSORS = {
-  #       some_key_identifying_new_column_type:  ['AViewColumnProcessorClass', 'ConditionsGeneratorClass'],
+       Wice::Defaults::ADDITIONAL_COLUMN_PROCESSORS = {
+         percentage:  ['Wice::ViewColumnPercentage', 'Wice::ConditionsGeneratorColumnPercentage'],
   #       another_key_identifying_new_column_type:  ['AnotherViewColumnProcessorClass', 'AnotherConditionsGeneratorClass']
-  #     }
+       }
   #
   # Column processor keys/names should not coincide with the existing keys/names (see lib/wice/columns/column_processor_index.rb)
   # the value is a 2-element array with 2 strings, the first should be a name of view processor class inherited from

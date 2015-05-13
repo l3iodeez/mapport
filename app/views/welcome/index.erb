@@ -1,11 +1,57 @@
 
 
 <div id='bodybag'>
-<div id='map-container' class='element-box'>
+<div id='leftpanel-container' class='top-element-box'>
   <div id="building-map" style='height: 400px;'></div>
 </div>
-<div id='building-grid-container' class='element-box'>
-  <div style='height: 400px;'><%= render partial:  'buildings_grid' %></div>
+<div id='rightpanel-container' class='top-element-box'>
+  <div style='height: 400px;'>
+  	
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="fadeslideshow.js">
+/***********************************************
+* Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+***********************************************/
+</script>
+<script type="text/javascript">
+var mygallery=new fadeSlideShow({
+wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
+dimensions: [250, 180], //width/height of gallery in pixels. Should reflect dimensions of largest image
+imagearray: [
+["http://i26.tinypic.com/11l7ls0.jpg", "", "", "Nothing beats relaxing next to the pool when the weather is hot."],
+["http://i29.tinypic.com/xp3hns.jpg", "http://en.wikipedia.org/wiki/Cave", "_new", "Some day I'd like to explore these caves!"],
+["http://i30.tinypic.com/531q3n.jpg"],
+["http://i31.tinypic.com/119w28m.jpg", "", "", "What a beautiful scene with everything changing colors."] //<--no trailing comma after very last image element!
+],
+displaymode: {type:'auto', pause:2500, cycles:0, wraparound:false},
+persist: false, //remember last viewed slide and recall within same session?
+fadeduration: 500, //transition duration (milliseconds)
+descreveal: "ondemand",
+togglerid: "",
+oninit: function(){
+var set = this.setting, halfwidth = set.dimensions[0]/2, $urllinks;
+set.$wrapperdiv.append('<a style="top: 0; left: 0;"></a><a style="top: 0; left: ' + halfwidth + 'px;"></a>');
+set.$urllinks = set.$wrapperdiv.find('a').last().prev().add(set.$wrapperdiv.find('a').last())
+.css({display: 'block', height: set.dimensions[1], width: halfwidth, position: 'absolute', zIndex: 1001})
+/*@cc_on @*//*@if(@_jscript_version >= 5).css({backgroundImage: 'url(placeboforhover.gif)'})@end @*/
+.eq(0).attr({href: 'http://www.google.com/', title: 'Click for info on Google'}).end()
+.eq(1).attr({href: 'http://www.dynamicdrive.com/', title: 'Click for info on Dynamic Drive'}).end();
+},
+onslide: function(activelayer, curindex){
+//may be used to dynamically update links
+//they'll be known as: this.setting.$urllinks.eq(0) and this.setting.$urllinks.eq(1)
+}
+})
+</script>
+
+  	
+  </div>
+</div>
+<div id='bottompanel-container' class='bottom-element-box'>
+<%= render partial:  'buildings_grid' %>
 </div>
 </div>
 

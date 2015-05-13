@@ -6,7 +6,7 @@
 	float: left;
 }
 
-.element-box{
+.top-element-box{
 	float: left;
 	margin: 0.5%;
 	width: 47%;
@@ -15,14 +15,22 @@
 	border: 1px solid #999;
 
 }
-#map-container{
+.bottom-element-box{
+	float: left;
+	margin: 0.5%;
+	width: 96%;
+	margin-top: 0.5%;
+	padding: 0.5%;
+	border: 1px solid #999;
+	}
+#leftpanel-container{
 	
 	
 	
 	
 	
 }
-#building-grid-container{
+#rightpanel-container{
 
 	
 	overflow-y: auto;

@@ -1,11 +1,6 @@
 <div class="ahera-header">
 <h4>
-<% unless current_user.is_admin %>
-<%= 'Viewing inspection data for ' + @customer.company %> 
-<% else%>
-<%= 'Viewing inspection data for all customers'%> 
-<% end %> | 
-<%= link_to 'View Reports', reports_path %>
+
 
 
     <div class="external-buttons-container">
@@ -15,8 +10,11 @@
     </div>
     </h4>
 
+<%= render partial: 'materials_grid'%>
+
+<%= grid_filter @materials_grid, :building_filter %> 
 
 <!--THIS IS THE TABLE-->
-<%= render partial:  'materials_grid' %>
+<%= render_grid(@materials_grid) %>
 
 

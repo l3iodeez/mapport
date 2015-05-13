@@ -1,7 +1,7 @@
-<%= grid(@materials_grid, show_filters: :always) do |g|
+<%= define_grid(@materials_grid, show_filters: :always) do |g|
 
 
-  g.column name: 'Building', attribute: 'buildingname', model: 'Building', custom_filter: @ownedbuildings, auto_reload: false  do |material|
+  g.column name: 'Building', attribute: 'buildingname', model: 'Building', detach_with_id: :building_filter, allow_multiple_selection: false, custom_filter: @ownedbuildings, auto_reload: true  do |material|
     material.building.buildingname if material.building
   end 
   #g.column name:  'Building', attribute: 'building_id', auto_reload: true, custom_filter: :auto
@@ -27,7 +27,7 @@
      material.removed.humanize
   end
   
-  g.column name:  '% Dmg', attribute: 'amtdamage', model: 'Material', auto_reload: false, html: {class: 'smallgrid'} do |material|
+  g.column name:  '% Dmg', attribute: 'amtdamage', model: 'Material', filter_type: :percentage, auto_reload: false, html: {class: 'smallgrid'} do |material|
     number_to_percentage(material.amt_damage_display, precision: 0)
 end 
   g.column name:  'Damage Type', attribute: 'typedamage', model: 'Material', 
