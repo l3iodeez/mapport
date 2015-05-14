@@ -1,20 +1,33 @@
 
 
-<div id='bodybag'>
+
+<div id='bodybag' style='height: 100%;'>
 <div id='leftpanel-container' class='top-element-box'>
- <div id="building-map" style='height: 400px;'></div> 
+ <div id="building-map" style='height: 100%;'></div> 
 </div>
-<div id='rightpanel-container' class='top-element-box'>
+<div id='rightpanel-container' class='top-element-box' >
   
   	
 
-  	 <div class="bss-slides num1"  tabindex="1" autofocus="autofocus">
+  	 <div class="bss-slides num1"  tabindex="1" autofocus="autofocus" >
            
-        
-            <figure>
-              <%= inline_svg "GlenheadBasement.svg" %><figcaption></figcaption> 
+        <div id ="panzoom" >
+            <figure style="overflow: hidden; position: static;">
+            
+              	<%= inline_svg "GlenheadBasementPerc.svg" %>
+              	 
+              
             </figure>
+            </div>
+            	
 </div>
+ <div id = "buttons">
+              	<button class="zoom-in">Zoom In</button>
+				<button class="zoom-out">Zoom Out</button>
+				
+				<button class="reset">Reset</button>
+				 </div>
+
  <!-- // bss-slides -->
 
 <script>
@@ -23,13 +36,26 @@ var opts = {
         
         pauseOnHover : true
     },
-    fullScreen : false, 
-    swipe : true
+    fullScreen : true, 
+
 };
 makeBSS('.num1', opts);
 
+$("#svg-content").panzoom({
+  $zoomIn: $(".zoom-in"),
+  $zoomOut: $(".zoom-out"),
+  $zoomRange: $(".zoom-range"),
+  $reset: $(".reset")
+});
+
+
+
+
+
 
 </script>
+
+
 
 
 

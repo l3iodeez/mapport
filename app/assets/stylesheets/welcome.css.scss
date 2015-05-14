@@ -4,6 +4,7 @@
 #bodybag{
 	width: 100%;
 	float: left;
+  height: 100%;
 }
 
 .top-element-box{
@@ -13,6 +14,7 @@
 	margin-top: 0.5%;
 	padding: 0.5%;
 	border: 1px solid #999;
+ height: 50%
 
 }
 .bottom-element-box{
@@ -20,9 +22,19 @@
 	margin: 0.5%;
 	width: 47%;
 	margin-top: 0.5%;
+  margin-bottom: 0.5%;
 	padding: 0.5%;
 	border: 1px solid #999;
+  overflow: auto;
+  height: calc(50% - 240px);
+
 	}
+  #buildings{
+    height: 100%;
+  }
+  .building-map{
+
+  }
 #leftpanel-container{
 	
 	
@@ -31,27 +43,50 @@
 	
 }
 #rightpanel-container{
+  float: right;
 
-	
 	
 }
 
+#panzoom{
+  overflow:hidden;
+  position: static;
+}
+#buttons{
+
+}
+
 /* CSS for the slideshow here */
+#svg-content {
+display: inline-block;
+position: absolute;
+top: 0;
+left: 0;
+height: 95%;
+max-width: 100%;
+float: right;
+}
 
 .bss-slides{
   position: relative;
-  display: block;    
+  display: block;  
+  height: 100%; 
+  overflow: hidden;
+}
+.bss-show{
+  position: inherit;
 }
 .bss-slides:focus{
  outline: 0;
 }
 .bss-slides figure{
-  position: absolute;
+
   top: 0;
-  width: 100%;
+  height: 100%;
+  
 }
 .bss-slides figure:first-child{
-  position: relative;
+ 
 }
 .bss-slides figure img{
   opacity: 0;
@@ -61,7 +96,7 @@
   backface-visibility: hidden;
 }
 .bss-slides .bss-show{
-  z-index: 2;
+  position: static;
 }
 .bss-slides .bss-show img{
   opacity: 1;
