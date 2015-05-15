@@ -3,12 +3,13 @@
 <table>
   <thead>
     <tr>
-      <th>Buildingname</th>
-      <th>Buildingid</th>
-      <th>Street address</th>
-      <th>Locality</th>
-      <th>Region</th>
-      <th>Postcode</th>
+      <th>Building ID</th>
+      <th>Building Name</th>
+      <th>Client ID</th>
+      <th>Street Address</th>
+      <th>City</th>
+      <th>State</th>
+      <th>Zip</th>
       <th>Customer</th>
       <th>Lon.</th>
       <th>Lat.</th>
@@ -19,6 +20,7 @@
   <tbody>
     <% @buildings.each do |building| %>
       <tr>
+        <td><%= building.id %></td>
         <td><%= building.buildingname %></td>
         <td><%= building.buildingid %></td>
         <td><%= building.street_address %></td>
