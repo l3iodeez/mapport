@@ -3,8 +3,7 @@
 
 <div id='bodybag' style='height: 100%;'>
 <div id='leftpanel-container' class='top-element-box'>
-<%= inline_svg "GlenheadBasementPerc.svg" %>
-<!-- <div id="building-map" style='height: 100%;'></div> -->
+<div id="building-map" style='height: 100%;'></div> 
 </div>
 <div id='rightpanel-container' class='top-element-box' >
   
@@ -35,14 +34,14 @@
 var opts = {
     auto : {
         
-        pauseOnHover : true
+       
     },
     fullScreen : false, 
 
 };
 makeBSS('.num1', opts);
 
-$("#svg-").panzoom({
+$("#svg-content").panzoom({
   $zoomIn: $(".zoom-in"),
   $zoomOut: $(".zoom-out"),
   $zoomRange: $(".zoom-range"),
