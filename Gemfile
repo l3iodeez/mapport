@@ -45,7 +45,7 @@ gem 'underscore-rails'
 gem "paperclip", "~> 4.2"
 gem 'inline_svg'
 gem 'hammerjs_rails'
-
+gem "jquery-mousewheel-rails"
 
 
 # Use Capistrano for deployment

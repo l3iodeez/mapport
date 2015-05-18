@@ -835,7 +835,7 @@
 				styles = {
 					overflow: 'hidden'
 				};
-				if ($parent.css('position') === 'static') {
+				if ($parent.css('position') === 'absolute') {
 					styles.position = '';
 				}
 				$parent.css(styles);
