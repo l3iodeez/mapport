@@ -41,7 +41,7 @@ gem 'humanize_boolean'
 gem 'geocoder'
 gem 'gmaps4rails'
 gem 'underscore-rails'
-gem 'delayed_job_active_record'
+
 gem "paperclip", "~> 4.2"
 gem 'inline_svg'
 gem 'hammerjs_rails'

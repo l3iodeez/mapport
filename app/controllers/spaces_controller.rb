@@ -1,5 +1,5 @@
 class InternalController < ApplicationController
-  before_action :set_space, only: [:show, :edit, :update, :destroy],
+  before_action :set_space, only: [:show, :edit, :update, :destroy]
   before_action :check_admin
 
   respond_to :html
