@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>New York Environmental Customer Data Portal<%= Rails.env%>
-</title>
+  <title>New York Environmental Customer Data Portal</title>
 
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -57,7 +56,7 @@
         
 
         <h1>
-          New York Environmental Customer Data Portal
+          New York Environmental Customer Data Portal <%= Rails.env%>
         </h1>
 
       <% if notice %>
