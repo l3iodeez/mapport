@@ -59,9 +59,9 @@ handler.buildMap({ provider: {}, internal: {id: 'building-map'}}, function(){
           var $panzoom = $section.find('.panzoom').panzoom();
           $panzoom.panzoom("option", {
               increment: 0.4,
-              
               duration: 500,
               contain: 'invert',
+              cursor: '',
               $reset: $("button.reset"),
               $zoomIn: $("button.zoom-in"),
               $zoomOut: $("button.zoom-out"),

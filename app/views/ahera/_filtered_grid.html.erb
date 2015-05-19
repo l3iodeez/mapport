@@ -1,0 +1,40 @@
+<%= define_grid(@filtered_grid, show_filters: :always) do |g|
+
+
+  g.column name: 'Building', attribute: 'buildingname', model: 'Building', auto_reload: true  do |material|
+    material.building.buildingname if material.building
+  end 
+  #g.column name:  'Building', attribute: 'building_id', auto_reload: true, custom_filter: :auto
+  g.column name: 'Space ID', attribute: 'spaceid', model: 'Space', auto_reload: false  do |material|
+    material.space.spaceid if material.space_id
+  end 
+
+  g.column name: 'Space', attribute: 'spacename', model: 'Space', auto_reload: false  do |material|
+    material.space.spacename if material.space_id
+  end 
+
+  g.column name:  'Homogeneous Area', attribute: 'hanum', auto_reload: false
+  g.column name:  'Color', attribute: 'color', auto_reload: false,  html: {class: 'smallgrid'}
+  g.column name:  'Material Observed', attribute: 'materialtype', auto_reload: false 
+  g.column name: 'ACM?', attribute: 'acm_category', model: 'Material',
+           custom_filter: {'Sampled, ACM' => 1,'Sampled, Non-ACM' => 2,'Assumed ACM' => 3,'Non-suspect material' => 4,'No access' => 5}, 
+           auto_reload: false do |material| 
+   				material.acm_display
+  end
+ # g.column name:  'Samples Taken', attribute: 'numsamp'
+  g.column name:  'SqFt', attribute: 'sqft', html: {class: 'smallgrid'}
+  g.column name:  'Removed?', attribute: 'removed', model: 'Material', custom_filter: {'Yes' => 'true','No' => 'false'}, auto_reload: false   do |material|
+     material.removed.humanize
+  end
+  
+  g.column name:  '% Dmg', attribute: 'amtdamage', model: 'Material', filter_type: :percentage, auto_reload: false, html: {class: 'smallgrid'} do |material|
+    number_to_percentage(material.amt_damage_display, precision: 0)
+end 
+  g.column name:  'Damage Type', attribute: 'typedamage', model: 'Material', 
+   custom_filter: {'Localized' => 1, 'Distributed' => 2} , auto_reload: false do |material|
+   	material.dam_type_display
+   end
+  g.column name:  'Comments', attribute: 'comments', auto_reload: false, html: {class: 'smallgrid'}
+
+
+end -%>

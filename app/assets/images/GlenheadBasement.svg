@@ -2,7 +2,7 @@
 
 <svg version="1.1" baseProfile="basic" id="svgcontent" xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg" x="744px" y="1052px" 
-   viewBox="0 0 744 1052" xml:space="preserve">
+   viewBox="0 0 744 1052" xml:space="preserve"  link="#0000FF" vlink="#800080" alink="#FF0000">
   <defs
      id="defs6044" />
   <sodipodi:namedview
@@ -22,7 +22,8 @@
      inkscape:window-height="744"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1" 
+     />
   <metadata
      id="metadata6047">
     <rdf:RDF>
@@ -1564,50 +1565,59 @@
          id="line3716" />
     </g>
       <a
-         xlink:href="/ahera/4/0018"
-         target="_self"
-         id="a3719">
+         xlink:href="/ahera/1/0018"
+         target="_blank"
+        
+        >
     <g
-       transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
+      class="TextLink"
+      transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT">
    
         <text
-           style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+            
            transform="translate(390.1582,126.8423)"
-           stroke-miterlimit="10"
-           font-size="7"
+           
            id="text3721">0018 -</text>
         <text
-           style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+            
            transform="translate(390.0996,135.0229)"
-           stroke-miterlimit="10"
-           font-size="7"
+           
+         
            id="text3723">Classroom</text>
         <text
-           style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+           
            transform="translate(389.7012,143.144)"
-           stroke-miterlimit="10"
-           font-size="7"
+          
+           
+           
            id="text3725">18</text>
      
     </g>
      </a>
+     <a
+         xlink:href="/ahera/1/0033"
+         target="_blank"
+         
+        >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_1_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(298.9727,192.686)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3728">0033 - Original Building</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(298.9434,200.8696)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3730">Staircase #2</text>
     </g>
+  </a>
     <g
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="LINE_127_">
@@ -1620,72 +1630,91 @@
          y2="191.50999"
          id="line3733" />
     </g>
+    <a
+         xlink:href="/ahera/1/0031"
+         target="_blank"
+         
+        >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_2_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(389.0059,205.2046)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3736">0031 -</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(388.7949,213.3027)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3738">Boiler</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(388.7539,221.4048)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3740">Room</text>
     </g>
+  </a>
+        <a
+         xlink:href="/ahera/1/0016"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_3_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(388.4727,246.5669)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3743">0016 -</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(388.418,254.7505)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3745">Copy Room</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(388.0176,262.8677)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3747">16</text>
     </g>
+  </a>
+          <a
+         xlink:href="/ahera/1/0016B"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_4_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(322.1563,258.8823)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3750">0016B - Storage</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(322.0957,267.0659)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3752">Closet in Teacher's</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(321.9395,275.187)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3754">Lounge 16</text>
     </g>
+  </a>
     <g
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="LINE_128_">
@@ -1698,22 +1727,28 @@
          y2="268.70599"
          id="line3757" />
     </g>
+            <a
+         xlink:href="/ahera/1/0016A"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_5_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(309.5,285.1509)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3760">0016A - Sink Room in</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(309.6211,293.269)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3762">Teacher's Lounge 16</text>
     </g>
+  </a>
     <g
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="LINE_129_">
@@ -1726,44 +1761,56 @@
          y2="286.90201"
          id="line3765" />
     </g>
+            <a
+         xlink:href="/ahera/1/0014"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_6_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(390.666,304.6919)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3768">0014 -</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(390.7832,312.7935)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3770">Teacher's</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(390.4492,320.9106)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3772">Lounge 14</text>
     </g>
+  </a>
+          <a
+         xlink:href="/ahera/1/0014A"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_7_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(305.7656,317.5181)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3775">0014A - Elevator</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(305.5469,325.6167)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3777">Machine Room</text>
     </g>
+  </a>
     <g
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="LINE_130_">
@@ -1788,22 +1835,28 @@
          y2="324.79999"
          id="line3783" />
     </g>
+            <a
+         xlink:href="/ahera/1/0014B"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_8_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(276.8516,336.6235)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3786">0014B - Closet in Teacher's</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(276.6348,344.7417)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3788">Lounge 14</text>
     </g>
+  </a>
     <g
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="LINE_132_">
@@ -1816,22 +1869,28 @@
          y2="335.548"
          id="line3791" />
     </g>
+            <a
+         xlink:href="/ahera/1/0032"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_9_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(271.6973,354.2896)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3794">0032 - Original Building</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(271.668,362.4663)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3796">Staircase #1</text>
     </g>
+  </a>
     <g
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="LINE_133_">
@@ -1844,28 +1903,34 @@
          y2="352.655"
          id="line3799" />
     </g>
+            <a
+         xlink:href="/ahera/1/0035"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_10_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(314.8203,365.4048)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3802">0035 - Basement</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(314.7773,373.5845)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3804">Original Building</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(314.7637,381.7681)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3806">Corridor</text>
     </g>
+  </a>
     <g
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="LINE_134_">
@@ -1878,100 +1943,124 @@
          y2="369.776"
          id="line3809" />
     </g>
+            <a
+         xlink:href="/ahera/1/0012"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_11_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(394.0254,375.6655)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3812">0012 -</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(393.9668,383.8452)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3814">Classroom</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(393.5684,391.9634)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3816">12</text>
     </g>
+  </a>
+          <a
+         xlink:href="/ahera/1/0010"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_12_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(391.9609,409.9497)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3819">0010 -</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(391.9023,418.1304)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3821">Classroom</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(391.5059,426.2485)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3823">10</text>
     </g>
+  </a>
+          <a
+         xlink:href="/ahera/1/0030"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_13_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(453.418,147.9175)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3826">0030 -</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(453.2051,156.0161)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3828">Kitchen</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(453.375,164.1958)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3830">Office</text>
     </g>
+  </a>
+          <a
+         xlink:href="/ahera/1/0029"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_14_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(498.1289,165.2896)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3833">0029- Kitchen</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(497.8516,173.4663)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3835">Freezer /</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(497.875,181.646)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3837">Refrigerating</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(497.875,189.7476)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3839">Room</text>
     </g>
+  </a>
     <g
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="LINE_135_">
@@ -1984,48 +2073,66 @@
          y2="171.386"
          id="line3842" />
     </g>
+            <a
+         xlink:href="/ahera/1/0028"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_15_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(453.1582,208.938)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3845">0028 - Kitchen</text>
     </g>
+  </a>
+          <a
+         xlink:href="/ahera/1/0027"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_16_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(460.0977,275.9175)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3848">0027 -</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(460.0391,284.0972)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3850">Cafeteria</text>
     </g>
+  </a>
+          <a
+         xlink:href="/ahera/1/0026"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_17_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(462.9648,322.8613)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3853">0026 - Music</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(462.916,331.0444)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3855">Office Vestibule</text>
     </g>
+  </a>
     <g
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="LINE_136_">
@@ -2038,22 +2145,28 @@
          y2="334.16199"
          id="line3858" />
     </g>
+            <a
+         xlink:href="/ahera/1/0026A"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_18_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(513.3809,356.1313)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3861">0026A -</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(513.1543,364.311)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3863">Music Office</text>
     </g>
+  </a>
     <g
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="LINE_137_">
@@ -2066,11 +2179,16 @@
          y2="354.86301"
          id="line3866" />
     </g>
+            <a
+         xlink:href="/ahera/1/0026B"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_19_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(520.9297,377.2554)"
          stroke-miterlimit="10"
          font-size="7"
@@ -2088,11 +2206,17 @@
          y2="375.621"
          id="line3872" />
     </g>
+  </a>
+          <a
+         xlink:href="/ahera/1/0025"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_20_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(498.582,390.521)"
          stroke-miterlimit="10"
          font-size="7"
@@ -2110,16 +2234,23 @@
          y2="388.32501"
          id="line3878" />
     </g>
+  </a>
+          <a
+         xlink:href="/ahera/1/0024"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_21_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(497.3926,409.2563)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3881">0024 - Girl's Toilet</text>
     </g>
+  </a>
     <g
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="LINE_140_">
@@ -2132,16 +2263,22 @@
          y2="406.69299"
          id="line3884" />
     </g>
+            <a
+         xlink:href="/ahera/1/0023"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_22_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(498.3887,422.0435)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3887">0023 - Teacher's Toilet Vestibule</text>
     </g>
+  </a>
     <g
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="LINE_141_">
@@ -2154,16 +2291,22 @@
          y2="420.272"
          id="line3890" />
     </g>
+            <a
+         xlink:href="/ahera/1/0023A"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_23_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(499.1738,430.7964)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3893">0023A - Teacher's Toilet</text>
     </g>
+  </a>
     <g
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="LINE_142_">
@@ -2176,16 +2319,22 @@
          y2="428.92599"
          id="line3896" />
     </g>
+            <a
+         xlink:href="/ahera/1/0022"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_24_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(506.9551,446.689)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3899">0022 - Electrical Room</text>
     </g>
+  </a>
     <g
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="LINE_143_">
@@ -2198,16 +2347,22 @@
          y2="442.94901"
          id="line3902" />
     </g>
+            <a
+         xlink:href="/ahera/1/0011"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_25_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(506.127,466.7788)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3905">0011 - Music Room 11</text>
     </g>
+  </a>
     <g
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="LINE_144_">
@@ -2220,16 +2375,22 @@
          y2="464.94601"
          id="line3908" />
     </g>
+            <a
+         xlink:href="/ahera/1/0011A"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_26_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(504.2148,488.1196)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3911">0011A - Music Room 11A</text>
     </g>
+  </a>
     <g
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="LINE_145_">
@@ -2242,22 +2403,28 @@
          y2="486.707"
          id="line3914" />
     </g>
+            <a
+         xlink:href="/ahera/1/0020C"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_27_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(521.9531,497.6274)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3917">0020C - Custodian</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(522.209,505.729)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3919">Vestibule</text>
     </g>
+  </a>
     <g
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="LINE_146_">
@@ -2270,16 +2437,22 @@
          y2="495.89001"
          id="line3922" />
     </g>
+            <a
+         xlink:href="/ahera/1/0020"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_28_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(523.998,516.3472)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3925">0020 - Custodian Room</text>
     </g>
+  </a>
     <g
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="LINE_147_">
@@ -2292,16 +2465,22 @@
          y2="513.69098"
          id="line3928" />
     </g>
+            <a
+         xlink:href="/ahera/1/0020A"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_29_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(524.7871,531.6606)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3931">0020A - Custodian Storage</text>
     </g>
+  </a>
     <g
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="LINE_148_">
@@ -2314,54 +2493,72 @@
          y2="529.86603"
          id="line3934" />
     </g>
+            <a
+         xlink:href="/ahera/1/0020B"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_30_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(477.1816,539.644)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3937">0020B -</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(477.127,547.8247)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3939">Custodian</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(477.3809,556.0078)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3941">Work Shop</text>
     </g>
+  </a>
+          <a
+         xlink:href="/ahera/1/0009"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_31_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(467.9277,591.3594)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3944">0009 -</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(467.873,599.5391)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3946">Classroom 9</text>
     </g>
+  </a>
+          <a
+         xlink:href="/ahera/1/0009B"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_32_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(522.834,581.1143)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3949">0009B - Vestibule</text>
     </g>
+  </a>
     <g
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="LINE_149_">
@@ -2374,42 +2571,60 @@
          y2="578.36102"
          id="line3952" />
     </g>
+            <a
+         xlink:href="/ahera/1/0009A"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_33_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(447.2031,621.3828)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3955">0009A- Storage Room</text>
     </g>
+  </a>
+          <a
+         xlink:href="/ahera/1/0021"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_34_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(371.3184,600.0469)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3958">0021 - Crawl</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(371.291,608.2266)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3960">Space</text>
     </g>
+  </a>
+          <a
+         xlink:href="/ahera/1/0036"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_35_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(410.252,649.7578)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3963">0036 - Staircase 3</text>
     </g>
+  </a>
     <g
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="LINE_150_">
@@ -2422,32 +2637,44 @@
          y2="640.24902"
          id="line3966" />
     </g>
+            <a
+         xlink:href="/ahera/1/0021"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_36_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(329.377,526.7261)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3969">0021A - Crawl Space</text>
     </g>
+  </a>
+          <a
+         xlink:href="/ahera/1/0036"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_37_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(323.0977,555.7461)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3972">0036 - Basement Addition</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(322.8828,563.9297)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3974">Building Corridor</text>
     </g>
+  </a>
     <g
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="LINE_151_">
@@ -2460,44 +2687,56 @@
          y2="553.61499"
          id="line3977" />
     </g>
+            <a
+         xlink:href="/ahera/1/0019"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_38_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(448.2969,119.7651)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3980">0019 -</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(448.2383,127.9487)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3982">Classroom</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(447.8379,136.0669)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3984">19</text>
     </g>
+  </a>
+          <a
+         xlink:href="/ahera/1/0019A"
+         target="_blank"
+         >
     <g
+      class="TextLink"
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="MTEXT_39_">
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(503.8711,115.9136)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3987">0019A- Electrical Closet</text>
       <text
-         style="font-size:7px;font-family:ArialMT;fill:#666666;stroke:#666666;stroke-width:0.25;stroke-miterlimit:10"
+         
          transform="translate(503.7012,124.0972)"
          stroke-miterlimit="10"
          font-size="7"
          id="text3989">in Classroom 19</text>
     </g>
+  </a>
     <g
        transform="matrix(1.5590249,0,0,1.6419366,-227.98065,-17.031852)"
        id="LINE_152_">

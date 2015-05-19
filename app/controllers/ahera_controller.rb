@@ -38,10 +38,22 @@ def index
       :custom_order => {'materials.amtdamage' => 'COALESCE(?, 0)'}
       )
     end
-export_grid_if_requested
-   end
+  export_grid_if_requested 
+end
 
- 
+ def display_filtered
 
-   
+  @building = Building.all.find_by_id(params[:building_id])
+  @materials = @building.materials
+  @space = Space.find_by_id(params[:space_id])
+
+        @filtered_grid = initialize_grid(@materials ,
+      :include => [:space, :customer, :building],
+      :conditions => {:space => @space},
+      :per_page => 20,
+      :name => 'materials',
+      :enable_export_to_csv => true,
+      :csv_file_name => 'Survey Data',
+      :custom_order => {'materials.amtdamage' => 'COALESCE(?, 0)'}
+      ) end
 end

@@ -23,6 +23,7 @@ Rails.application.routes.draw do
   patch '/admin/:id' => 'admin#update'
   put '/admin/:id' => 'admin#update'
   delete '/admin/:id' => 'admin#destroy'
+  get 'ahera/:building_id/:space_id' => 'ahera#display_filtered'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
