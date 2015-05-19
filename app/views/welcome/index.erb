@@ -22,6 +22,7 @@
                         <figure class="" >
                            <%= inline_svg 'GlenheadBasementRed.svg' %>
                         </figure>
+                        
                   </div>
                 </section>
 
@@ -39,6 +40,9 @@
 <div id='bottompanel-container' class='bottom-element-box'>
 <%= render partial:  'buildings_grid' %>
 </div>
+<div id='bottompanel-container' class='bottom-element-box'>
+<%= inline_svg 'BRB.svg' %>
+</div>
 </div>
 
 <script type="text/javascript">
@@ -54,12 +58,7 @@ handler.buildMap({ provider: {}, internal: {id: 'building-map'}}, function(){
           var $section = $('#focal');
 
           var $panzoom = $section.find('.panzoom').panzoom();
-          $panzoom.parent().on('mousewheel.focal', function( e ) {
-            e.preventDefault();
-            var delta = e.delta || e.originalEvent.wheelDelta;
-            var zoomOut = delta ? delta < 0 : e.originalEvent.deltaY > 0;
-         
-            $panzoom.panzoom("option", {
+          $panzoom.panzoom("option", {
               increment: 0.4,
               
               duration: 500,
@@ -69,11 +68,17 @@ handler.buildMap({ provider: {}, internal: {id: 'building-map'}}, function(){
               $zoomOut: $("button.zoom-out"),
 
             });
+          $panzoom.parent().on('mousewheel.focal', function( e ) {
+            e.preventDefault();
+            var delta = e.delta || e.originalEvent.wheelDelta;
+            var zoomOut = delta ? delta < 0 : e.originalEvent.deltaY > 0;
+         
+            
 
             $panzoom.panzoom('zoom', zoomOut, {
               increment: 0.4,
               animate: true,
-              contain: 'invert',
+              
               focal: e
             });
 
@@ -84,18 +89,18 @@ handler.buildMap({ provider: {}, internal: {id: 'building-map'}}, function(){
 
 
 
-      
 
 
 var opts = {
     auto : false,
-    fullScreen : false, 
+    fullScreen : true, 
 
 };
 makeBSS('.num1', opts);
 
 
      
+   
    
   
 

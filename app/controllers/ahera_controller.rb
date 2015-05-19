@@ -1,13 +1,5 @@
 class AheraController < InternalController
-  before_filter :fix_percentage
-
-
-  def fix_percentage
-   if false
-    params[:eq] = params[:eq].downcase
-end
-  end
-
+ 
 def index
 
   

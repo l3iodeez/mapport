@@ -44,20 +44,21 @@
 }
 #rightpanel-container{
   float: right;
-
+  position: relative;
+  overflow: hidden;
 	
 }
 
 .panzoom{
-  overflow:hidden;
+ 
   position: absolute;
   height: 100%
 }
 #buttons{
-
+position: fixed;
 }
 
-/* CSS for the slideshow here */
+
 #svgcontent{
 
 
@@ -67,24 +68,25 @@ height: 95%;
 width: 95%;
 float: right;
 }
-
+/* CSS for the slideshow here */
 .bss-slides{
   
   display: block;  
   height: 100%; 
-  overflow: hidden;
+
 }
 .bss-show{
-
+opacity: 1;
 }
 .bss-slides:focus{
  outline: 0;
+
 }
 .bss-slides figure{
   opacity: 0;
   top: 0;
   height: 100%;
-  
+  overflow: hidden;
 }
 .bss-slides figure:first-child{
 
