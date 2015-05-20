@@ -21,6 +21,7 @@ def index
     else
     @reports_grid = initialize_grid(Report,
       :include => [:customer, :building],
+      #:conditions => {:customer => false},
       :per_page => 10
       )
     end

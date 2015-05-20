@@ -35,10 +35,16 @@ class AdminController < RestrictedController
   end
 
   def update
-     @user = User.find_by_id(params[:id])
-      @user.update_attributes(user_params)
-  
-  redirect_to admin_index_path
+    
+
+
+
+    @user.update(user_params)
+    @user = User.find(params[:id])
+ 
+    @user.update(user_params)
+    respond_with(@user)
+
   end  
 def destroy
 

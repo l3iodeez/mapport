@@ -44,16 +44,27 @@ end
  def display_filtered
 
   @building = Building.all.find_by_id(params[:building_id])
-  @materials = @building.materials
-  @space = Space.find_by_id(params[:space_id])
 
-        @filtered_grid = initialize_grid(@materials ,
+  @space = @building.spaces.where(spaceid: params[:space_id]).first
+        if !@space
+
+  flash[:alert] = "No data is recorded for this space."
+  redirect_to :back 
+
+end   
+
+  @materials = @space.materials 
+
+
+
+      @filtered_grid = initialize_grid(@materials,
       :include => [:space, :customer, :building],
-      :conditions => {:space => @space},
+      #:conditions => {'spaces.spaceid' => params[:space_id]},
       :per_page => 20,
       :name => 'materials',
       :enable_export_to_csv => true,
       :csv_file_name => 'Survey Data',
       :custom_order => {'materials.amtdamage' => 'COALESCE(?, 0)'}
       ) end
+   
 end

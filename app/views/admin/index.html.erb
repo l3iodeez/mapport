@@ -6,8 +6,14 @@
 <h3><table>
   <% @users.each do |user| %>
     <tr>
+    <td>
+        <%= user.id %>
+      </td>
       <td>
         <%= user.email %>
+      </td>
+      <td>
+        <%= user.customer_id %>
       </td>
       <td>
         <%= translate(user.approved.class) %>
