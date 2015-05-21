@@ -84,9 +84,12 @@ th {
 }
 
 .navfade img {
-	position: relative;
-	width: 100%;
-	padding-top: 10px;
+  position: relative;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 2px;	
+  float: left;
+  height: 15px;
 }
 
 .navbar {
@@ -112,16 +115,16 @@ th {
 
 h1 {
 	font-family: Arial, sans-serif;
-	font-size: 1.2em;
+	font-size: 2.2em;
 	padding-left: 10px;
 	color: #32689b;/*blue*/
 }
 
 h2 {
 	font-family: Arial, sans-serif;
-	font-size: 0.95em;
+	font-size: 1.35em;
 	padding-left: 10px;
-	color: black;
+	color: #32689b;/*blue*/
 }
 h3 {
 	
@@ -130,10 +133,13 @@ h3 {
 }
 h4 {
 	font-size: 1em;
-	padding-left: 10px;
+	
 	color: #32689b;/*blue*/
 	
 
+}
+.dataitem{
+	color: #000;
 }
 
 
@@ -189,4 +195,10 @@ li {
 #invis{
 	visibility: hidden;
 	height: 0px;
+}
+.invis{
+	visibility: hidden;
+	height: 0px;
+	width: 0%;
+	display: none;
 }

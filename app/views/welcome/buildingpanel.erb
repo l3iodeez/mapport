@@ -1,0 +1,104 @@
+
+
+
+<div id='bodybag' style='height: 100%;'>
+<div id='leftpanel-container' class='top-element-box'>
+<div id="building-map" style='height: 100%;'></div> 
+</div>
+<div id='rightpanel-container' class='top-element-box' >
+   	 <div class="bss-slides num1"  tabindex="1" autofocus="autofocus" >
+                <section id="focal">
+             			<div class="panzoom">
+                       <% @floorplans.each do |floorplan| %>
+                        <figure class="" >
+                           <%= inline_svg floorplan.building_id.to_s + '-' + floorplan.level.to_s + '.svg' %>
+                        </figure>
+                        <% end %>
+                   
+                  </div>
+                </section>
+  </div>                  
+</div>
+   <div id = "buttons">
+                    <button class="zoom-in">Zoom In</button>
+                    <button class="zoom-out">Zoom Out</button>
+            
+                    <button class="reset">Reset</button>
+                  </div>
+<div id='bottompanel-container' class='bottom-element-box'>
+<% if false%>
+<%= render partial:  'buildings_grid' %> to be replaced by reports grid
+<%end%>
+</div>
+</div>
+
+<script type="text/javascript">
+handler = Gmaps.build('Google');
+handler.buildMap({ provider: {}, internal: {id: 'building-map'}}, function(){
+ markers = handler.addMarkers(<%=raw @hash.to_json %>);
+  handler.bounds.extendWith(markers);
+  handler.fitMapToBounds();
+});
+
+
+       (function() {
+          var $section = $('#focal');
+
+          var $panzoom = $section.find('.panzoom').panzoom({
+            startTransform: 'scale(1.3)',
+
+            });
+          $panzoom.panzoom("option", {
+              increment: 0.4,
+              duration: 500,
+              contain: 'invert',
+              minScale: 1.3,
+              maxscale: 20,
+              cursor: '',
+              $reset: $("button.reset"),
+              $zoomIn: $("button.zoom-in"),
+              $zoomOut: $("button.zoom-out"),
+
+            });
+
+          $panzoom.parent().on('mousewheel.focal', function( e ) {
+            e.preventDefault();
+            var delta = e.delta || e.originalEvent.wheelDelta;
+            var zoomOut = delta ? delta < 0 : e.originalEvent.deltaY > 0;
+         
+            
+
+            $panzoom.panzoom('zoom', zoomOut, {
+              increment: 0.4,
+              animate: true,
+              
+              focal: e
+            });
+
+          });
+
+
+        })();
+
+
+
+
+
+var opts = {
+    auto : false,
+    fullScreen : true, 
+
+};
+makeBSS('.num1', opts);
+
+
+     
+   
+   
+  
+
+
+</script>
+
+
+

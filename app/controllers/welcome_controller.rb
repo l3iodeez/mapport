@@ -6,8 +6,11 @@ def index
 	@curruser = current_user
 	@currcustomer = current_user.customer
 	@customers = Customer.all
+	if current_user.is_admin 
 	@buildings = Building.all
-
+	else
+	@buildings = Building.all.where(customer: @currcustomer)	
+	end
 @hash = Gmaps4rails.build_markers(@buildings) do |building, marker|
   marker.lat building.latitude
   marker.lng building.longitude
@@ -24,4 +27,27 @@ end
 	
 end
   
+def buildingpanel
+		@curruser = current_user
+	@currcustomer = current_user.customer
+	@customers = Customer.all
+	if current_user.is_admin 
+	@buildings = Building.all
+	else
+	@buildings = Building.all.where(customer: @currcustomer)	
+	end
+	@building = Building.all.where(id: params[:building_id])
+	@reports = Report.where(building_id: params[:building_id])
+	@floorplans = Floorplan.where(building_id: params[:building_id])
+
+ @reports_grid = initialize_grid(@reports,
+      :include => [:customer],
+     
+      :name => 'reports',
+      :per_page => 10,
+      :enable_export_to_csv => false,
+      
+      )
+
+end
 end

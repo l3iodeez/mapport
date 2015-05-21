@@ -1,15 +1,17 @@
-<div class="ahera-header">
-<h4>
-
-
+<div class="filtered-ahera-header">
+<h2>Displaying materials for:</h2>
+<h2>Space ID: <span class="dataitem"> <%= params[:space_id] %></span></h2>
+<h2>Space Name: <span class="dataitem"><%= Building.find_by_id(params[:building_id]).spaces.where(spaceid: params[:space_id]).first.spacename%></span> </h2>
+<h2>Facility <span class="dataitem"><%= @building.buildingname %></span></h2>
 
     <div class="external-buttons-container">
+
       <button class="btn btn-primary wg-external-submit-button" data-grid-name="materials">Apply Filter</button>
       <button class="btn wg-external-reset-button" data-grid-name="materials">Reset Filter</button>
     </div>
     </div>
-    </h4>
-    <h2>Displaying materials for Space ID <%= params[:space_id] %> in facility <%= @building.buildingname %></h2>
+    
+    
 
 <%= render partial: 'filtered_grid'%>
 

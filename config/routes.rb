@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   resources :admin
   resources :ahera, only: [:index, :show]
   root 'welcome#index'
-  resources :welcome, only: [:index, :show]
+  resources :welcome, only: [:index]
   get 'admin/index'
   get 'admin/:id/approve'=> 'admin#approve_user', as: 'approve_user'
   get '/reports/download/:id' => 'reports#download', as: 'reports_download'
@@ -24,6 +24,8 @@ Rails.application.routes.draw do
   put '/admin/:id' => 'admin#update'
   delete '/admin/:id' => 'admin#destroy'
   get 'ahera/:building_id/:space_id' => 'ahera#display_filtered'
+  get '/welcome/:building_id' => 'welcome#buildingpanel'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

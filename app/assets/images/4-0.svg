@@ -2,52 +2,19 @@
 <!-- Generator: Adobe Illustrator 16.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   version="1.2"
-   id="_x30_"
-   x="0px"
-   y="0px"
-   width="271.15942"
-   height="288.61273"
-   viewBox="0 0 271.15942 288.61273"
+   
+   id="floorplan4_0"
+   width="350"
+   height="350"
+   viewBox="0 0 350 350"
    xml:space="preserve"
    inkscape:version="0.91 r13725"
    sodipodi:docname="4-0.svg"
-   style="shape-rendering:crispEdges"><metadata
+   ><metadata
      id="metadata759"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
-     id="defs757" /><sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1018"
-     id="namedview755"
-     showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:zoom="0.66666667"
-     inkscape:cx="-129.58161"
-     inkscape:cy="144.13537"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="_x30_" /><g
+     id="defs757" /><g
      id="LINE"
      transform="translate(-82.331605,0.47739683)"><line
        stroke-miterlimit="10"
@@ -724,84 +691,61 @@
        id="line226"
        style="stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></g><a
      xlink:href="/ahera/4/0020"
-     target="_blank"
+     target="_self"
      id="a156"><g
        id="MTEXT_99_"
+       class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(323.2012,26.6348)"
-         font-size="5.0703"
-         id="text229"
-         style="font-size:5.0703001px;font-family:ArialMT">0020 - </text>
+         transform="translate(323.2012,26.6348)">0020 - </text>
 <text
-         transform="translate(323.042,32.3809)"
-         font-size="5.0703"
-         id="text231"
-         style="font-size:5.0703001px;font-family:ArialMT">Meter Room</text>
+         transform="translate(323.042,32.3809)">Meter Room</text>
 </g></a><a
      xlink:href="/ahera/4/0019"
-     target="_blank"
+     target="_self"
      id="a161"><g
        id="MTEXT_1_"
+      class="TextLink"
+
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(289.2998,54.7305)"
-         font-size="5.0703"
-         id="text234"
-         style="font-size:5.0703001px;font-family:ArialMT">0019 - Boiler </text>
+         transform="translate(289.2998,54.7305)">0019 - Boiler </text>
 <text
-         transform="translate(289.1211,60.4766)"
-         font-size="5.0703"
-         id="text236"
-         style="font-size:5.0703001px;font-family:ArialMT">Room</text>
+         transform="translate(289.1211,60.4766)">Room</text>
 </g></a><a
      xlink:href="/ahera/4/0018"
-     target="_blank"
+     target="_self"
      id="a166"><g
        id="MTEXT_2_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(288.2695,120.8633)"
-         font-size="5.0703"
-         id="text239"
-         style="font-size:5.0703001px;font-family:ArialMT">0018 - Fan Room</text>
+         transform="translate(288.2695,120.8633)">0018 - Fan Room</text>
 </g></a><a
      xlink:href="/ahera/4/0017"
-     target="_blank"
+     target="_self"
      id="a170"><g
        id="MTEXT_3_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(285.3066,197.9141)"
-         font-size="5.0703"
-         id="text242"
-         style="font-size:5.0703001px;font-family:ArialMT">0017 - Gym Storage</text>
+         transform="translate(285.3066,197.9141)">0017 - Gym Storage</text>
 </g></a><a
      xlink:href="/ahera/4/0016B"
-     target="_blank"
+     target="_self"
      id="a174"><g
        id="MTEXT_4_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(322.0469,229.4961)"
-         font-size="5.0703"
-         id="text245"
-         style="font-size:5.0703001px;font-family:ArialMT">0016B - </text>
+         transform="translate(322.0469,229.4961)">0016B - </text>
 <text
-         transform="translate(321.8672,235.2432)"
-         font-size="5.0703"
-         id="text247"
-         style="font-size:5.0703001px;font-family:ArialMT">Exam </text>
+         transform="translate(321.8672,235.2432)">Exam </text>
 <text
-         transform="translate(321.8672,240.9893)"
-         font-size="5.0703"
-         id="text249"
-         style="font-size:5.0703001px;font-family:ArialMT">Room</text>
+         transform="translate(321.8672,240.9893)">Room</text>
 </g></a><a
      xlink:href="/ahera/4/0016C"
-     target="_blank"
+     target="_self"
      id="a180"><g
        id="MTEXT_5_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(296.1768,211.8906)"
-         font-size="5.0703"
-         id="text252"
-         style="font-size:5.0703001px;font-family:ArialMT">0016C - Toilet</text>
+         transform="translate(296.1768,211.8906)">0016C - Toilet</text>
 </g></a><g
      id="LINE_75_"
      transform="translate(-82.331605,0.47739683)"><line
@@ -813,54 +757,34 @@
        id="line281"
        style="stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></g><a
      xlink:href="/ahera/4/0016"
-     target="_blank"
+     target="_self"
      id="a186"><g
        id="MTEXT_6_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(277.9531,228.3281)"
-         font-size="5.0703"
-         id="text284"
-         style="font-size:5.0703001px;font-family:ArialMT">0016 - </text>
+         transform="translate(277.9531,228.3281)">0016 - </text>
 <text
-         transform="translate(277.7871,234.0742)"
-         font-size="5.0703"
-         id="text286"
-         style="font-size:5.0703001px;font-family:ArialMT">Nurses Waiting</text>
+         transform="translate(277.7871,234.0742)">Nurses Waiting</text>
 <text
-         transform="translate(277.7734,245.5674)"
-         font-size="5.0703"
-         id="text304"
-         style="font-size:5.0703001px;font-family:ArialMT">Room</text>
+         transform="translate(277.7734,245.5674)">Room</text>
 </g></a><a
      xlink:href="/ahera/4/0016A"
-     target="_blank"
+     target="_self"
      id="a192"><g
        id="MTEXT_7_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(294.0498,255.416)"
-         font-size="5.0703"
-         id="text307"
-         style="font-size:5.0703001px;font-family:ArialMT">0016A - Nurses</text>
+         transform="translate(294.0498,255.416)">0016A - Nurses</text>
 <text
-         transform="translate(294.0195,261.2207)"
-         font-size="5.0703"
-         id="text337"
-         style="font-size:5.0703001px;font-family:ArialMT">Office</text>
+         transform="translate(294.0195,261.2207)">Office</text>
 </g></a><a
      xlink:href="/ahera/4/0010"
-     target="_blank"
-     id="a197"><g
-       id="MTEXT_8_"
-       transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(226.1836,18.833)"
-         font-size="5.0703"
-         id="text350"
-         style="font-size:5.0703001px;font-family:ArialMT">0010 - East </text>
-<text
-         transform="translate(226.0039,24.5801)"
-         font-size="5.0703"
-         id="text352"
-         style="font-size:5.0703001px;font-family:ArialMT">Exit</text>
+     target="_self"
+     id="a197">
+     <g id="MTEXT_8_"
+      class="TextLink" transform="translate(-82.331605,0.47739683)">
+      <text transform="translate(226.1836,18.833)">0010 - East </text>
+      <text transform="translate(226.0039,24.5801)">Exit</text>
 </g></a><g
      id="LINE_76_"
      transform="translate(-82.331605,0.47739683)"><line
@@ -870,21 +794,18 @@
        x2="232.36099"
        y2="43.379002"
        id="line355"
-       style="stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></g><a
+       style="stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" />
+     </g>
+     <a
      xlink:href="/ahera/4/0009"
-     target="_blank"
+     target="_self"
      id="a204"><g
        id="MTEXT_9_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(192.7388,51.7607)"
-         font-size="5.0703"
-         id="text358"
-         style="font-size:5.0703001px;font-family:ArialMT">0009 - Gym </text>
+         transform="translate(192.7388,51.7607)">0009 - Gym </text>
 <text
-         transform="translate(192.6973,57.5664)"
-         font-size="5.0703"
-         id="text360"
-         style="font-size:5.0703001px;font-family:ArialMT">Closet</text>
+         transform="translate(192.6973,57.5664)">Closet</text>
 </g></a><g
      id="LINE_77_"
      transform="translate(-82.331605,0.47739683)"><line
@@ -896,39 +817,26 @@
        id="line363"
        style="stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></g><a
      xlink:href="/ahera/4/0008"
-     target="_blank"
+     target="_self"
      id="a211"><g
        id="MTEXT_10_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(226.0391,68.4238)"
-         font-size="5.0703"
-         id="text366"
-         style="font-size:5.0703001px;font-family:ArialMT">0008 - </text>
+         transform="translate(226.0391,68.4238)">0008 - </text>
 <text
-         transform="translate(225.9844,74.2295)"
-         font-size="5.0703"
-         id="text368"
-         style="font-size:5.0703001px;font-family:ArialMT">Gym Office</text>
+         transform="translate(225.9844,74.2295)">Gym Office</text>
 </g></a><a
      xlink:href="/ahera/4/0008B"
-     target="_blank"
+     target="_self"
      id="a216"><g
        id="MTEXT_11_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(249.8193,84.998)"
-         font-size="5.0703"
-         id="text383"
-         style="font-size:5.0703001px;font-family:ArialMT">0008B - </text>
+         transform="translate(249.8193,84.998)">0008B - </text>
 <text
-         transform="translate(249.7773,90.8027)"
-         font-size="5.0703"
-         id="text385"
-         style="font-size:5.0703001px;font-family:ArialMT">Coachs Toilet/</text>
+         transform="translate(249.7773,90.8027)">Coachs Toilet/</text>
 <text
-         transform="translate(249.7988,102.4092)"
-         font-size="5.0703"
-         id="text403"
-         style="font-size:5.0703001px;font-family:ArialMT">Shower</text>
+         transform="translate(249.7988,102.4092)">Shower</text>
 </g></a><g
      id="LINE_78_"
      transform="translate(-82.331605,0.47739683)"><line
@@ -940,19 +848,14 @@
        id="line406"
        style="stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></g><a
      xlink:href="/ahera/4/0008A"
-     target="_blank"
+     target="_self"
      id="a224"><g
        id="MTEXT_12_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(192.7432,92.6279)"
-         font-size="5.0703"
-         id="text409"
-         style="font-size:5.0703001px;font-family:ArialMT">0008A - </text>
+         transform="translate(192.7432,92.6279)">0008A - </text>
 <text
-         transform="translate(192.7017,98.4326)"
-         font-size="5.0703"
-         id="text425"
-         style="font-size:5.0703001px;font-family:ArialMT">Closet</text>
+         transform="translate(192.7017,98.4326)">Closet</text>
 </g></a><g
      id="LINE_79_"
      transform="translate(-82.331605,0.47739683)"><line
@@ -964,64 +867,40 @@
        id="line428"
        style="stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></g><a
      xlink:href="/ahera/4/0007A"
-     target="_blank"
+     target="_self"
      id="a231"><g
        id="MTEXT_13_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(225.3086,119.1934)"
-         font-size="5.0703"
-         id="text431"
-         style="font-size:5.0703001px;font-family:ArialMT">0007A - </text>
+         transform="translate(225.3086,119.1934)">0007A - </text>
 <text
-         transform="translate(225.1563,124.9395)"
-         font-size="5.0703"
-         id="text447"
-         style="font-size:5.0703001px;font-family:ArialMT">Boys </text>
+         transform="translate(225.1563,124.9395)">Boys </text>
 <text
-         transform="translate(225.2871,130.7441)"
-         font-size="5.0703"
-         id="text449"
-         style="font-size:5.0703001px;font-family:ArialMT">Shower/ </text>
+         transform="translate(225.2871,130.7441)">Shower/ </text>
 <text
-         transform="translate(225.1563,136.4902)"
-         font-size="5.0703"
-         id="text451"
-         style="font-size:5.0703001px;font-family:ArialMT">Bathroom</text>
+         transform="translate(225.1563,136.4902)">Bathroom</text>
 </g></a><a
      xlink:href="/ahera/4/0007"
-     target="_blank"
+     target="_self"
      id="a238"><g
        id="MTEXT_14_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(249.0645,119.7813)"
-         font-size="5.0703"
-         id="text454"
-         style="font-size:5.0703001px;font-family:ArialMT">0007 - </text>
+         transform="translate(249.0645,119.7813)">0007 - </text>
 <text
-         transform="translate(248.9131,125.5273)"
-         font-size="5.0703"
-         id="text456"
-         style="font-size:5.0703001px;font-family:ArialMT">Boys </text>
+         transform="translate(248.9131,125.5273)">Boys </text>
 <text
-         transform="translate(248.9131,131.2734)"
-         font-size="5.0703"
-         id="text458"
-         style="font-size:5.0703001px;font-family:ArialMT">Locker</text>
+         transform="translate(248.9131,131.2734)">Locker</text>
 </g></a><a
      xlink:href="/ahera/4/0006"
-     target="_blank"
+     target="_self"
      id="a244"><g
        id="MTEXT_15_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(187.2324,164.3135)"
-         font-size="5.0703"
-         id="text461"
-         style="font-size:5.0703001px;font-family:ArialMT">0006 - Gym </text>
+         transform="translate(187.2324,164.3135)">0006 - Gym </text>
 <text
-         transform="translate(187.1909,170.1191)"
-         font-size="5.0703"
-         id="text463"
-         style="font-size:5.0703001px;font-family:ArialMT">Closet</text>
+         transform="translate(187.1909,170.1191)">Closet</text>
 </g></a><g
      id="LINE_80_"
      transform="translate(-82.331605,0.47739683)"><line
@@ -1033,19 +912,14 @@
        id="line466"
        style="stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></g><a
      xlink:href="/ahera/4/0007B"
-     target="_blank"
+     target="_self"
      id="a251"><g
        id="MTEXT_16_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(184.6128,180.8564)"
-         font-size="5.0703"
-         id="text469"
-         style="font-size:5.0703001px;font-family:ArialMT">0007B - Slop </text>
+         transform="translate(184.6128,180.8564)">0007B - Slop </text>
 <text
-         transform="translate(184.5923,186.6621)"
-         font-size="5.0703"
-         id="text471"
-         style="font-size:5.0703001px;font-family:ArialMT">Sink</text>
+         transform="translate(184.5923,186.6621)">Sink</text>
 </g></a><g
      id="LINE_81_"
      transform="translate(-82.331605,0.47739683)"><line
@@ -1057,29 +931,22 @@
        id="line474"
        style="stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></g><a
      xlink:href="/ahera/4/0022"
-     target="_blank"
+     target="_self"
      id="a258"><g
        id="MTEXT_17_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(231.5723,204.4336)"
-         font-size="5.0703"
-         id="text477"
-         style="font-size:5.0703001px;font-family:ArialMT">0022 - Corridor</text>
+         transform="translate(231.5723,204.4336)">0022 - Corridor</text>
 </g></a><a
      xlink:href="/ahera/4/0013"
-     target="_blank"
+     target="_self"
      id="a262"><g
        id="MTEXT_18_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(226.2021,213.2188)"
-         font-size="5.0703"
-         id="text480"
-         style="font-size:5.0703001px;font-family:ArialMT">0013 - </text>
+         transform="translate(226.2021,213.2188)">0013 - </text>
 <text
-         transform="translate(226.1602,219.0244)"
-         font-size="5.0703"
-         id="text482"
-         style="font-size:5.0703001px;font-family:ArialMT">Closet</text>
+         transform="translate(226.1602,219.0244)">Closet</text>
 </g></a><g
      id="LINE_82_"
      transform="translate(-82.331605,0.47739683)"><line
@@ -1091,19 +958,14 @@
        id="line485"
        style="stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></g><a
      xlink:href="/ahera/4/0014"
-     target="_blank"
+     target="_self"
      id="a269"><g
        id="MTEXT_19_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(247.6797,214.4492)"
-         font-size="5.0703"
-         id="text488"
-         style="font-size:5.0703001px;font-family:ArialMT">0014 - </text>
+         transform="translate(247.6797,214.4492)">0014 - </text>
 <text
-         transform="translate(247.6387,220.2539)"
-         font-size="5.0703"
-         id="text490"
-         style="font-size:5.0703001px;font-family:ArialMT">Closet</text>
+         transform="translate(247.6387,220.2539)">Closet</text>
 </g></a><g
      id="LINE_83_"
      transform="translate(-82.331605,0.47739683)"><line
@@ -1115,19 +977,14 @@
        id="line493"
        style="stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></g><a
      xlink:href="/ahera/4/0005C"
-     target="_blank"
+     target="_self"
      id="a276"><g
        id="MTEXT_20_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(200.1108,207.165)"
-         font-size="5.0703"
-         id="text496"
-         style="font-size:5.0703001px;font-family:ArialMT">0005C - </text>
+         transform="translate(200.1108,207.165)">0005C - </text>
 <text
-         transform="translate(200.0693,212.9697)"
-         font-size="5.0703"
-         id="text498"
-         style="font-size:5.0703001px;font-family:ArialMT">Closet</text>
+         transform="translate(200.0693,212.9697)">Closet</text>
 </g></a><g
      id="LINE_84_"
      transform="translate(-82.331605,0.47739683)"><line
@@ -1139,24 +996,16 @@
        id="line501"
        style="stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></g><a
      xlink:href="/ahera/4/0012"
-     target="_blank"
+     target="_self"
      id="a283"><g
        id="MTEXT_21_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(229.0684,270.4346)"
-         font-size="5.0703"
-         id="text504"
-         style="font-size:5.0703001px;font-family:ArialMT">0012 - </text>
+         transform="translate(229.0684,270.4346)">0012 - </text>
 <text
-         transform="translate(228.8828,276.1816)"
-         font-size="5.0703"
-         id="text506"
-         style="font-size:5.0703001px;font-family:ArialMT">Handicap </text>
+         transform="translate(228.8828,276.1816)">Handicap </text>
 <text
-         transform="translate(229.1543,281.9277)"
-         font-size="5.0703"
-         id="text508"
-         style="font-size:5.0703001px;font-family:ArialMT">Toilet</text>
+         transform="translate(229.1543,281.9277)">Toilet</text>
 </g></a><g
      id="LINE_85_"
      transform="translate(-82.331605,0.47739683)"><line
@@ -1168,29 +1017,18 @@
        id="line521"
        style="stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></g><a
      xlink:href="/ahera/4/0015"
-     target="_blank"
+     target="_self"
      id="a291"><g
        id="MTEXT_22_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(253.2852,269.5303)"
-         font-size="5.0703"
-         id="text524"
-         style="font-size:5.0703001px;font-family:ArialMT">0015 - </text>
+         transform="translate(253.2852,269.5303)">0015 - </text>
 <text
-         transform="translate(253.126,275.2764)"
-         font-size="5.0703"
-         id="text526"
-         style="font-size:5.0703001px;font-family:ArialMT">Mens </text>
+         transform="translate(253.126,275.2764)">Mens </text>
 <text
-         transform="translate(253.0977,281.0225)"
-         font-size="5.0703"
-         id="text528"
-         style="font-size:5.0703001px;font-family:ArialMT">Handicap </text>
+         transform="translate(253.0977,281.0225)">Handicap </text>
 <text
-         transform="translate(253.3711,286.7686)"
-         font-size="5.0703"
-         id="text530"
-         style="font-size:5.0703001px;font-family:ArialMT">Toilet</text>
+         transform="translate(253.3711,286.7686)">Toilet</text>
 </g></a><g
      id="LINE_86_"
      transform="translate(-82.331605,0.47739683)"><line
@@ -1202,34 +1040,24 @@
        id="line543"
        style="stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></g><a
      xlink:href="/ahera/4/0005"
-     target="_blank"
+     target="_self"
      id="a300"><g
        id="MTEXT_23_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(189.1479,231.2998)"
-         font-size="5.0703"
-         id="text546"
-         style="font-size:5.0703001px;font-family:ArialMT">0005 - </text>
+         transform="translate(189.1479,231.2998)">0005 - </text>
 <text
-         transform="translate(189.1069,237.1045)"
-         font-size="5.0703"
-         id="text548"
-         style="font-size:5.0703001px;font-family:ArialMT">Coaches </text>
+         transform="translate(189.1069,237.1045)">Coaches </text>
 <text
-         transform="translate(189.1172,242.9092)"
-         font-size="5.0703"
-         id="text550"
-         style="font-size:5.0703001px;font-family:ArialMT">Office</text>
+         transform="translate(189.1172,242.9092)">Office</text>
 </g></a><a
      xlink:href="/ahera/4/0005A"
-     target="_blank"
+     target="_self"
      id="a306"><g
        id="MTEXT_24_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(160.8369,211.8037)"
-         font-size="5.0703"
-         id="text563"
-         style="font-size:5.0703001px;font-family:ArialMT">0005A - Closet</text>
+         transform="translate(160.8369,211.8037)">0005A - Closet</text>
 </g></a><g
      id="LINE_87_"
      transform="translate(-82.331605,0.47739683)"><line
@@ -1241,24 +1069,16 @@
        id="line592"
        style="stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></g><a
      xlink:href="/ahera/4/0005B"
-     target="_blank"
+     target="_self"
      id="a312"><g
        id="MTEXT_25_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(164.9268,253.3701)"
-         font-size="5.0703"
-         id="text595"
-         style="font-size:5.0703001px;font-family:ArialMT">0005B - </text>
+         transform="translate(164.9268,253.3701)">0005B - </text>
 <text
-         transform="translate(164.8857,259.1758)"
-         font-size="5.0703"
-         id="text597"
-         style="font-size:5.0703001px;font-family:ArialMT">Coaches Toilet/</text>
+         transform="translate(164.8857,259.1758)">Coaches Toilet/</text>
 <text
-         transform="translate(164.9063,264.9805)"
-         font-size="5.0703"
-         id="text631"
-         style="font-size:5.0703001px;font-family:ArialMT">Shower</text>
+         transform="translate(164.9063,264.9805)">Shower</text>
 </g></a><g
      id="LINE_88_"
      transform="translate(-82.331605,0.47739683)"><line
@@ -1270,54 +1090,40 @@
        id="line634"
        style="stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></g><a
      xlink:href="/ahera/4/0004"
-     target="_blank"
+     target="_self"
      id="a320"><g
        id="MTEXT_26_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(100.458,259.252)"
-         font-size="5.0703"
-         id="text637"
-         style="font-size:5.0703001px;font-family:ArialMT">0004 - Girls Locker Room</text>
+         transform="translate(100.458,259.252)">0004 - Girls Locker Room</text>
 </g></a><a
      xlink:href="/ahera/4/0001"
-     target="_blank"
+     target="_self"
      id="a324"><g
        id="MTEXT_27_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(117.3696,112.3965)"
-         font-size="5.0703"
-         id="text640"
-         style="font-size:5.0703001px;font-family:ArialMT">0001 - Gymnasium</text>
+         transform="translate(117.3696,112.3965)">0001 - Gymnasium</text>
 </g></a><a
      xlink:href="/ahera/4/0004A"
-     target="_blank"
+     target="_self"
      id="a328"><g
        id="MTEXT_28_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(116.8213,232.0039)"
-         font-size="5.0703"
-         id="text643"
-         style="font-size:5.0703001px;font-family:ArialMT">0004A - </text>
+         transform="translate(116.8213,232.0039)">0004A - </text>
 <text
-         transform="translate(116.6694,237.8096)"
-         font-size="5.0703"
-         id="text659"
-         style="font-size:5.0703001px;font-family:ArialMT">Bathroom/Shower</text>
+         transform="translate(116.6694,237.8096)">Bathroom/Shower</text>
 </g></a><a
      xlink:href="/ahera/4/0003"
-     target="_blank"
+     target="_self"
      id="a333"><g
        id="MTEXT_29_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(107.5688,217.0098)"
-         font-size="5.0703"
-         id="text662"
-         style="font-size:5.0703001px;font-family:ArialMT">0003 - Gym </text>
+         transform="translate(107.5688,217.0098)">0003 - Gym </text>
 <text
-         transform="translate(107.5273,222.8145)"
-         font-size="5.0703"
-         id="text664"
-         style="font-size:5.0703001px;font-family:ArialMT">Closet</text>
+         transform="translate(107.5273,222.8145)">Closet</text>
 </g></a><g
      id="LINE_89_"
      transform="translate(-82.331605,0.47739683)"><line
@@ -1329,14 +1135,12 @@
        id="line667"
        style="stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></g><a
      xlink:href="/ahera/4/0002"
-     target="_blank"
+     target="_self"
      id="a340"><g
        id="MTEXT_30_"
+       class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(84.8257,203.2891)"
-         font-size="5.0703"
-         id="text670"
-         style="font-size:5.0703001px;font-family:ArialMT">0002 - West Exit</text>
+         transform="translate(84.8257,203.2891)">0002 - West Exit</text>
 </g></a><g
      id="LINE_90_"
      transform="translate(-82.331605,0.47739683)"><line
@@ -1348,14 +1152,12 @@
        id="line705"
        style="stroke:#000000;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" /></g><a
      xlink:href="/ahera/4/0011"
-     target="_blank"
+     target="_self"
      id="a346"><g
        id="MTEXT_31_"
+      class="TextLink"
        transform="translate(-82.331605,0.47739683)"><text
-         transform="translate(178.0596,288.0586)"
-         font-size="5.0703"
-         id="text708"
-         style="font-size:5.0703001px;font-family:ArialMT">0011 - Corridor Closet</text>
+         transform="translate(178.0596,288.0586)">0011 - Corridor Closet</text>
 </g></a><g
      id="LINE_91_"
      transform="translate(-82.331605,0.47739683)"><line

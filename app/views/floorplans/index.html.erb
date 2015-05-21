@@ -17,6 +17,7 @@
       <tr>
         <td><%= floorplan.building.buildingname%></td>
         <td><%= floorplan.level%></td>
+        <td><%= floorplan.image_file_name%></td>
         <td><%= link_to 'Show', floorplan %></td>
         <td><%= link_to 'Edit', edit_floorplan_path(floorplan) %></td>
         <td><%= link_to 'Destroy', floorplan, method: :delete, data: { confirm: 'Are you sure?' } %></td>

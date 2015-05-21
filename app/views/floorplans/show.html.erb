@@ -9,7 +9,11 @@
 </p>
 <p>
   <strong>Filename:</strong>
-  <%= inline_svg 'GlenheadBasementPerc.svg', data: {type: "image/svg+xml"}  %>
+  <%= @floorplan.image_file_name %>
+</p>
+<p>
+  <strong>Image:</strong>
+  <%= inline_svg @floorplan.image_file_name, data: {type: "image/svg+xml"}  %>
  
 </p>
 

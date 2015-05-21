@@ -57,18 +57,27 @@
 #buttons{
 float: right;
 }
+#floorplan4_0{        /* positioning for bldg id 4 floor 0 plan*/
+display:  block;  
+  padding-top: 50px;
+  padding-left: 40px;
 
+}
 
-#svgcontent{
+#floorplan4_1{        /* positioning for bldg id 4 floor 1 plan*/
+display:  block; 
+  padding-top: 50px;
+  padding-left: 40px;
 
-top: 0;
-left: 0;
-height: 95%;
-width: 95%;
-float: right;
+}
+#floorplan4_2{        /* positioning for bldg id 4 floor 1 plan*/
+display:  block; 
+  padding-top: 50px;
+  padding-left: 40px;
+
 }
 .TextLink{
-  font-size: 54%;
+  font-size: 39%;
 }
 .TextLink:hover{
 fill: #0000FF;
@@ -76,6 +85,7 @@ fill: #0000FF;
 
 
 }
+
 /* CSS for the slideshow here */
 .bss-slides{
   

@@ -1,4 +1,4 @@
-<h4>
+<div class="reportheader"><h4>
 <% unless current_user.is_admin %>
 <%= 'Viewing reports for ' + @customer.company %> 
 <% else%>
@@ -6,7 +6,7 @@
 <% end %> | 
 <%= link_to 'View AHERA data', ahera_index_path %>
 </h4>
-
+</div>
 <%= render partial:  'grid' %>
 
 
