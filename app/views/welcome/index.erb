@@ -1,17 +1,33 @@
 
 
 
-<div id='bodybag' style='height: 100%;'>
-<div id='leftpanel-container' class='top-element-box'>
+<div id='bodybag'>
+<div id='index-leftpanel-container' class='top-element-box'>
+<table class='clientinfotable'>
 
+<tr><h2>Client Info</h2></tr>
+
+<tr><td class="datalabel">Company:</td> <td class="dataitem"><%= @currcustomer.company %></td></tr>
+<tr><td class="datalabel">Address:</td> <td class="dataitem"><%= @currcustomer.street_address %></td></tr>
+<td class="datalabel"></td> <td class="dataitem"><%= @currcustomer.locality + ', ' + @currcustomer.region + ' ' +@currcustomer.postcode.to_s %></td>
+<tr><td> </td></tr>
+<tr><td class="datalabel">Logged in as:</td> <td class="dataitem"><%= @curruser.email%></td></tr>
+</h2>
+</table>
 </div>
 <div id='rightpanel-container' class='top-element-box' >
+<div id="building-map" style='height: 100%;'></div> 
+</div>
+   <div id='index-bottomleftpanel-container' class='bottom-element-box'>
+<h2>Managed Facilities</h2>
+
+<%= render partial:  'buildings_grid' %>
 
 </div>
-   
+
 
 </div>
-</div>
+
 
 <script type="text/javascript">
 handler = Gmaps.build('Google');
@@ -19,6 +35,7 @@ handler.buildMap({ provider: {}, internal: {id: 'building-map'}}, function(){
  markers = handler.addMarkers(<%=raw @hash.to_json %>);
   handler.bounds.extendWith(markers);
   handler.fitMapToBounds();
+ 
 });
 
 

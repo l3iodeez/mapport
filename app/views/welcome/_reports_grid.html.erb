@@ -1,0 +1,23 @@
+<%= grid(@reports_grid, show_filters: :never) do |g|
+
+
+g.column name:  'Report', attribute: 'reportname', auto_reload: false
+g.column name:  'Description', attribute: 'description', auto_reload: false
+g.column name:  'Date', attribute: 'report_date', model: 'Report', auto_reload: false, helper_style: :html5  do |report|
+report.report_date.to_formatted_s(:long)
+end
+
+
+ 
+
+
+    g.column do |report|
+   link_to('Download', reports_download_path(report.id))  
+   end
+
+   # g.column name:  'Report', attribute: 'pdf', auto_reload: false  #uncomment to display download link for debug
+  g.blank_slate  do
+    content_tag :div, "No records found", class: 'well'
+  end
+
+end -%>

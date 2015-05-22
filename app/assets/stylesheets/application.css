@@ -68,7 +68,7 @@ th {
 
 	box-shadow: 2px 3px 4px 1px; /*grey*/
 	border-radius: 5px;
-	overflow-y: scroll;
+	overflow-y: auto;
 	
 	
 }
@@ -141,7 +141,13 @@ h4 {
 .dataitem{
 	color: #000;
 }
+.dataitem:hover {
+	color: #000;
+}
 
+.datalabel{
+	color: #32689b;
+}
 
 /*////////////////////////FORMS////////////////////////*/
 

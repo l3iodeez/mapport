@@ -24,7 +24,7 @@ Rails.application.routes.draw do
   put '/admin/:id' => 'admin#update'
   delete '/admin/:id' => 'admin#destroy'
   get 'ahera/:building_id/:space_id' => 'ahera#display_filtered'
-  get '/welcome/:building_id' => 'welcome#buildingpanel'
+  get '/:building_id' => 'welcome#buildingpanel', as: 'show_building'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

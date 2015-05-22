@@ -4,7 +4,8 @@
 #bodybag{
 	width: 100%;
 	float: left;
-  height: 100%;
+  height: calc(100% - 5px);
+  overflow-y:  hidden;
 }
 
 .top-element-box{
@@ -26,27 +27,75 @@
 	padding: 0.5%;
 	border: 1px solid #999;
   overflow: auto;
-  height: calc(50% - 240px);
+  
 
 	}
   #buildings{
-    height: 100%;
+    
+  }
+  .center{
+    overflow: hidden;
   }
   .building-map{
 
   }
-#leftpanel-container{
+ #index-bottomleftpanel-container{
+   height: calc(80% - 231px);
+ } 
+#index-leftpanel-container{
 	
-	
-	
-	
-	
+	height: 20%;
+  overflow-y: auto;
+
+}
+#index-rightpanel-container{
+  
+  height: 100%;
+
+
+}
+.buildinglink{
+    position: relative;
+  
+  padding-right: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 0.95em;
+  padding-left: 10px;
+  color: #7d7d7d;/*grey*/
+}
+
+.buildinglink a {
+  color: #32689b;/*blue*/
+  text-decoration: none;
+}
+
+.buildinglink a:hover {
+  color: #2d9b68;/*green*/
+  background-color: #fff;
+}
+
+.clientinfotable{
+  font-size: 1.2em;
+  color: #32689b;
+}
+#detail-rightpanel-container{
+
+  width: 25%;
+}
+#detail-leftpanel-container{
+width: 30%;
+}
+#detail-centerpanel-container{
+    float: left;
+  position: relative;
+  overflow: hidden;
+width: 38%;
 }
 #rightpanel-container{
   float: right;
   position: relative;
   overflow: hidden;
-	
+	height: calc(100% - 200px);
 }
 
 .panzoom{
@@ -55,27 +104,25 @@
   height: 100%
 }
 #buttons{
-float: right;
+
+position: absolute;
+bottom: 5px;
 }
-#floorplan4_0{        /* positioning for bldg id 4 floor 0 plan*/
+#index-bottompanel-container{
+width: 47%
+
+}
+#floorplan_0{        /* positioning for floorplan 0 plan*/
+  position: absolute;
 display:  block;  
-  padding-top: 50px;
-  padding-left: 40px;
+  padding-top: 40px;
+  padding-left: 10px;
+ 
+
 
 }
 
-#floorplan4_1{        /* positioning for bldg id 4 floor 1 plan*/
-display:  block; 
-  padding-top: 50px;
-  padding-left: 40px;
 
-}
-#floorplan4_2{        /* positioning for bldg id 4 floor 1 plan*/
-display:  block; 
-  padding-top: 50px;
-  padding-left: 40px;
-
-}
 .TextLink{
   font-size: 39%;
 }
@@ -94,18 +141,18 @@ fill: #0000FF;
 
 }
 .bss-show{
-opacity: 1;
+opacity: 0;
 }
 .bss-slides:focus{
  outline: 0;
 
 }
 .bss-slides figure{
-  opacity: 1;
+  opacity: 0;
   top: 0;
   height: 0%;
   overflow: hidden;
-  z-index: -100;
+
 }
 .bss-slides figure:first-child{
 
@@ -135,14 +182,15 @@ opacity: 1;
   position: absolute;
   font-family: sans-serif;
   font-size: .8em;
-  bottom: .75em;
-  right: .35em;
+ bottom: 33.25em;
+  right: -12.65em;
   padding: .25em;
   color: #fff;
   background: #000;
   background: rgba(0,0,0, .25);
   border-radius: 2px;
   opacity: 0;
+
   -webkit-transition: opacity 1.2s;
   transition: opacity 1.2s;
 }
