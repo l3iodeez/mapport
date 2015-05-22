@@ -11,7 +11,7 @@ def index
 	if current_user.is_admin 
 	@buildings = Building.all
 	else
-	@buildings = Building.all.where(customer: @currcustomer)	
+	@buildings = Building.where(customer: @currcustomer)	
 	end
 
 
