@@ -68,7 +68,7 @@ end
 def check_ownership
 	@user = current_user
 	@building = Building.find_by_id(params[:building_id])
-      if @user.customer_id != @building.customer_id && !current_user.is_admin #check if current user is a user tied to report's owner
+      if @user.customer_id != @building.customer_id  #check if current user is a user tied to report's owner
          redirect_to root_path,
           alert: "You are not authorized to select this facility" # boot them to the main page if not admin
       end
