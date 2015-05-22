@@ -1,6 +1,6 @@
 class WelcomeController < InternalController
 
-before_action :check_ownership, only: [:buildingpanel]
+before_action :check_bldg_ownership, only: [:buildingpanel]
 
 	
 def index
@@ -65,7 +65,7 @@ def buildingpanel
 		end
 end
 
-def check_ownership
+def check_bldg_ownership
 	@user = current_user
 	@building = Building.find_by_id(params[:building_id])
       if @user.customer_id != @building.customer_id && !current_user.is_admin #check if current user is a user tied to report's owner
