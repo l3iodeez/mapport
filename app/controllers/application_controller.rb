@@ -32,7 +32,7 @@ class ApplicationController < ActionController::Base
     end
 
 def set_g_user
-  current_user = User.find_by_email(params[:email])
+ #current_user = User.find_by_email(params[:email])
 end
   
 end

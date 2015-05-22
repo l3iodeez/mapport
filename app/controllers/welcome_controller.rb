@@ -8,9 +8,28 @@ def index
 	@curruser = current_user
 	@currcustomer = current_user.customer
 	@customers = Customer.all
-	
+	if current_user.is_admin 
+	@buildings = Building.all
+	else
 	@buildings = Building.all.where(customer: @currcustomer)	
-	
+	end
+
+
+		 @buildings_grid = initialize_grid(@buildings,
+		      :include => [:customer],
+		     
+		      :name => 'buildings',
+		      :per_page => 10,
+		      :enable_export_to_csv => false,
+		      
+		      )
+
+		@hash = Gmaps4rails.build_markers(@buildings) do |building, marker|
+		  marker.lat building.latitude
+		  marker.lng building.longitude
+		  marker.infowindow view_context.link_to(building.buildingname, show_building_path(building.id))
+		end
+
 
 end
 
