@@ -8,7 +8,7 @@ def index
 	@curruser = current_user
 	@currcustomer = current_user.customer
 	
-	if current_user.is_admin 
+	if @curruser.is_admin 
 
 	@buildings = Building.all
 	else
@@ -40,13 +40,13 @@ end
 def buildingpanel
 				@curruser = current_user
 			@currcustomer = current_user.customer
-			@customers = Customer.all
-			if current_user.is_admin 
+			
+			if @curruser.is_admin 
 			@buildings = Building.all
 			else
-			@buildings = Building.all.where(customer: @currcustomer)	
+			@buildings = Building.where(customer: @currcustomer)	
 			end
-			@building = Building.all.find_by_id(params[:building_id])
+			@building = Building.find_by_id(params[:building_id])
 			@reports = Report.where(building_id: params[:building_id])
 			@floorplans = Floorplan.where(building_id: params[:building_id])
 
