@@ -7,10 +7,12 @@ def index
 	
 	@curruser = current_user
 	@currcustomer = current_user.customer
-	@customers = Customer.all
+	
 	if current_user.is_admin 
+
 	@buildings = Building.all
 	else
+
 	@buildings = Building.where(customer: @currcustomer)	
 	end
 
