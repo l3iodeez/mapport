@@ -1,5 +1,5 @@
 class RestrictedController < InternalController
-	#before_action :check_admin
+	before_action :check_admin
 
 	  
 
