@@ -1,6 +1,6 @@
 class WelcomeController < InternalController
 
-#before_filter :check_ownership, only: [:buildingpanel]
+before_action :check_ownership, only: [:buildingpanel]
 
 	
 def index
