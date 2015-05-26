@@ -25,14 +25,21 @@
 <span class="datalabel"><h2>Floorplans:</h2></span>
      <div class="bss-slides num1"  tabindex="1" autofocus="autofocus" >
              <section id="focal">
-                <div class="panzoom">
+                <div class="panzoom">.
+
+                  <figure class="" >
+                     <%= inline_svg 'testdrawing.svg' %>
+                     </figure>
+                        
+
+                <% if false %>
                     <% @floorplans.each do |floorplan| %>
                      <figure class="" >
                         <%= inline_svg floorplan.building_id.to_s + '-' + floorplan.level.to_s + '.svg' %>
-                
-                        </figure>
-                        
-                        <% end %>
+                     </figure>
+                      <% end %>
+                   <% end %>
+                       
                    
                   </div>
                 </section>

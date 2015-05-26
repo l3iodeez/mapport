@@ -8,22 +8,20 @@ def index
 	@curruser = current_user
 	@currcustomer = current_user.customer
 	
-	if @curruser.is_admin 
+	if current_user.is_admin 
 
 	@buildings = Building.all
 	else
 
-	@buildings = Building.where(customer: @currcustomer)	
+	@buildings = Building.where(customer: current_user.customer)	
 	end
 
 
 		 @buildings_grid = initialize_grid(@buildings,
 		      :include => [:customer],
-		     
 		      :name => 'buildings',
 		      :per_page => 10,
 		      :enable_export_to_csv => false,
-		      
 		      )
 
 		@hash = Gmaps4rails.build_markers(@buildings) do |building, marker|
@@ -38,13 +36,13 @@ end
 
   
 def buildingpanel
-				@curruser = current_user
+			@curruser = current_user
 			@currcustomer = current_user.customer
 			
-			if @curruser.is_admin 
+			if current_user.is_admin 
 			@buildings = Building.all
 			else
-			@buildings = Building.where(customer: @currcustomer)	
+			@buildings = Building.where(customer: current_user.customer)	
 			end
 			@building = Building.find_by_id(params[:building_id])
 			@reports = Report.where(building_id: params[:building_id])
@@ -52,12 +50,12 @@ def buildingpanel
 
 		 @reports_grid = initialize_grid(@reports,
 		      :include => [:customer],
-		     
 		      :name => 'reports',
 		      :per_page => 10,
 		      :enable_export_to_csv => false,
-		      
 		      )
+
+
 		@hash = Gmaps4rails.build_markers(@building) do |building, marker|
 		  marker.lat building.latitude
 		  marker.lng building.longitude

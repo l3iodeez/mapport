@@ -1,13 +1,16 @@
 class BuildingsController < RestrictedController
   before_action :set_building, only: [:show, :edit, :update, :destroy]
-  before_action :check_admin, only: [:edit, :update, :destroy]
+  before_action :check_admin, only: [:show, :edit, :update, :destroy]
 
   respond_to :html
 
   def index
+    if current_user.is_admin
     @buildings = Building.all
     respond_with(@buildings)
-    
+    else
+      @buildings = Building.where(customer: current_user.customer)
+    end
   end
 
   def show

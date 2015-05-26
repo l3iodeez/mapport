@@ -1,12 +1,17 @@
-class InternalController < ApplicationController
+class SpacesController < ApplicationController
   before_action :set_space, only: [:show, :edit, :update, :destroy]
-  before_action :check_admin, only: [:edit, :update, :destroy]
+ before_action :check_admin, only: [:show, :edit, :update, :destroy]
 
   respond_to :html
 
   def index
-    @spaces = Space.all
+    if current_user.is_admin
+     @spaces = Space.all
     respond_with(@spaces)
+    else
+      @spaces = Space.where(customer: current_user.customer)
+       respond_with(@spaces)
+    end
   end
 
   def show
