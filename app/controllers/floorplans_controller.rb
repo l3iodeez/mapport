@@ -1,5 +1,6 @@
 class FloorplansController < ApplicationController
   before_action :set_floorplan, only: [:show, :edit, :update, :destroy]
+  before_action :check_admin, only: [:create, :show, :edit, :update, :destroy]
 
   # GET /floorplans
   # GET /floorplans.json
