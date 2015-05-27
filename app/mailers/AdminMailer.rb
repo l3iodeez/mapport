@@ -1,6 +1,6 @@
 class AdminMailer < ActionMailer::Base
-  default to: 'support@nyenvironmental.com',
-          from: 'support@nyenvironmental.com'
+  default to: 'support@mapport.com',
+          from: 'support@mapport.com'
  
   def new_user_waiting_for_approval(user)
     @user = user

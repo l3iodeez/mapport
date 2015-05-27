@@ -1,6 +1,6 @@
 <p>Welcome <%= @resource.email %>! </p>
 
-<p>An account has been established for you on the New York Environmental Data Portal.</p>
+<p>An account has been established for you on the mapport Data Portal.</p>
 
 <% if @resource.is_admin %>
 <% end %>
@@ -11,6 +11,6 @@
 
 <p><%= link_to 'Confirm my account', confirmation_url(@resource, confirmation_token: @token) %></p>
 
-<p>Once your account is confirmed you can login <a href="http://nyeaportal-test.herokuapp.com/portal/users/sign_in">here</a></p>
+<p>Once your account is confirmed you can login <a href="http://mapport.herokuapp.com/portal/users/sign_in">here</a></p>
 
-<p>If you encounter any problems please contact support@nyenvironmental.com</p>
+<p>If you encounter any problems please contact support@mapport.com</p>

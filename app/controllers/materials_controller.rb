@@ -1,5 +1,6 @@
 class MaterialsController < RestrictedController
   before_action :set_material, only: [:show, :edit, :update, :destroy]
+  before_action :check_admin, only: [:create, :show, :edit, :update, :destroy]
   
 
   respond_to :html
