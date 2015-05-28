@@ -110,9 +110,11 @@
 	
 		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="279.393" y1="216.151" x2="279.393" y2="182.502"/>
 </g>
+<a xlink:href="/ahera/1/0010">
 <g id="MTEXT">
 	<text transform="matrix(1 0 0 1 68.52 134.292)" fill="#000000" font-family="'ArialMT'" font-size="6.0033">0001 - Utility Room</text>
 </g>
+</a>
 <a xlink:href="/ahera/1/0010">
 <g id="MTEXT_1_">
 	<text transform="matrix(1 0 0 1 88.2607 34.8857)" fill="#000000" font-family="'ArialMT'" font-size="6.0033">0010 - Workroom 1</text>
