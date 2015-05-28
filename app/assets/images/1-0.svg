@@ -1,306 +1,243 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.2" baseProfile="tiny" id="_x30_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+<svg version="1.2" baseProfile="tiny" id="floorplan_0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 	 x="0px" y="0px" width="432px" height="288px" viewBox="0 0 432 288" xml:space="preserve">
 <g id="LINE">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="41.549" y1="-0.118" x2="41.549" y2="260.029"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="41.549" y1="-0.118" x2="41.549" y2="260.029"/>
 </g>
 <g id="LINE_1_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="41.549" y1="260.029" x2="353.179" y2="260.029"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="41.549" y1="260.029" x2="353.179" y2="260.029"/>
 </g>
 <g id="LINE_2_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="353.179" y1="260.029" x2="353.179" y2="83.93"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="353.179" y1="260.029" x2="353.179" y2="83.93"/>
 </g>
 <g id="LINE_3_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="353.179" y1="83.93" x2="309.118" y2="-0.118"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="353.179" y1="83.93" x2="309.118" y2="-0.118"/>
 </g>
 <g id="LINE_4_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="309.118" y1="-0.118" x2="41.549" y2="-0.118"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="309.118" y1="-0.118" x2="41.549" y2="-0.118"/>
 </g>
 <g id="LINE_5_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="130.259" y1="260.029" x2="130.259" y2="288.117"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="130.259" y1="260.029" x2="130.259" y2="288.117"/>
 </g>
 <g id="LINE_6_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="130.259" y1="288.117" x2="353.179" y2="288.117"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="130.259" y1="288.117" x2="353.179" y2="288.117"/>
 </g>
 <g id="LINE_7_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="353.179" y1="288.117" x2="353.179" y2="260.029"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="353.179" y1="288.117" x2="353.179" y2="260.029"/>
 </g>
 <g id="LINE_8_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="194.629" y1="288.117" x2="194.629" y2="260.029"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="194.629" y1="288.117" x2="194.629" y2="260.029"/>
 </g>
 <g id="LINE_9_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="353.179" y1="83.93" x2="41.549" y2="83.93"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="353.179" y1="83.93" x2="41.549" y2="83.93"/>
 </g>
 <g id="LINE_10_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="179.506" y1="83.93" x2="179.506" y2="-0.118"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="179.506" y1="83.93" x2="179.506" y2="-0.118"/>
 </g>
 <g id="LINE_11_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="179.506" y1="23.675" x2="287.26" y2="23.675"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="179.506" y1="23.675" x2="287.26" y2="23.675"/>
 </g>
 <g id="LINE_12_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="287.26" y1="23.675" x2="326.959" y2="83.93"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="287.26" y1="23.675" x2="326.959" y2="83.93"/>
 </g>
 <g id="LINE_13_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="299.862" y1="83.93" x2="299.862" y2="42.803"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="299.862" y1="83.93" x2="299.862" y2="42.803"/>
 </g>
 <g id="LINE_14_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="268.985" y1="23.675" x2="268.985" y2="83.93"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="268.985" y1="23.675" x2="268.985" y2="83.93"/>
 </g>
 <g id="LINE_15_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="69.812" y1="-0.118" x2="69.812" y2="36.772"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="69.812" y1="-0.118" x2="69.812" y2="36.772"/>
 </g>
 <g id="LINE_16_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="69.812" y1="36.772" x2="41.549" y2="36.772"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="69.812" y1="36.772" x2="41.549" y2="36.772"/>
 </g>
 <g id="LINE_17_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="41.549" y1="20.878" x2="69.812" y2="20.878"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="41.549" y1="20.878" x2="69.812" y2="20.878"/>
 </g>
 <g id="LINE_18_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="62.3" y1="20.878" x2="62.3" y2="36.772"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="62.3" y1="20.878" x2="62.3" y2="36.772"/>
 </g>
 <g id="LINE_19_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="58.843" y1="36.772" x2="58.843" y2="20.878"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="58.843" y1="36.772" x2="58.843" y2="20.878"/>
 </g>
 <g id="LINE_20_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="54.73" y1="20.878" x2="54.73" y2="36.772"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="54.73" y1="20.878" x2="54.73" y2="36.772"/>
 </g>
 <g id="LINE_21_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="194.629" y1="260.029" x2="194.629" y2="83.93"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="194.629" y1="260.029" x2="194.629" y2="83.93"/>
 </g>
 <g id="LINE_22_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="194.629" y1="216.151" x2="353.179" y2="216.151"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="194.629" y1="216.151" x2="353.179" y2="216.151"/>
 </g>
 <g id="LINE_23_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="259.711" y1="216.151" x2="259.711" y2="83.93"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="259.711" y1="216.151" x2="259.711" y2="83.93"/>
 </g>
 <g id="LINE_24_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="259.711" y1="182.502" x2="297.325" y2="182.502"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="259.711" y1="182.502" x2="297.325" y2="182.502"/>
 </g>
 <g id="LINE_25_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="297.325" y1="182.502" x2="297.325" y2="216.151"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="297.325" y1="182.502" x2="297.325" y2="216.151"/>
 </g>
 <g id="LINE_26_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="279.393" y1="216.151" x2="279.393" y2="182.502"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="279.393" y1="216.151" x2="279.393" y2="182.502"/>
 </g>
 <g id="MTEXT">
-	<text transform="matrix(1 0 0 1 68.52 134.292)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">0001 - Utility Room</text>
+	<text transform="matrix(1 0 0 1 68.52 134.292)" fill="#000000" font-family="'ArialMT'" font-size="6.0033">0001 - Utility Room</text>
 </g>
+<a xlink:href="/ahera/1/0010">
 <g id="MTEXT_1_">
-	<text transform="matrix(1 0 0 1 88.2607 34.8857)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">0</text>
-	<text transform="matrix(1 0 0 1 91.5996 34.8857)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">0</text>
-	<text transform="matrix(1 0 0 1 94.9385 34.8857)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">1</text>
-	<text transform="matrix(1 0 0 1 98.2769 34.8857)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">0</text>
-	<text transform="matrix(1 0 0 1 101.6157 34.8857)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033"> </text>
-	<text transform="matrix(1 0 0 1 103.2837 34.8857)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">-</text>
-	<text transform="matrix(1 0 0 1 105.2827 34.8857)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033"> </text>
-	<text transform="matrix(1 0 0 1 106.9507 34.8857)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">W</text>
-	<text transform="matrix(1 0 0 1 112.5083 34.8857)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">o</text>
-	<text transform="matrix(1 0 0 1 115.8472 34.8857)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">r</text>
-	<text transform="matrix(1 0 0 1 117.8462 34.8857)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">k</text>
-	<text transform="matrix(1 0 0 1 120.8481 34.8857)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">r</text>
-	<text transform="matrix(1 0 0 1 122.8472 34.8857)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">o</text>
-	<text transform="matrix(1 0 0 1 126.186 34.8857)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">o</text>
-	<text transform="matrix(1 0 0 1 129.5244 34.8857)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">m</text>
-	<text transform="matrix(1 0 0 1 134.5254 34.8857)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033"> </text>
-	<text transform="matrix(1 0 0 1 136.1934 34.8857)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">1</text>
-	<text transform="matrix(1 0 0 1 139.5322 34.8857)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033"> </text>
+	<text transform="matrix(1 0 0 1 88.2607 34.8857)" fill="#000000" font-family="'ArialMT'" font-size="6.0033">0010 - Workroom 1</text>
 </g>
+</a>
+<a xlink:href="/ahera/1/0002">
 <g id="MTEXT_2_">
-	<text transform="matrix(1 0 0 1 133.7832 270.1738)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">0002 - Electrical Room</text>
+	<text transform="matrix(1 0 0 1 133.7832 270.1738)" fill="#000000" font-family="'ArialMT'" font-size="6.0033">0002 - Electrical Room</text>
 </g>
+</a>
+<a xlink:href="/ahera/1/0003">
 <g id="MTEXT_3_">
-	<text transform="matrix(1 0 0 1 202.4312 128.3652)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">0</text>
-	<text transform="matrix(1 0 0 1 205.77 128.3652)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">0</text>
-	<text transform="matrix(1 0 0 1 209.1089 128.3652)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">0</text>
-	<text transform="matrix(1 0 0 1 212.4473 128.3652)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">3</text>
-	<text transform="matrix(1 0 0 1 215.7861 128.3652)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033"> </text>
-	<text transform="matrix(1 0 0 1 217.4541 128.3652)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">-</text>
-	<text transform="matrix(1 0 0 1 219.4531 128.3652)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033"> </text>
-	<text transform="matrix(1 0 0 1 221.1211 128.3652)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">W</text>
-	<text transform="matrix(1 0 0 1 226.6787 128.3652)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">o</text>
-	<text transform="matrix(1 0 0 1 230.0176 128.3652)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">r</text>
-	<text transform="matrix(1 0 0 1 232.0166 128.3652)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">k</text>
-	<text transform="matrix(1 0 0 1 235.0186 128.3652)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">r</text>
-	<text transform="matrix(1 0 0 1 237.0176 128.3652)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">o</text>
-	<text transform="matrix(1 0 0 1 240.3564 128.3652)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">o</text>
-	<text transform="matrix(1 0 0 1 243.6953 128.3652)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">m</text>
-	<text transform="matrix(1 0 0 1 248.6953 128.3652)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033"> </text>
-	<text transform="matrix(1 0 0 1 250.3633 128.3652)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">3</text>
+	<text transform="matrix(1 0 0 1 202.4312 128.3652)" fill="#000000" font-family="'ArialMT'" font-size="6.0033">0003 - Workroom 3</text>
 </g>
+</a>
+<a xlink:href="/ahera/1/0004">
 <g id="MTEXT_4_">
-	<text transform="matrix(1 0 0 1 204.1118 225.4971)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">0004 - Utility Corridor</text>
+	<text transform="matrix(1 0 0 1 204.1118 225.4971)" fill="#000000" font-family="'ArialMT'" font-size="6.0033">0004 - Utility Corridor</text>
 </g>
+</a>
 <g id="LINE_27_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="316.358" y1="260.029" x2="316.358" y2="245.947"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="316.358" y1="260.029" x2="316.358" y2="245.947"/>
 </g>
 <g id="LINE_28_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="316.358" y1="245.947" x2="353.179" y2="245.947"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="316.358" y1="245.947" x2="353.179" y2="245.947"/>
 </g>
 <g id="LINE_29_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="344.331" y1="245.947" x2="344.331" y2="260.029"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="344.331" y1="245.947" x2="344.331" y2="260.029"/>
 </g>
 <g id="LINE_30_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="340.503" y1="260.029" x2="340.503" y2="245.947"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="340.503" y1="260.029" x2="340.503" y2="245.947"/>
 </g>
 <g id="LINE_31_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="335.792" y1="245.947" x2="335.792" y2="260.029"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="335.792" y1="245.947" x2="335.792" y2="260.029"/>
 </g>
 <g id="LINE_32_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="331.375" y1="260.029" x2="331.375" y2="245.947"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="331.375" y1="260.029" x2="331.375" y2="245.947"/>
 </g>
 <g id="LINE_33_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="194.629" y1="260.029" x2="353.179" y2="288.117"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="194.629" y1="260.029" x2="353.179" y2="288.117"/>
 </g>
 <g id="LINE_34_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="194.629" y1="288.117" x2="353.179" y2="260.029"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="194.629" y1="288.117" x2="353.179" y2="260.029"/>
 </g>
+<a xlink:href="/ahera/1/0005">
 <g id="MTEXT_5_">
-	<text transform="matrix(1 0 0 1 264.8438 158.46)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">0005 - Elevator </text>
-	<text transform="matrix(1 0 0 1 264.6563 165.2637)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">Machine Room</text>
+	<text transform="matrix(1 0 0 1 264.8438 158.46)" fill="#000000" font-family="'ArialMT'" font-size="6.0033">0005 - Elevator </text>
+	<text transform="matrix(1 0 0 1 264.6563 165.2637)" fill="#000000" font-family="'ArialMT'" font-size="6.0033">Machine Room</text>
 </g>
+</a>
 <g id="LINE_35_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="267.938" y1="170.976" x2="267.938" y2="193.562"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="267.938" y1="170.976" x2="267.938" y2="193.562"/>
 </g>
+<a xlink:href="/ahera/1/0006">
 <g id="MTEXT_6_">
-	<text transform="matrix(1 0 0 1 302.5645 193.2305)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">Elevator</text>
+	<text transform="matrix(1 0 0 1 302.5645 193.2305)" fill="#000000" font-family="'ArialMT'" font-size="6.0033">Elevator</text>
 </g>
 <g id="LINE_36_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="290.023" y1="191.744" x2="301.195" y2="191.744"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="290.023" y1="191.744" x2="301.195" y2="191.744"/>
 </g>
 <g id="MTEXT_7_">
-	<text transform="matrix(1 0 0 1 273.7109 114.377)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">0</text>
-	<text transform="matrix(1 0 0 1 277.0498 114.377)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">0</text>
-	<text transform="matrix(1 0 0 1 280.3887 114.377)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">0</text>
-	<text transform="matrix(1 0 0 1 283.7266 114.377)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">6</text>
-	<text transform="matrix(1 0 0 1 287.0664 114.377)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033"> </text>
-	<text transform="matrix(1 0 0 1 288.7344 114.377)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">-</text>
-	<text transform="matrix(1 0 0 1 290.7324 114.377)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033"> </text>
-	<text transform="matrix(1 0 0 1 292.4004 114.377)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">W</text>
-	<text transform="matrix(1 0 0 1 297.959 114.377)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">o</text>
-	<text transform="matrix(1 0 0 1 301.2969 114.377)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">r</text>
-	<text transform="matrix(1 0 0 1 303.2969 114.377)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">k</text>
-	<text transform="matrix(1 0 0 1 306.2988 114.377)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">r</text>
-	<text transform="matrix(1 0 0 1 308.2969 114.377)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">o</text>
-	<text transform="matrix(1 0 0 1 311.6367 114.377)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">o</text>
-	<text transform="matrix(1 0 0 1 314.9746 114.377)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">m</text>
-	<text transform="matrix(1 0 0 1 319.9756 114.377)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033"> </text>
-	<text transform="matrix(1 0 0 1 321.6436 114.377)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">4</text>
+	<text transform="matrix(1 0 0 1 273.7109 114.377)" fill="#000000" font-family="'ArialMT'" font-size="6.0033">0006 - Workroom 4</text>
 </g>
+</a>
 <g id="LINE_37_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="321.983" y1="76.378" x2="349.22" y2="76.378"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="321.983" y1="76.378" x2="349.22" y2="76.378"/>
 </g>
 <g id="LINE_38_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="330.547" y1="76.378" x2="330.547" y2="83.93"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="330.547" y1="76.378" x2="330.547" y2="83.93"/>
 </g>
 <g id="LINE_39_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="334.215" y1="83.93" x2="334.215" y2="76.378"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="334.215" y1="83.93" x2="334.215" y2="76.378"/>
 </g>
 <g id="LINE_40_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="339.029" y1="76.378" x2="339.029" y2="83.93"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="339.029" y1="76.378" x2="339.029" y2="83.93"/>
 </g>
+<a xlink:href="/ahera/1/0007">
 <g id="MTEXT_8_">
-	<text transform="matrix(1 0 0 1 352.209 58.3076)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">0007 - Closet</text>
+	<text transform="matrix(1 0 0 1 352.209 58.3076)" fill="#000000" font-family="'ArialMT'" font-size="6.0033">0007 - Closet</text>
 </g>
+</a>
 <g id="LINE_41_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="310.043" y1="75.265" x2="350.503" y2="58.083"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="310.043" y1="75.265" x2="350.503" y2="58.083"/>
 </g>
+<a xlink:href="/ahera/1/0008">
 <g id="MTEXT_9_">
-	<text transform="matrix(1 0 0 1 333.9941 27.9873)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">0008 - Supply Storage</text>
+	<text transform="matrix(1 0 0 1 333.9941 27.9873)" fill="#000000" font-family="'ArialMT'" font-size="6.0033">0008 - Supply Storage</text>
 </g>
+</a>
 <g id="LINE_42_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="281.854" y1="38.124" x2="332.008" y2="27.012"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="281.854" y1="38.124" x2="332.008" y2="27.012"/>
 </g>
+<a xlink:href="/ahera/1/0009">
 <g id="MTEXT_10_">
-	<text transform="matrix(1 0 0 1 187.6641 37.46)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">0</text>
-	<text transform="matrix(1 0 0 1 191.0029 37.46)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">0</text>
-	<text transform="matrix(1 0 0 1 194.3418 37.46)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">0</text>
-	<text transform="matrix(1 0 0 1 197.6802 37.46)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">9</text>
-	<text transform="matrix(1 0 0 1 201.019 37.46)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033"> </text>
-	<text transform="matrix(1 0 0 1 202.687 37.46)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">-</text>
-	<text transform="matrix(1 0 0 1 204.686 37.46)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033"> </text>
-	<text transform="matrix(1 0 0 1 206.354 37.46)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">W</text>
-	<text transform="matrix(1 0 0 1 211.9116 37.46)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">o</text>
-	<text transform="matrix(1 0 0 1 215.2505 37.46)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">r</text>
-	<text transform="matrix(1 0 0 1 217.25 37.46)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">k</text>
-	<text transform="matrix(1 0 0 1 220.252 37.46)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">r</text>
-	<text transform="matrix(1 0 0 1 222.25 37.46)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">o</text>
-	<text transform="matrix(1 0 0 1 225.5898 37.46)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">o</text>
-	<text transform="matrix(1 0 0 1 228.9277 37.46)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">m</text>
-	<text transform="matrix(1 0 0 1 233.9287 37.46)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033"> </text>
-	<text transform="matrix(1 0 0 1 235.5967 37.46)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">2</text>
+	<text transform="matrix(1 0 0 1 187.6641 37.46)" fill="#000000" font-family="'ArialMT'" font-size="6.0033">0009 - Workroom 2</text>
 </g>
+</a>
+<a xlink:href="/ahera/1/0012">
 <g id="MTEXT_11_">
-	<text transform="matrix(1 0 0 1 192.8643 9.1377)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">0012 - North Corridor</text>
+	<text transform="matrix(1 0 0 1 192.8643 9.1377)" fill="#000000" font-family="'ArialMT'" font-size="6.0033">0012 - North Corridor</text>
 </g>
+</a>
+<a xlink:href="/ahera/1/0011">
 <g id="MTEXT_12_">
-	<text transform="matrix(1 0 0 1 75.2612 8.6904)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">0</text>
-	<text transform="matrix(1 0 0 1 78.6001 8.6904)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">0</text>
-	<text transform="matrix(1 0 0 1 81.939 8.6904)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">1</text>
-	<text transform="matrix(1 0 0 1 84.832 8.6904)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">1</text>
-	<text transform="matrix(1 0 0 1 88.1704 8.6904)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033"> </text>
-	<text transform="matrix(1 0 0 1 89.8384 8.6904)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">-</text>
-	<text transform="matrix(1 0 0 1 91.8379 8.6904)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033"> </text>
-	<text transform="matrix(1 0 0 1 93.5054 8.6904)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">S</text>
-	<text transform="matrix(1 0 0 1 97.5098 8.6904)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">t</text>
-	<text transform="matrix(1 0 0 1 99.1777 8.6904)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">o</text>
-	<text transform="matrix(1 0 0 1 102.5166 8.6904)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">r</text>
-	<text transform="matrix(1 0 0 1 104.5156 8.6904)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">a</text>
-	<text transform="matrix(1 0 0 1 107.8545 8.6904)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">g</text>
-	<text transform="matrix(1 0 0 1 111.1929 8.6904)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">e</text>
-	<text transform="matrix(1 0 0 1 114.5317 8.6904)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033"> </text>
-	<text transform="matrix(1 0 0 1 116.1997 8.6904)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">C</text>
-	<text transform="matrix(1 0 0 1 120.5352 8.6904)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">l</text>
-	<text transform="matrix(1 0 0 1 121.8687 8.6904)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">o</text>
-	<text transform="matrix(1 0 0 1 125.2075 8.6904)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">s</text>
-	<text transform="matrix(1 0 0 1 128.2095 8.6904)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">e</text>
-	<text transform="matrix(1 0 0 1 131.5479 8.6904)" fill="#FF0000" font-family="'ArialMT'" font-size="6.0033">t</text>
+	<text transform="matrix(1 0 0 1 75.2612 8.6904)" fill="#000000" font-family="'ArialMT'" font-size="6.0033">0011 - Storage Closet</text>
 </g>
+</a>
 <g id="LINE_43_">
 	
-		<line fill="none" stroke="#FF0000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="62.845" y1="8.37" x2="72.71" y2="8.37"/>
+		<line fill="none" stroke="#000000" stroke-width="0.7087" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="62.845" y1="8.37" x2="72.71" y2="8.37"/>
 </g>
 </svg>
