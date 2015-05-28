@@ -77,6 +77,7 @@
 .clientinfotable{
   font-size: 1.2em;
   color: #32689b;
+
 }
 #detail-rightpanel-container{
 
@@ -84,6 +85,7 @@
 }
 #detail-leftpanel-container{
 width: 30%;
+ overflow: auto;
 }
 #detail-centerpanel-container{
     float: left;
