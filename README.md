@@ -1,35 +1,16 @@
-# ruby-getting-started
+# Mapport Demo
 
-A barebones Rails app, which can easily be deployed to Heroku.
+This is a demo version of an app I created. 
+It is used to serve data regarding inspections of customer locations for asbestos containing materials. 
 
-This application support the [Getting Started with Ruby on Heroku](https://devcenter.heroku.com/articles/getting-started-with-ruby) article - check it out.
+## Main View
 
-## Running Locally
+This view provides the customer with a dashboard from which they can select any of the facilities to which they have access. In this demo there are two facilities listed. 
 
-Make sure you have Ruby installed.  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
+## Building view
 
-```sh
-$ git clone git@github.com:heroku/ruby-getting-started.git
-$ cd ruby-getting-started
-$ bundle install
-$ rake db:create db:migrate
-$ foreman start web
-```
+One a building is selected a gallery containing the floorplans pertaining to that building is displayed. The room numbers on that floorplan are links to lists of the materials identified by the inspection in that particular space. 
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+## Reports View
 
-## Deploying to Heroku
-
-```sh
-$ heroku create
-$ git push heroku master
-$ heroku run rake db:migrate
-$ heroku open
-```
-
-## Documentation
-
-For more information about using Ruby on Heroku, see these Dev Center articles:
-
-- [Ruby on Heroku](https://devcenter.heroku.com/categories/ruby)
-
+This section is used to allow downloads finished reports compiled by the customer. Reports can be uploaded by admin users and are stored using AWS, but no reports have been included in the demo. 
